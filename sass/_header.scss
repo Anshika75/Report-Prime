@@ -1,0 +1,47 @@
+@import 'custom-variables';
+
+header {
+    background-color: $surface;
+    width: 100%;
+    min-height: 8vmin;
+    padding: 1.5vmin 0;
+
+    .callSection {
+        height: 100%;
+        margin: 1vmin 3.5vmin;
+
+        i {
+            margin-right: 2.5vmin;
+            color: $primary;
+            font-size: 2.5vmin;
+        }
+
+        img {
+            margin-right: 1.5vmin;
+        }
+
+        span {
+            margin-right: 2.5vmin;
+            color: $primary;
+            font-size: 1.75vmin;
+            font-weight: 700;
+        }
+    }
+
+    .mailSection {
+        height: 100%;
+        margin: 1vmin 3.5vmin;
+
+        i {
+            margin-left:0vmin;
+            color: $primary;
+        }
+
+        span {
+            margin-left: 2vmin;
+            color: $primary;
+            font-size: 1.75vmin;
+            font-weight: 500;
+        }
+    }
+}

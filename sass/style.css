@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #0D1322;
+  width: 100%;
+  min-height: 8vmin;
+  padding: 1.5vmin 0;
+}
+header .callSection {
+  height: 100%;
+  margin: 1vmin 3.5vmin;
+}
+header .callSection i {
+  margin-right: 2.5vmin;
+  color: #fff;
+  font-size: 2.5vmin;
+}
+header .callSection img {
+  margin-right: 1.5vmin;
+}
+header .callSection span {
+  margin-right: 2.5vmin;
+  color: #fff;
+  font-size: 1.75vmin;
+  font-weight: 700;
+}
+header .mailSection {
+  height: 100%;
+  margin: 1vmin 3.5vmin;
+}
+header .mailSection i {
+  margin-left: 0vmin;
+  color: #fff;
+}
+header .mailSection span {
+  margin-left: 2vmin;
+  color: #fff;
+  font-size: 1.75vmin;
+  font-weight: 500;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */
