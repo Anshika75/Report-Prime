@@ -6,15 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-            crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./sass/style.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <title>Document</title>
 </head>
 
 <body>
-    <header class="d-flex flex-column flex-md-row justify-content-start align-items-start justify-content-md-between align-items-md-center">
+    <header
+        class="d-flex flex-column flex-md-row justify-content-start align-items-start justify-content-md-between align-items-md-center">
         <div class="callSection d-flex flex-row justify-content-between align-items-center">
             <i class="fas fa-phone-volume"></i>
             <img src="./Assets/USA flag.png" alt="">
@@ -27,10 +30,112 @@
             <span>contact@virtuosemarketresearch.com</span>
         </div>
     </header>
-
+    <section class="landing">
+        <div class="nav container-fluid d-flex flex-row justify-content-between align-items-center">
+            <div class="logoSec d-flex flex-row justify-content-between align-items-center">
+                <img src="./Assets/Logo.png" alt="">
+                <p>Virtuose <br> Market Research</p>
+            </div>
+            <div class="navSec d-flex flex-row justify-content-between align-items-center">
+                <li>Home</li>
+                <li>Categories</li>
+                <li>Services</li>
+                <li>About</li>
+                <li>Contact</li>
+            </div>
+        </div>
+        <div class="division container-fluid d-flex flex-lg-row flex-column justify-content-center align-items-center">
+            <div class="partLeft container-fluid d-flex flex-column justify-content-center align-items-center">
+                <div
+                    class="textBox d-flex flex-column justify-content-center align-items-center justify-content-lg-start align-items-lg-start">
+                    <h1>Market Insights trusted by industry leaders</h1>
+                    <div class="searchBox d-flex flex-row justify-content-start align-items-center">
+                        <input class="container-fluid" type="text" name=""
+                            placeholder="Search for reports, trends & analysis" id="">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+                <div class="imgBox d-flex flex-row justify-content-center align-items-center">
+                    <img src="./Assets/Img1.png" alt="">
+                    <p>+</p>
+                    <img src="./Assets/Img2.png" alt="">
+                </div>
+            </div>
+            <div class="partRight container-fluid d-flex flex-column justify-content-center align-items-center">
+                <img src="./Assets/Banner.png" alt="">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide d-flex flex-column justify-content-center align-items-center">
+                            <img src="./Assets/Car.png" alt="">
+                            <b>Automotive Industry</b>
+                            <p>CAGR : 5.56% <span><i class="fa-solid fa-chart-line"></i></span></p>
+                            <a href="">Explore</a>
+                        </div>
+                        <div class="swiper-slide d-flex flex-column justify-content-center align-items-center">
+                            <img src="./Assets/Car.png" alt="">
+                            <b>Automotive Industry</b>
+                            <p>CAGR : 5.56% <span><i class="fa-solid fa-chart-line"></i></span></p>
+                            <a href="">Explore</a>
+                        </div>
+                        <div class="swiper-slide d-flex flex-column justify-content-center align-items-center">
+                            <img src="./Assets/Car.png" alt="">
+                            <b>Automotive Industry</b>
+                            <p>CAGR : 5.56% <span><i class="fa-solid fa-chart-line"></i></span></p>
+                            <a href="">Explore</a>
+                        </div>
+                        <div class="swiper-slide d-flex flex-column justify-content-center align-items-center">
+                            <img src="./Assets/Car.png" alt="">
+                            <b>Automotive Industry</b>
+                            <p>CAGR : 5.56% <span><i class="fa-solid fa-chart-line"></i></span></p>
+                            <a href="">Explore</a>
+                        </div>
+                        <div class="swiper-slide d-flex flex-column justify-content-center align-items-center">
+                            <img src="./Assets/Car.png" alt="">
+                            <b>Automotive Industry</b>
+                            <p>CAGR : 5.56% <span><i class="fa-solid fa-chart-line"></i></span></p>
+                            <a href="">Explore</a>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script type="module">
+
+        import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.esm.browser.min.js'
+        const swiper = new Swiper(".mySwiper", {
+            effect: "cards",
+            grabCursor: true,
+            loop: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+                clickable: true,
+            },
+
+        });
+        var swiperr = new Swiper(".mySwiperr", {
+            cssMode: true,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                type: 'bullets',
+                clickable: true,
+            },
+            mousewheel: true,
+            keyboard: true,
+        });
+    </script>
 </body>
 
 </html>
