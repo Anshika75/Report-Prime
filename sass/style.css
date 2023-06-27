@@ -43,6 +43,24 @@ header .mailSection span {
   font-weight: 500;
 }
 
+@media screen and (max-width: 920px) {
+  header {
+    min-height: 8vmin;
+    padding: 1.5vmin 0;
+  }
+  header .callSection i {
+    font-size: 3.5vmin;
+  }
+  header .callSection span {
+    font-size: 2.75vmin;
+  }
+  header .mailSection i {
+    font-size: 3.5vmin;
+  }
+  header .mailSection span {
+    font-size: 2.75vmin;
+  }
+}
 .landing {
   min-height: calc(100vh - 8vmin);
   background-color: #004ab3;
@@ -89,6 +107,10 @@ header .mailSection span {
   font-weight: 500;
   color: #fff;
   cursor: pointer;
+}
+.landing .nav .mobile_nav {
+  color: #fff;
+  font-size: 6vmin;
 }
 .landing .division {
   z-index: 20;
@@ -202,6 +224,86 @@ header .mailSection span {
   transition: all 0.5s ease;
 }
 
+@media screen and (max-width: 920px) {
+  .landing {
+    padding: 5vmin 2vmin;
+    padding-bottom: 20vmin;
+  }
+  .landing .division {
+    z-index: 20;
+    height: 100%;
+    margin-top: 7vmin;
+  }
+  .landing .division .partLeft {
+    z-index: 20;
+  }
+  .landing .division .partLeft .textBox {
+    z-index: 20;
+    width: 100%;
+  }
+  .landing .division .partLeft .textBox h1 {
+    z-index: 20;
+    font-size: 7vmin;
+    line-height: 10vmin;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 5vmin;
+    text-align: left;
+  }
+  .landing .division .partLeft .textBox .searchBox {
+    z-index: 20;
+    width: 100%;
+    background-color: white;
+    border-radius: 8px;
+    padding: 1vmin;
+    height: 15vmin;
+    border: 5px solid rgba(191, 199, 223, 0.2);
+    border-radius: 3px;
+    padding: 0 2vmin;
+  }
+  .landing .division .partLeft .textBox .searchBox input {
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    border: none;
+    outline: none;
+    font-family: var(--primary-font);
+    font-size: 3.5vmin;
+    font-weight: 500;
+  }
+  .landing .division .partLeft .textBox .searchBox i {
+    z-index: 20;
+    color: var(--secondary);
+    font-size: 2.5vmin;
+    cursor: pointer;
+  }
+  .landing .division .partRight {
+    z-index: 20;
+  }
+  .landing .division .partRight .swiper {
+    width: 250px;
+    height: 375px;
+  }
+  .landing .division .partRight .swiper .swiper-slide {
+    margin-top: 0;
+  }
+  .landing .division .partRight .swiper .swiper-slide b {
+    z-index: 20;
+    font-size: 5.8vmin;
+  }
+  .landing .division .partRight .swiper .swiper-slide p {
+    font-size: 4.5vmin;
+  }
+  .landing .division .partRight .swiper .swiper-slide a {
+    font-size: 3.5vmin;
+    margin: 1vmin;
+  }
+  .landing .division .partRight .swiper .swiper-slide-active {
+    z-index: 20;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+}
 body {
   height: 100vh;
   width: 100%;
