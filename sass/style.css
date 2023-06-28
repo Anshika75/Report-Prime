@@ -1,9 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poor+Story&display=swap");
 header {
   background-color: #0D1322;
   width: 100%;
@@ -341,6 +336,75 @@ header .mailSection span {
     transform: scale(0.8);
   }
 }
+.features {
+  padding: 5vmin;
+  background: #EDF6FF;
+}
+.features h1 {
+  font-size: 4vmin;
+  font-weight: 500;
+  margin-bottom: 10vmin;
+}
+.features .featuresBox {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5vmin;
+  padding: 0 10vmin;
+}
+.features .featuresBox .box {
+  height: 100%;
+  padding: 2vmin;
+  border-right: 1px solid #A1A1A1;
+}
+.features .featuresBox .box:last-child {
+  border-right: none;
+}
+.features .featuresBox .box b {
+  font-size: 2.5vmin;
+  font-weight: 600;
+  margin-bottom: 2vmin;
+}
+.features .featuresBox .box p {
+  font-size: 2vmin;
+  line-height: 2.5vmin;
+  font-weight: 400;
+  text-align: center;
+}
+
+@media screen and (max-width: 920px) {
+  .features h1 {
+    font-size: 5.5vmin;
+    margin: 5vmin 0;
+  }
+  .features .featuresBox {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 5vmin;
+    padding: 0 5vmin;
+  }
+  .features .featuresBox .box {
+    padding: 2vmin;
+    border-right: none;
+    border-bottom: 1px solid #A1A1A1;
+  }
+  .features .featuresBox .box:last-child {
+    border-right: none;
+    border-bottom: none;
+  }
+  .features .featuresBox .box b {
+    font-size: 4.5vmin;
+  }
+  .features .featuresBox .box p {
+    font-size: 3.75vmin;
+    line-height: 4.5vmin;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
 body {
   height: 100vh;
   width: 100%;
