@@ -42,7 +42,7 @@
     }
 }
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 720px) {
     
     .features {
 
@@ -66,14 +66,13 @@
                     border-right: none;
                     border-bottom: none;
                 }
-
                 b {
-                    font-size: 4.5vmin;
+                    font-size: 6vmin;
                 }
-    
+
                 p {
-                    font-size: 3.75vmin;
-                    line-height: 4.5vmin;
+                    font-size: 5vmin;
+                    line-height: 6vmin;
                 }
             }
         }

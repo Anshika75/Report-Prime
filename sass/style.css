@@ -371,7 +371,7 @@ header .mailSection span {
   text-align: center;
 }
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 720px) {
   .features h1 {
     font-size: 5.5vmin;
     margin: 5vmin 0;
@@ -391,11 +391,90 @@ header .mailSection span {
     border-bottom: none;
   }
   .features .featuresBox .box b {
-    font-size: 4.5vmin;
+    font-size: 6vmin;
   }
   .features .featuresBox .box p {
-    font-size: 3.75vmin;
-    line-height: 4.5vmin;
+    font-size: 5vmin;
+    line-height: 6vmin;
+  }
+}
+.services {
+  padding: 5vmin;
+}
+.services h1 {
+  font-size: 4vmin;
+  font-weight: 500;
+  margin-bottom: 10vmin;
+}
+.services .serviceBox {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5vmin;
+  padding: 0 10vmin;
+  width: 100%;
+}
+.services .serviceBox .box {
+  height: 100%;
+  padding: 2vmin;
+  border-right: none;
+  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  width: 54vmin;
+  height: 70vmin;
+}
+.services .serviceBox b {
+  font-size: 3vmin;
+  font-weight: 600;
+  margin-bottom: 2vmin;
+}
+.services .serviceBox .line {
+  width: 16vmin;
+  height: 0.5vmin;
+  background-color: #288FF6;
+  margin: 2vmin;
+}
+.services .serviceBox p {
+  font-family: var(--primary-font);
+  font-size: 2vmin;
+  line-height: 2.5vmin;
+  width: 75%;
+  font-weight: 400;
+  margin-top: 2vmin;
+  text-align: center;
+}
+
+@media screen and (max-width: 720px) {
+  .services {
+    padding: 0vmin;
+  }
+  .services h1 {
+    font-size: 5.5vmin;
+    margin: 5vmin 0;
+  }
+  .services .serviceBox {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0vmin;
+    width: 100%;
+    margin-top: 7vmin;
+  }
+  .services .serviceBox .box {
+    padding: 5vmin 0;
+    min-height: 145vmin;
+    width: 95%;
+  }
+  .services .serviceBox .box b {
+    font-size: 6vmin;
+    margin-bottom: 0;
+  }
+  .services .serviceBox .box p {
+    font-size: 5vmin;
+    width: 75%;
+    line-height: 6vmin;
+    margin-top: 3vmin;
+  }
+  .services .serviceBox .box .line {
+    width: 30vmin;
+    height: 1vmin;
   }
 }
 * {
