@@ -1,0 +1,46 @@
+
+@import "custom-variables";
+.sponsors {
+    padding: 5vmin;
+    position: relative;
+
+    .box {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        background-color: $primary;
+        transform: translate(-50%, -50%);
+        padding: 1.5vmin;
+        width: 20vmin;
+        border-radius: 25px;
+        text-align: center;
+        font-size: 2vmin;
+        font-weight: 500;
+    }
+
+    .imgBox {
+        height: 100%;
+
+        img {
+            margin-top: 2vmin;
+        }
+
+    }
+}
+
+@media screen and (max-width: 920px) {
+    
+    .sponsors {
+
+        .box {
+            width: 30vmin;
+            font-size: 4vmin;
+        }
+
+        .imgBox {
+            img {
+                transform: scale(0.8);
+            }
+        }
+    }
+}

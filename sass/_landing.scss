@@ -255,6 +255,9 @@
 
             .partRight {
                 z-index: 20;
+                img{
+                    margin: 4vmin;
+                }
 
                 .swiper {
                     width: 250px;
@@ -266,6 +269,7 @@
                         b {
                             z-index: 20;
                             font-size: 5.8vmin;
+                            margin-top: -10vmin;
                         }
 
                         p {

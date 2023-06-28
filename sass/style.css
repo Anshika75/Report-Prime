@@ -280,6 +280,9 @@ header .mailSection span {
   .landing .division .partRight {
     z-index: 20;
   }
+  .landing .division .partRight img {
+    margin: 4vmin;
+  }
   .landing .division .partRight .swiper {
     width: 250px;
     height: 375px;
@@ -290,6 +293,7 @@ header .mailSection span {
   .landing .division .partRight .swiper .swiper-slide b {
     z-index: 20;
     font-size: 5.8vmin;
+    margin-top: -10vmin;
   }
   .landing .division .partRight .swiper .swiper-slide p {
     font-size: 4.5vmin;
@@ -302,6 +306,39 @@ header .mailSection span {
     z-index: 20;
     opacity: 1;
     transition: all 0.5s ease;
+  }
+}
+.sponsors {
+  padding: 5vmin;
+  position: relative;
+}
+.sponsors .box {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  background-color: #fff;
+  transform: translate(-50%, -50%);
+  padding: 1.5vmin;
+  width: 20vmin;
+  border-radius: 25px;
+  text-align: center;
+  font-size: 2vmin;
+  font-weight: 500;
+}
+.sponsors .imgBox {
+  height: 100%;
+}
+.sponsors .imgBox img {
+  margin-top: 2vmin;
+}
+
+@media screen and (max-width: 920px) {
+  .sponsors .box {
+    width: 30vmin;
+    font-size: 4vmin;
+  }
+  .sponsors .imgBox img {
+    transform: scale(0.8);
   }
 }
 body {
