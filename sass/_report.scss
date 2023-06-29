@@ -125,10 +125,46 @@
 @media screen and (max-width: 720px) {
 
     .report {
-
+        .categoryBox {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 1.5vmin;
+            padding: 0 10vmin;
+            width: 95%;
+            margin-bottom: 10vmin;
+            border-bottom: 1px solid #fff;
+    
+            li {
+                list-style: none;
+                font-size: 2.5vmin;
+                font-weight: 400;
+                color: rgba(255, 255, 255, 0.6);
+                text-align: center;
+                cursor: pointer;
+                padding: 2.5vmin 0;
+            }
+    
+            li.active {
+                position: relative;
+                color: $primary;
+    
+                &:after {
+                    content: "";
+                    position: absolute;
+                    bottom: 0;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 70%;
+                    height: 0.5vmin;
+                    border-bottom: 3px solid #FFFFFF;
+                    filter: drop-shadow(0px 3px 0px #1F7CFF);
+                }
+            }
+        }
         h1 {
-            font-size: 5vmin;
+            font-size: 7vmin;
             margin-top: 5vmin;
+            text-align: center;
         }
 
         .categoryBox {
@@ -137,7 +173,7 @@
             margin-bottom: 2vmin;
 
             li {
-                font-size: 2vmin;
+                font-size: 5vmin;
             }
         }
 
@@ -167,7 +203,18 @@
 
                 p {
                     text-align: center;
+                    font-size: 4vmin;
                 }
+                .box{
+                    b{
+                    font-size: 4vmin;
+                    }
+                    p{
+                        font-size: 3vmin;
+                        line-height: 4vmin;
+                    }
+                }
+                
             }
         }
 

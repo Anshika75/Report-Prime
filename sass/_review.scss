@@ -1,0 +1,113 @@
+@import "custom-variables";
+
+.review {
+    padding: 5vmin;
+    height: 100%;
+    background: #EDF6FF;
+    margin-bottom: 10vmin;
+
+    h1 {
+        color: $surface;
+        font-size: 4vmin;
+        font-weight: 400;
+        margin-bottom: 10vmin;
+        margin-top: 5vmin;
+    }
+
+    .swiper {
+        height: 60vmin;
+        overflow-y: visible;
+
+        .swiper-slide {
+            text-align: center;
+            overflow-y: visible;
+
+            .box {
+                height: 50vmin;
+                width: 50vmin;
+                background: #FFFFFF;
+                box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
+                border-radius: 24px;
+
+                img {
+                    margin-bottom: 5vmin;
+                }
+
+                b {
+                    font-family: var(--primary-font);
+                    font-size: 2.5vmin;
+                    font-weight: 600;
+                    margin-bottom: 0.5vmin;
+                }
+
+                p {
+                    font-family: var(--primary-font);
+                    font-size: 2vmin;
+                    line-height: 2.5vmin;
+                    font-weight: 400;
+                    margin-top: 0.5vmin;
+                }
+            }
+
+            .text {
+                height: 40vmin;
+                width: 50%;
+                padding: 0 5vmin;
+                margin-left: 10vmin;
+
+                .q {
+                    height: 40vmin;
+                    font-size: 30vmin;
+                    font-family: 'Poor Story', cursive !important;
+                }
+
+                p {
+                    font-size: 2.5vmin;
+                    line-height: 3.5vmin;
+                    font-weight: 400;
+                    margin-top: 0.5vmin;
+                    text-align: left;
+                    width: 70%;
+                    margin: 0 7vmin;
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 720px) {
+    
+    .review {
+        .swiper {
+            height: 110vmin;
+
+            .swiper-slide {
+
+                .text {
+                    height: 50vmin;
+                    width: 100%;
+                    padding: 0 5vmin;
+                    margin-left: 0vmin;
+
+                    .q {
+                        height: 40vmin;
+                        transform: scale(0.8);
+                    }
+
+                    p {
+                        font-size: 3vmin;
+                        line-height: 4.5vmin;
+                        font-weight: 400;
+                        margin-top: 0.5vmin;
+                        text-align: left;
+                        width: 75%;
+                        margin: 0 3vmin;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+
+    }
+}

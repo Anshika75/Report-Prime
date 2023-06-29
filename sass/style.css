@@ -584,9 +584,43 @@ header .mailSection span {
 }
 
 @media screen and (max-width: 720px) {
+  .report .categoryBox {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1.5vmin;
+    padding: 0 10vmin;
+    width: 95%;
+    margin-bottom: 10vmin;
+    border-bottom: 1px solid #fff;
+  }
+  .report .categoryBox li {
+    list-style: none;
+    font-size: 2.5vmin;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    cursor: pointer;
+    padding: 2.5vmin 0;
+  }
+  .report .categoryBox li.active {
+    position: relative;
+    color: #fff;
+  }
+  .report .categoryBox li.active:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    height: 0.5vmin;
+    border-bottom: 3px solid #FFFFFF;
+    filter: drop-shadow(0px 3px 0px #1F7CFF);
+  }
   .report h1 {
-    font-size: 5vmin;
+    font-size: 7vmin;
     margin-top: 5vmin;
+    text-align: center;
   }
   .report .categoryBox {
     padding: 0vmin;
@@ -594,7 +628,7 @@ header .mailSection span {
     margin-bottom: 2vmin;
   }
   .report .categoryBox li {
-    font-size: 2vmin;
+    font-size: 5vmin;
   }
   .report .division .partLeft {
     width: 100%;
@@ -615,6 +649,104 @@ header .mailSection span {
     margin-top: 12vmin;
   }
   .report .division .partRight p {
+    text-align: center;
+    font-size: 4vmin;
+  }
+  .report .division .partRight .box b {
+    font-size: 4vmin;
+  }
+  .report .division .partRight .box p {
+    font-size: 3vmin;
+    line-height: 4vmin;
+  }
+}
+.review {
+  padding: 5vmin;
+  height: 100%;
+  background: #EDF6FF;
+  margin-bottom: 10vmin;
+}
+.review h1 {
+  color: #0D1322;
+  font-size: 4vmin;
+  font-weight: 400;
+  margin-bottom: 10vmin;
+  margin-top: 5vmin;
+}
+.review .swiper {
+  height: 60vmin;
+  overflow-y: visible;
+}
+.review .swiper .swiper-slide {
+  text-align: center;
+  overflow-y: visible;
+}
+.review .swiper .swiper-slide .box {
+  height: 50vmin;
+  width: 50vmin;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
+  border-radius: 24px;
+}
+.review .swiper .swiper-slide .box img {
+  margin-bottom: 5vmin;
+}
+.review .swiper .swiper-slide .box b {
+  font-family: var(--primary-font);
+  font-size: 2.5vmin;
+  font-weight: 600;
+  margin-bottom: 0.5vmin;
+}
+.review .swiper .swiper-slide .box p {
+  font-family: var(--primary-font);
+  font-size: 2vmin;
+  line-height: 2.5vmin;
+  font-weight: 400;
+  margin-top: 0.5vmin;
+}
+.review .swiper .swiper-slide .text {
+  height: 40vmin;
+  width: 50%;
+  padding: 0 5vmin;
+  margin-left: 10vmin;
+}
+.review .swiper .swiper-slide .text .q {
+  height: 40vmin;
+  font-size: 30vmin;
+  font-family: "Poor Story", cursive !important;
+}
+.review .swiper .swiper-slide .text p {
+  font-size: 2.5vmin;
+  line-height: 3.5vmin;
+  font-weight: 400;
+  margin-top: 0.5vmin;
+  text-align: left;
+  width: 70%;
+  margin: 0 7vmin;
+}
+
+@media screen and (max-width: 720px) {
+  .review .swiper {
+    height: 110vmin;
+  }
+  .review .swiper .swiper-slide .text {
+    height: 50vmin;
+    width: 100%;
+    padding: 0 5vmin;
+    margin-left: 0vmin;
+  }
+  .review .swiper .swiper-slide .text .q {
+    height: 40vmin;
+    transform: scale(0.8);
+  }
+  .review .swiper .swiper-slide .text p {
+    font-size: 3vmin;
+    line-height: 4.5vmin;
+    font-weight: 400;
+    margin-top: 0.5vmin;
+    text-align: left;
+    width: 75%;
+    margin: 0 3vmin;
     text-align: center;
   }
 }
