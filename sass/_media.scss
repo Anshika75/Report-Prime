@@ -1,0 +1,58 @@
+@import "custom-variables";
+
+.media {
+    margin-bottom: 10vmin;
+    height: 100%;
+
+
+    h1 {
+        color: $surface;
+        font-size: 4vmin;
+        font-weight: 400;
+        margin-bottom: 10vmin;
+        margin-top: 5vmin;
+    }
+
+    .box {
+        border-bottom: 1px solid #E0E0E0;
+        padding: 5vmin 0;
+
+        .logo {
+            width: 30%;
+        }
+
+        p {
+            width: 60%;
+            padding-left: 10vmin;
+            font-size: 2.5vmin;
+            line-height: 4vmin;
+            font-weight: 400;
+            margin-top: 2vmin;
+
+            a {
+                color: $surface;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 720px) {
+    .media {
+        .box {
+            border-bottom: 1px solid #E0E0E0;
+            padding: 5vmin 0;
+
+            .logo {
+                width: 20%;
+                display: grid;
+                place-items: center;
+
+                img {
+                    transform: scale(0.35) translateX(-100%);
+                }
+            }
+        }
+    }
+}
