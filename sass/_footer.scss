@@ -132,11 +132,157 @@
 }
 
 @media screen and (max-width: 720px) {
+    .footer {
+        background: #142246;
+        padding: 12vmin;
     
+        .upper {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 5vmin;
+            width: 100%;
+    
+            .cat {
+    
+                b {
+                    font-size: 4.5vmin;
+                    font-weight: 600;
+                    margin-bottom: 2.5vmin;
+                    color: #FFFFFF;
+                }
+    
+                li {
+                    font-size: 4vmin;
+                    line-height: 5vmin;
+                    font-weight: 300;
+                    margin-top: 2vmin;
+                    color: #ffffffb4;
+                    cursor: pointer;
+                    list-style: none;
+                    cursor: pointer;
+                }
+            }
+        }
+    
+        .line {
+            width: 105%;
+            height: 1px;
+            background: #ffffffb4;
+            margin: 5vmin 0;
+        }
+    
+        .down {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 5vmin;
+            width: 100%;
+    
+            .box1 {
+    
+                img {
+                    transform: scale(1.2) translateY(1vmin);
+                    margin: 7vmin;
+                }
+    
+                p {
+                    font-size: 4vmin;
+                    line-height: 7vmin;
+                    font-weight: 300;
+                    color: #ffffffb4;
+                    cursor: pointer;
+                    list-style: none;
+                    cursor: pointer;
+                    margin-left: 0vmin;
+                }
+            }
+    
+            .box {
+    margin-top: 10vmin;
+    padding-bottom: 10vmin;
+    border-bottom: 2px solid white;
+                b {
+                    font-size: 4.5vmin;
+                    font-weight: 600;
+                    margin-bottom: 2.5vmin;
+                    color: #FFFFFF;
+                }
+    
+                li {
+                    font-size: 4vmin;
+                    line-height: 7vmin;
+                    font-weight: 300;
+                    margin-top: 2vmin;
+                    color: #ffffffb4;
+                    cursor: pointer;
+                    list-style: none;
+                    cursor: pointer;
+                }
+            }
+    
+            .box4 {
+                margin-top: 10vmin;
+                b {
+                    font-size: 5vmin;
+                    font-weight: 600;
+                    margin-bottom: 2.5vmin;
+                    color: $primary;
+                }
+    
+                .sub {
+                    margin-top: 7vmin;
+                    border-bottom: 1px solid #ffffffb4;
+                    padding-bottom: 2.5vmin;
+                    &:nth-child(5){
+                        border: none;
+                    }
+    
+                    i {
+                        font-size: 4vmin;
+                        color: $primary;
+                        margin: 0;
+                        margin-right: 6vmin;
+                    }
+    
+                    p {
+                        font-size: 4vmin;
+                        line-height: 7vmin;
+                        font-weight: 300;
+                        color: #ffffffb4;
+                        cursor: pointer;
+                        margin: 0;
+                        &:first-child{
+
+                        margin-bottom: 4vmin;
+                        }
+    
+                        img {
+                            margin-right: 2vmin;
+                            // margin-top: 1vmin;
+                        }
+                    }
+    
+                    .follow {
+                        color: $primary;
+                        font-weight: 500;
+                        margin:0;
+                    }
+    
+                    .icons {
+                        margin-left: 5vmin;
+                        color: $primary;
+                        i{
+                            cursor: pointer;
+                            margin-bottom: 4vmin;
+                        }
+                    }
+                }
+            }
+        }
+    }
     .footer {
 
         b {
-            font-size: 2vmin;
+            font-size: 5vmin;
             font-weight: 400;
             line-height: 3vmin;
         }
@@ -147,6 +293,7 @@
             font-weight: 300;
             margin-top: 1.5vmin;
         }
+        c
 
         .down {
             .box1{

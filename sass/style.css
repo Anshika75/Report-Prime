@@ -900,8 +900,131 @@ header .mailSection span {
 }
 
 @media screen and (max-width: 720px) {
+  .footer {
+    background: #142246;
+    padding: 12vmin;
+  }
+  .footer .upper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 5vmin;
+    width: 100%;
+  }
+  .footer .upper .cat b {
+    font-size: 4.5vmin;
+    font-weight: 600;
+    margin-bottom: 2.5vmin;
+    color: #FFFFFF;
+  }
+  .footer .upper .cat li {
+    font-size: 4vmin;
+    line-height: 5vmin;
+    font-weight: 300;
+    margin-top: 2vmin;
+    color: rgba(255, 255, 255, 0.7058823529);
+    cursor: pointer;
+    list-style: none;
+    cursor: pointer;
+  }
+  .footer .line {
+    width: 105%;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.7058823529);
+    margin: 5vmin 0;
+  }
+  .footer .down {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 5vmin;
+    width: 100%;
+  }
+  .footer .down .box1 img {
+    transform: scale(1.2) translateY(1vmin);
+    margin: 7vmin;
+  }
+  .footer .down .box1 p {
+    font-size: 4vmin;
+    line-height: 7vmin;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.7058823529);
+    cursor: pointer;
+    list-style: none;
+    cursor: pointer;
+    margin-left: 0vmin;
+  }
+  .footer .down .box {
+    margin-top: 10vmin;
+    padding-bottom: 10vmin;
+    border-bottom: 2px solid white;
+  }
+  .footer .down .box b {
+    font-size: 4.5vmin;
+    font-weight: 600;
+    margin-bottom: 2.5vmin;
+    color: #FFFFFF;
+  }
+  .footer .down .box li {
+    font-size: 4vmin;
+    line-height: 7vmin;
+    font-weight: 300;
+    margin-top: 2vmin;
+    color: rgba(255, 255, 255, 0.7058823529);
+    cursor: pointer;
+    list-style: none;
+    cursor: pointer;
+  }
+  .footer .down .box4 {
+    margin-top: 10vmin;
+  }
+  .footer .down .box4 b {
+    font-size: 5vmin;
+    font-weight: 600;
+    margin-bottom: 2.5vmin;
+    color: #fff;
+  }
+  .footer .down .box4 .sub {
+    margin-top: 7vmin;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7058823529);
+    padding-bottom: 2.5vmin;
+  }
+  .footer .down .box4 .sub:nth-child(5) {
+    border: none;
+  }
+  .footer .down .box4 .sub i {
+    font-size: 4vmin;
+    color: #fff;
+    margin: 0;
+    margin-right: 6vmin;
+  }
+  .footer .down .box4 .sub p {
+    font-size: 4vmin;
+    line-height: 7vmin;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.7058823529);
+    cursor: pointer;
+    margin: 0;
+  }
+  .footer .down .box4 .sub p:first-child {
+    margin-bottom: 4vmin;
+  }
+  .footer .down .box4 .sub p img {
+    margin-right: 2vmin;
+  }
+  .footer .down .box4 .sub .follow {
+    color: #fff;
+    font-weight: 500;
+    margin: 0;
+  }
+  .footer .down .box4 .sub .icons {
+    margin-left: 5vmin;
+    color: #fff;
+  }
+  .footer .down .box4 .sub .icons i {
+    cursor: pointer;
+    margin-bottom: 4vmin;
+  }
   .footer b {
-    font-size: 2vmin;
+    font-size: 5vmin;
     font-weight: 400;
     line-height: 3vmin;
   }
@@ -911,7 +1034,7 @@ header .mailSection span {
     font-weight: 300;
     margin-top: 1.5vmin;
   }
-  .footer .down .box1 p {
+  .footer c .down .box1 p {
     display: none;
   }
 }
