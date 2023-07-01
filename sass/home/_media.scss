@@ -37,22 +37,3 @@
     }
 }
 
-
-@media screen and (max-width: 720px) {
-    .media {
-        .box {
-            border-bottom: 1px solid #E0E0E0;
-            padding: 5vmin 0;
-
-            .logo {
-                width: 20%;
-                display: grid;
-                place-items: center;
-
-                img {
-                    transform: scale(0.35) translateX(-100%);
-                }
-            }
-        }
-    }
-}

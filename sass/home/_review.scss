@@ -75,39 +75,3 @@
     }
 
 }
-
-@media screen and (max-width: 720px) {
-    
-    .review {
-        .swiper {
-            height: 110vmin;
-
-            .swiper-slide {
-
-                .text {
-                    height: 50vmin;
-                    width: 100%;
-                    padding: 0 5vmin;
-                    margin-left: 0vmin;
-
-                    .q {
-                        height: 40vmin;
-                        transform: scale(0.8);
-                    }
-
-                    p {
-                        font-size: 3vmin;
-                        line-height: 4.5vmin;
-                        font-weight: 400;
-                        margin-top: 0.5vmin;
-                        text-align: left;
-                        width: 75%;
-                        margin: 0 3vmin;
-                        text-align: center;
-                    }
-                }
-            }
-        }
-
-    }
-}

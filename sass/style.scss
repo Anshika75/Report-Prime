@@ -2,23 +2,7 @@
 // Importing custom variables file
 @import 'custom-variables';
 // Importing header files
-@import 'header';
-// Importing landing files
-@import 'landing';
-// Importing sponsors files
-@import 'sponsors';
-// Importing features files
-@import 'features';
-// Importing services files
-@import 'services';
-// Importing report files
-@import 'report';
-// Importing review files
-@import 'review';
-// Importing media files
-@import 'media';
-// Importing footer files
-@import 'footer';
+@import 'home/home';
 * {
     margin: 0;
     padding: 0;

@@ -1,0 +1,132 @@
+@import "custom-variables";
+
+.footer {
+    background: #142246;
+    padding: 12vmin;
+
+    .upper {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 5vmin;
+        width: 100%;
+
+        .cat {
+
+            b {
+                font-size: 2.5vmin;
+                font-weight: 600;
+                margin-bottom: 2.5vmin;
+                color: #FFFFFF;
+            }
+
+            li {
+                font-size: 1.75vmin;
+                line-height: 1.52vmin;
+                font-weight: 300;
+                margin-top: 2vmin;
+                color: #ffffffb4;
+                cursor: pointer;
+                list-style: none;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .line {
+        width: 105%;
+        height: 1px;
+        background: #ffffffb4;
+        margin: 5vmin 0;
+    }
+
+    .down {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 5vmin;
+        width: 100%;
+
+        .box1 {
+
+            img {
+                transform: scale(1.2) translateY(1vmin);
+            }
+
+            p {
+                font-size: 1.75vmin;
+                line-height: 2.5vmin;
+                font-weight: 300;
+                color: #ffffffb4;
+                cursor: pointer;
+                list-style: none;
+                cursor: pointer;
+                margin-left: 3vmin;
+            }
+        }
+
+        .box {
+
+            b {
+                font-size: 2.5vmin;
+                font-weight: 600;
+                margin-bottom: 2.5vmin;
+                color: #FFFFFF;
+            }
+
+            li {
+                font-size: 1.75vmin;
+                line-height: 1.52vmin;
+                font-weight: 300;
+                margin-top: 2vmin;
+                color: #ffffffb4;
+                cursor: pointer;
+                list-style: none;
+                cursor: pointer;
+            }
+        }
+
+        .box4 {
+            b {
+                font-size: 2.5vmin;
+                font-weight: 600;
+                margin-bottom: 2.5vmin;
+                color: $primary;
+            }
+
+            .sub {
+                margin-top: 3vmin;
+
+                i {
+                    font-size: 3vmin;
+                    color: $primary;
+                    margin-right: 2vmin;
+                }
+
+                p {
+                    font-size: 1.75vmin;
+                    line-height: 1.52vmin;
+                    font-weight: 300;
+                    color: #ffffffb4;
+                    cursor: pointer;
+
+                    img {
+                        margin-right: 2vmin;
+                        margin-top: 1vmin;
+                    }
+                }
+
+                .follow {
+                    color: $primary;
+                    font-weight: 500
+                }
+
+                .icons {
+                    margin-left: 5vmin;
+                    color: $primary;
+                    i{
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
