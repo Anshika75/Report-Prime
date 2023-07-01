@@ -191,13 +191,28 @@
 }
 
 
-
-
-
 @media screen and (max-width: 720px) {
     .landing {
         padding: 5vmin 2vmin;
         padding-bottom: 20vmin;
+
+        .mobileNav {
+            .mobNavSec {
+                align-items: center;
+                justify-content: center;
+                padding-left: 4vmin;
+
+                li {
+                    padding: 3vmin;
+                    color: $primary;
+                    text-align: left;
+                    list-style: none;
+                }
+
+                transition: all 4s ease-in-out;
+            }
+        }
+
 
         .division {
             z-index: 20;
@@ -255,7 +270,8 @@
 
             .partRight {
                 z-index: 20;
-                img{
+
+                img {
                     margin: 4vmin;
                 }
 

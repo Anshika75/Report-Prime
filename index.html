@@ -38,18 +38,27 @@
                 <img src="./Assets/Frame 8.png" alt="" class="d-block d-md-none">
                 <p>Virtuose <br> Market Research</p>
             </div>
-            <div class="navSec d-none flex-row justify-content-between align-items-center d-md-flex">
+            <div class="navSec d-none flex-row justify-content-between align-items-center d-md-flex " i>
                 <li>Home</li>
                 <li>Categories</li>
                 <li>Services</li>
                 <li>About</li>
                 <li>Contact</li>
             </div>
-            <div class="mobile_nav d-flex d-md-none justify-content-center align-items-center">
-                <i class="fa-solid fa-bars"></i>
+            <div class="mobile_nav z-3 d-flex d-md-none justify-content-center align-items-center">
+                <i class="fa-solid fa-bars" onclick="showNav()"></i>
             </div>
         </div>
-        <div class="division container-fluid d-flex flex-lg-row flex-column justify-content-center align-items-center">
+        <div class="mobileNav">
+            <div class="mobNavSec d-none flex-column  " id="navsec">
+                <li>Home</li>
+                <li>Categories</li>
+                <li>Services</li>
+                <li>About</li>
+                <li>Contact</li>
+            </div>
+        </div>
+            <div class="division container-fluid d-flex flex-lg-row flex-column justify-content-center align-items-center">
             <div class="partLeft container-fluid d-flex flex-column justify-content-center align-items-center">
                 <div
                     class="textBox d-flex flex-column justify-content-center align-items-center justify-content-lg-start align-items-lg-start">
@@ -410,17 +419,9 @@
             </div>
         </div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
+    <!-- Navigation -->
+    <script src="./javascript/navigation.js"></script>
+    <!-- Swiper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>

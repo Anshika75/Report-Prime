@@ -224,6 +224,18 @@ header .mailSection span {
     padding: 5vmin 2vmin;
     padding-bottom: 20vmin;
   }
+  .landing .mobileNav .mobNavSec {
+    align-items: center;
+    justify-content: center;
+    padding-left: 4vmin;
+    transition: all 4s ease-in-out;
+  }
+  .landing .mobileNav .mobNavSec li {
+    padding: 3vmin;
+    color: #fff;
+    text-align: left;
+    list-style: none;
+  }
   .landing .division {
     z-index: 20;
     height: 100%;
