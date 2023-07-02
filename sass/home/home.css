@@ -1049,6 +1049,10 @@ header .mailSection span {
     padding: 5vmin 2vmin;
     padding-bottom: 20vmin;
   }
+  .landing .nav .logosec img {
+    width: 100px;
+    height: 4px;
+  }
   .landing .mobileNav .mobNavSec {
     align-items: center;
     justify-content: center;
@@ -1186,25 +1190,25 @@ header .mailSection span {
     grid-template-columns: repeat(1, 1fr);
     padding: 0vmin;
     width: 100%;
-    margin-top: 7vmin;
+    margin: 7vmin 0;
   }
   .services .serviceBox .box {
     padding: 5vmin 0;
-    min-height: 145vmin;
-    width: 95%;
+    width: 75%;
+    height: 60vmin;
   }
   .services .serviceBox .box b {
-    font-size: 6vmin;
+    font-size: 4vmin;
     margin-bottom: 0;
   }
   .services .serviceBox .box p {
-    font-size: 5vmin;
+    font-size: 3vmin;
     width: 75%;
-    line-height: 6vmin;
-    margin-top: 3vmin;
+    line-height: 4vmin;
+    margin-top: 0.5vmin;
   }
   .services .serviceBox .box .line {
-    width: 30vmin;
+    width: 10vmin;
     height: 1vmin;
   }
   .report .categoryBox {
@@ -1282,6 +1286,9 @@ header .mailSection span {
     font-size: 3vmin;
     line-height: 4vmin;
   }
+  .review {
+    margin: 0;
+  }
   .review .swiper {
     height: 110vmin;
   }
@@ -1305,17 +1312,24 @@ header .mailSection span {
     margin: 0 3vmin;
     text-align: center;
   }
+  .media {
+    padding: 0;
+    margin-bottom: 0;
+  }
+  .media h1 {
+    margin-top: 0;
+    margin-bottom: 5vmin;
+  }
   .media .box {
     border-bottom: 1px solid #E0E0E0;
-    padding: 5vmin 0;
+    padding: 5vmin 10vmin;
   }
   .media .box .logo {
-    width: 20%;
-    display: grid;
-    place-items: center;
+    width: 30%;
   }
-  .media .box .logo img {
-    transform: scale(0.35) translateX(-100%);
+  .media .box p {
+    padding-left: 0;
+    width: 100%;
   }
   .footer {
     background: #142246;
@@ -1323,19 +1337,19 @@ header .mailSection span {
   }
   .footer .upper {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 5vmin;
     width: 100%;
   }
   .footer .upper .cat b {
-    font-size: 4.5vmin;
+    font-size: 3vmin;
     font-weight: 600;
     margin-bottom: 2.5vmin;
     color: #FFFFFF;
   }
   .footer .upper .cat li {
-    font-size: 4vmin;
-    line-height: 5vmin;
+    font-size: 2vmin;
+    line-height: 3vmin;
     font-weight: 300;
     margin-top: 2vmin;
     color: rgba(255, 255, 255, 0.7058823529);
@@ -1356,12 +1370,12 @@ header .mailSection span {
     width: 100%;
   }
   .footer .down .box1 img {
-    transform: scale(1.2) translateY(1vmin);
+    transform: scale(2);
     margin: 7vmin;
   }
   .footer .down .box1 p {
-    font-size: 4vmin;
-    line-height: 7vmin;
+    font-size: 2.5vmin;
+    line-height: 5vmin;
     font-weight: 300;
     color: rgba(255, 255, 255, 0.7058823529);
     cursor: pointer;
@@ -1370,19 +1384,19 @@ header .mailSection span {
     margin-left: 0vmin;
   }
   .footer .down .box {
-    margin-top: 10vmin;
+    margin-top: 5vmin;
     padding-bottom: 10vmin;
     border-bottom: 2px solid white;
   }
   .footer .down .box b {
-    font-size: 4.5vmin;
+    font-size: 3.5vmin;
     font-weight: 600;
     margin-bottom: 2.5vmin;
     color: #FFFFFF;
   }
   .footer .down .box li {
-    font-size: 4vmin;
-    line-height: 7vmin;
+    font-size: 2vmin;
+    line-height: 4vmin;
     font-weight: 300;
     margin-top: 2vmin;
     color: rgba(255, 255, 255, 0.7058823529);
@@ -1394,13 +1408,13 @@ header .mailSection span {
     margin-top: 10vmin;
   }
   .footer .down .box4 b {
-    font-size: 5vmin;
+    font-size: 3.5vmin;
     font-weight: 600;
     margin-bottom: 2.5vmin;
     color: #fff;
   }
   .footer .down .box4 .sub {
-    margin-top: 7vmin;
+    margin-top: 4vmin;
     border-bottom: 1px solid rgba(255, 255, 255, 0.7058823529);
     padding-bottom: 2.5vmin;
   }
@@ -1408,14 +1422,14 @@ header .mailSection span {
     border: none;
   }
   .footer .down .box4 .sub i {
-    font-size: 4vmin;
+    font-size: 3vmin;
     color: #fff;
     margin: 0;
     margin-right: 6vmin;
   }
   .footer .down .box4 .sub p {
-    font-size: 4vmin;
-    line-height: 7vmin;
+    font-size: 2.5vmin;
+    line-height: 5vmin;
     font-weight: 300;
     color: rgba(255, 255, 255, 0.7058823529);
     cursor: pointer;

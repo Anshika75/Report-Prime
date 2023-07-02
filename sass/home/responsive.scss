@@ -1,4 +1,5 @@
 @import "../home/custom-variables";
+
 @media (max-width: 720px) {
     header {
         min-height: 8vmin;
@@ -536,7 +537,8 @@
     }
 
 }
-@media (min-width:721px){
+
+@media (min-width:721px) {
     header {
         height: 3vmin;
         padding: 0.5vmin 0;
@@ -569,6 +571,17 @@
         padding: 5vmin 2vmin;
         padding-bottom: 20vmin;
 
+            .nav{
+                .logosec{
+
+                    img{
+
+                        width: 100px;
+                        height: 4px;
+
+                    }
+                }
+            }
         .mobileNav {
             .mobNavSec {
                 align-items: center;
@@ -719,6 +732,7 @@
                 &:last-child {
                     border-left: 1px solid #A1A1A1;
                 }
+
                 &:nth-child(2) {
                     border-left: 1px solid #A1A1A1;
                 }
@@ -750,27 +764,28 @@
             grid-template-columns: repeat(1, 1fr);
             padding: 0vmin;
             width: 100%;
-            margin-top: 7vmin;
+            margin: 7vmin 0;
 
             .box {
                 padding: 5vmin 0;
-                min-height: 145vmin;
-                width: 95%;
+
+                width: 75%;
+                height: 60vmin;
 
                 b {
-                    font-size: 6vmin;
+                    font-size: 4vmin;
                     margin-bottom: 0;
                 }
 
                 p {
-                    font-size: 5vmin;
+                    font-size: 3vmin;
                     width: 75%;
-                    line-height: 6vmin;
-                    margin-top: 3vmin;
+                    line-height: 4vmin;
+                    margin-top: 0.5vmin;
                 }
 
                 .line {
-                    width: 30vmin;
+                    width: 10vmin;
                     height: 1vmin;
                 }
             }
@@ -877,6 +892,7 @@
     }
 
     .review {
+        margin: 0;
         .swiper {
             height: 110vmin;
 
@@ -910,18 +926,23 @@
     }
 
     .media {
+        padding: 0;
+        margin-bottom: 0;
+        h1{
+            margin-top: 0;
+            margin-bottom: 5vmin;
+        }
         .box {
             border-bottom: 1px solid #E0E0E0;
-            padding: 5vmin 0;
+            padding: 5vmin 10vmin;
 
             .logo {
-                width: 20%;
-                display: grid;
-                place-items: center;
+                width: 30%;
+            }
 
-                img {
-                    transform: scale(0.35) translateX(-100%);
-                }
+            p {
+                padding-left: 0;
+                width: 100%;
             }
         }
     }
@@ -932,22 +953,22 @@
 
         .upper {
             display: grid;
-            grid-template-columns: repeat(1, 1fr);
+            grid-template-columns: repeat(2, 1fr);
             grid-gap: 5vmin;
             width: 100%;
 
             .cat {
 
                 b {
-                    font-size: 4.5vmin;
+                    font-size: 3vmin;
                     font-weight: 600;
                     margin-bottom: 2.5vmin;
                     color: #FFFFFF;
                 }
 
                 li {
-                    font-size: 4vmin;
-                    line-height: 5vmin;
+                    font-size: 2vmin;
+                    line-height: 3vmin;
                     font-weight: 300;
                     margin-top: 2vmin;
                     color: #ffffffb4;
@@ -974,13 +995,13 @@
             .box1 {
 
                 img {
-                    transform: scale(1.2) translateY(1vmin);
+                    transform: scale(2);
                     margin: 7vmin;
                 }
 
                 p {
-                    font-size: 4vmin;
-                    line-height: 7vmin;
+                    font-size: 2.5vmin;
+                    line-height: 5vmin;
                     font-weight: 300;
                     color: #ffffffb4;
                     cursor: pointer;
@@ -991,20 +1012,20 @@
             }
 
             .box {
-                margin-top: 10vmin;
+                margin-top: 5vmin;
                 padding-bottom: 10vmin;
                 border-bottom: 2px solid white;
 
                 b {
-                    font-size: 4.5vmin;
+                    font-size: 3.5vmin;
                     font-weight: 600;
                     margin-bottom: 2.5vmin;
                     color: #FFFFFF;
                 }
 
                 li {
-                    font-size: 4vmin;
-                    line-height: 7vmin;
+                    font-size: 2vmin;
+                    line-height: 4vmin;
                     font-weight: 300;
                     margin-top: 2vmin;
                     color: #ffffffb4;
@@ -1018,14 +1039,14 @@
                 margin-top: 10vmin;
 
                 b {
-                    font-size: 5vmin;
+                    font-size: 3.5vmin;
                     font-weight: 600;
                     margin-bottom: 2.5vmin;
                     color: $primary;
                 }
 
                 .sub {
-                    margin-top: 7vmin;
+                    margin-top: 4vmin;
                     border-bottom: 1px solid #ffffffb4;
                     padding-bottom: 2.5vmin;
 
@@ -1034,15 +1055,15 @@
                     }
 
                     i {
-                        font-size: 4vmin;
+                        font-size: 3vmin;
                         color: $primary;
                         margin: 0;
                         margin-right: 6vmin;
                     }
 
                     p {
-                        font-size: 4vmin;
-                        line-height: 7vmin;
+                        font-size: 2.5vmin;
+                        line-height: 5vmin;
                         font-weight: 300;
                         color: #ffffffb4;
                         cursor: pointer;
