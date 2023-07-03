@@ -219,9 +219,34 @@ header .mailSection span {
 }
 .sponsors .imgBox {
   height: 100%;
+  width: 100%;
 }
-.sponsors .imgBox img {
-  margin-top: 2vmin;
+.sponsors .imgBox .swiperr {
+  height: 20vmin;
+  width: 100%;
+  overflow-x: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #fff #fff;
+}
+.sponsors .imgBox .swiperr::-webkit-scrollbar {
+  width: 0.5vmin;
+}
+.sponsors .imgBox .swiperr::-webkit-scrollbar-track {
+  background: #fff;
+}
+.sponsors .imgBox .swiperr .swiper-slide {
+  text-align: center;
+  overflow-y: visible;
+  width: 150px;
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+.sponsors .imgBox .swiperr .swiper-slide img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 @media screen and (max-width: 920px) {
@@ -554,7 +579,7 @@ header .mailSection span {
   width: 100%;
 }
 .footer .down .box1 img {
-  transform: scale(1.2) translateY(1vmin);
+  margin-bottom: 3vmin;
 }
 .footer .down .box1 p {
   font-size: 1.75vmin;
@@ -564,7 +589,6 @@ header .mailSection span {
   cursor: pointer;
   list-style: none;
   cursor: pointer;
-  margin-left: 3vmin;
 }
 .footer .down .box b {
   font-size: 2.5vmin;
@@ -1028,7 +1052,7 @@ header .mailSection span {
     margin-bottom: 4vmin;
   }
 }
-@media (min-width: 721px) {
+@media (min-width: 721px) and (max-width: 1000px) {
   header {
     height: 3vmin;
     padding: 0.5vmin 0;

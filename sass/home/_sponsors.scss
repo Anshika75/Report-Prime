@@ -20,9 +20,36 @@
 
     .imgBox {
         height: 100%;
+        width: 100%;
 
-        img {
-            margin-top: 2vmin;
+        .swiperr {
+            height: 20vmin;
+            width: 100%;
+            overflow-x: scroll;
+            //scrollbar customize
+            scrollbar-width: thin;
+            scrollbar-color: $primary $primary;
+            &::-webkit-scrollbar {
+                width: 0.5vmin;
+            }
+            &::-webkit-scrollbar-track {
+                background: $primary;
+            }
+    
+            .swiper-slide {
+                text-align: center;
+                overflow-y: visible;
+                width: 150px;
+                display: grid;
+                place-items: center;
+                position: relative;
+                img{
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+            }
         }
 
     }

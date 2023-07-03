@@ -407,7 +407,7 @@
     margin-bottom: 4vmin;
   }
 }
-@media (min-width: 721px) {
+@media (min-width: 721px) and (max-width: 1000px) {
   header {
     height: 3vmin;
     padding: 0.5vmin 0;
