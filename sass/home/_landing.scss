@@ -5,7 +5,8 @@
     background-color: $secondary;
     padding: 5vmin;
     position: relative;
-    clip-path: polygon(100% 0, 100% 95%, 50% 100%, 0 96%, 0 0);
+    // clip-path: polygon(100% 0, 100% 95%, 50% 100%, 0 96%, 0 0);
+    border-radius: 0 0 50% 0;
     overflow-x: hidden;
 
     &::after {
