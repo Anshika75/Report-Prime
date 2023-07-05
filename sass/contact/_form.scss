@@ -1,0 +1,106 @@
+@import "custom-variables";
+
+section{
+    .main-form-design {
+        padding: 7vmin;
+        
+        .section-form-design {
+            margin: 0 auto;
+            width: 63%;
+    
+            form {
+                padding-right: 5vmin;
+                    
+                .main-field {
+                    margin-bottom: 7vmin;
+    
+                    .input-form-field {
+                        height: 7vmin;
+                        width: calc(88% / 2 - 13px);
+    
+                        label {
+                            font-size: 2vmin;
+                            font-weight: 500;
+                            margin-bottom: 1vmin;
+                        }
+    
+                        input {
+                            height: 100%;
+                            width: 100%;
+                            padding: 2vmin;
+                            border: 1px solid $border-color;
+                            outline: none;
+                            background: $gradient-color;
+                            font-size: 2vmin;
+                            font-weight: 400;
+                        }
+                    }
+                }
+    
+                .message-field {
+                    margin-bottom: 5vmin;
+    
+                    label {
+                        font-size: 2vmin;
+                        margin-bottom: 1vmin;
+                        font-weight: 500;
+                    }
+    
+                    textarea {
+                        padding: 2vmin;
+                        border: 1px solid $border-color;
+                        outline: none;
+                        background: $gradient-color;
+                        font-size: 2vmin;
+                        font-weight: 400;
+                        height: 20vmin;
+                    }
+                }
+    
+                .check-box-input {
+    
+                    input {
+                        margin-right: 1vmin;
+                        width: 2vmin;
+                    }
+    
+                    span {
+                        font-size: 2vmin;
+                        font-weight: 400;
+                        color: $surface;
+                    }
+    
+                }
+    
+                .input-btn {
+                    margin-top: 5vmin;
+    
+                    button {
+    
+                        font-size: 2.3vmin;
+                        border: none;
+                        color: $primary;
+                        cursor: pointer;
+                        border-radius: 5px;
+                        padding: 2vmin 4vmin;
+                    }
+    
+    
+    
+                    .submit {
+                      &:hover{
+                          background: $hover-color;
+                      }
+                        margin-right: 1rem;
+                        background: $secondary;
+                    }
+    
+                    .cancel {
+                        background: $cancel-color;
+                    }
+                }
+
+            }
+        }
+    }
+}

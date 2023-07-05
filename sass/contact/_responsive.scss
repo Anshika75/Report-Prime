@@ -1,0 +1,104 @@
+@media (max-width: 720px) {
+    header {
+        min-height: 8vmin;
+        padding: 1.5vmin 0;
+
+        .callSection {
+
+            i {
+                font-size: 3.5vmin;
+            }
+
+            span {
+                font-size: 2.75vmin;
+            }
+        }
+
+        .mailSection {
+
+            i {
+                font-size: 3.5vmin;
+            }
+
+            span {
+                font-size: 2.75vmin;
+            }
+        }
+    }
+
+    .mobileNav {
+        .mobNavSec {
+            align-items: center;
+            justify-content: center;
+            padding-left: 4vmin;
+
+            li {
+                padding: 3vmin;
+                color: $primary;
+                text-align: left;
+                list-style: none;
+            }
+
+            transition: all 4s ease-in-out;
+        }
+    }
+}
+
+@media (min-width:721px) and (max-width:1000px) {
+    header {
+        height: 3vmin;
+        padding: 0.5vmin 0;
+        // background-color: #1F7CFF;
+
+        .callSection {
+
+            i {
+                font-size: 2.5vmin;
+            }
+
+            span {
+                font-size: 1.75vmin;
+            }
+        }
+
+        .mailSection {
+
+            i {
+                font-size: 2.5vmin;
+            }
+
+            span {
+                font-size: 1.75vmin;
+            }
+        }
+    }
+
+    .nav {
+        .logosec {
+
+            img {
+
+                width: 100px;
+                height: 4px;
+
+            }
+        }
+    }
+
+    .mobileNav {
+        .mobNavSec {
+            align-items: center;
+            justify-content: center;
+            padding-left: 4vmin;
+
+            li {
+                padding: 3vmin;
+                color: $primary;
+                text-align: left;
+                list-style: none;
+            }
+
+            transition: all 4s ease-in-out;
+        }
+    }
+}

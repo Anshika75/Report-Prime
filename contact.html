@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./sass/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header
+        class="d-flex flex-column flex-md-row justify-content-start align-items-start justify-content-md-between align-items-md-center">
+        <div class="callSection d-flex flex-row justify-content-between align-items-center">
+            <i class="fas fa-phone-volume"></i>
+            <img src="./Assets/USA flag.png" alt="">
+            <span>+1 951 407 0500</span>
+            <!-- <img src="./Assets/India flag.png" alt="">
+            <span>+91 901 877 7899</span> -->
+        </div>
+        <div class="mailSection d-flex flex-row justify-content-between align-items-center">
+            <i class="fas fa-envelope"></i>
+            <span>sales@reportprime.com</span>
+        </div>
+
+    </header>
+    <div class="nav d-flex flex-row justify-content-between align-items-center">
+        <div class="logoSec d-flex flex-row justify-content-between align-items-center">
+            <img src="./Assets/Logo.png" alt="" class="d-none d-md-block" id="logo">
+            <!-- <img src="./Assets/Frame 8.png" alt="" class="d-block d-md-none"> -->
+        </div>
+        <div class="navSec d-none flex-row justify-content-between align-items-center d-md-flex " i>
+            <li>Home</li>
+            <li>Categories</li>
+            <li>Services</li>
+            <li>About</li>
+            <li>Contact</li>
+        </div>
+        <div class="mobile_nav z-3 d-flex d-md-none justify-content-center align-items-center">
+            <i class="fa-solid fa-bars" onclick="showNav()"></i>
+        </div>
+    </div>
+    <div class="mobileNav">
+        <div class="mobNavSec d-none d-lg-none flex-column" id="navsec">
+            <li>Home</li>
+            <li>Categories</li>
+            <li>Services</li>
+            <li>About</li>
+            <li>Contact</li>
+        </div>
+    </div>
+    <div class="heading d-flex flex-column justify-content-end align-items-start">
+        <h1>Contact Us!</h1>
+    </div>
+    <section>
+        <div class="main-form-design">
+            <div class="section-form-design d-block">
+                <form action="#">
+                    <div class="main-field d-flex justify-content-between align-items-center">
+                        <div class="input-form-field d-flex flex-column">
+                            <label for="">First name</label>
+                            <input type="text" placeholder="Enter your name" required>
+                        </div>
+                        <div class="input-form-field d-flex flex-column">
+                            <label for="">Last Name</label>
+                            <input type="text" placeholder="Enter your name" required>
+                        </div>
+
+                    </div>
+                    <div class="main-field d-flex justify-content-between align-items-center">
+                        <div class="input-form-field d-flex flex-column">
+                            <label for="">Job Title</label>
+                            <input type="text" placeholder="Enter your job title" required>
+                        </div>
+                        <div class="input-form-field d-flex flex-column">
+                            <label for="">Company name</label>
+                            <input type="text" placeholder="Enter where you are working" required>
+                        </div>
+
+                    </div>
+                    <div class="main-field d-flex justify-content-between align-items-center">
+                        <div class="input-form-field d-flex flex-column">
+                            <label for="">Phone with country code</label>
+                            <input type="text" placeholder="(XXX)-(XXX)-(XXXX)" required>
+                        </div>
+                        <div class="input-form-field d-flex flex-column">
+                            <label for="">Work Email address</label>
+                            <input type="text" placeholder="contact@virtuosemarketresearch.com" required>
+                        </div>
+
+                    </div>
+
+                    <div class="message-field d-flex flex-column">
+                        <label for="">Your Comments</label>
+                        <textarea name=""
+                            placeholder="Please tell any specific requirements you are looking for in reports"></textarea>
+                    </div>
+                    <div class="check-box-input">
+                        <input type="checkbox" name="" id="" checked>
+                        <span>I provide my consent to VMR to reach me on my email & phone number to discuss
+                            further</span>
+                    </div>
+
+                    <div class="input-btn">
+                        <button type="submit" class="submit">Submit</button>
+                        <button type="button" class="cancel">Cancel</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="main-map-address">
+            <div class="flex-map-address">
+                <div class="map-input">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d120630.8996114808!2d72.88586239999998!3d19.120127999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1677294851640!5m2!1sen!2sin"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="address-input">
+                    <h4>Get in Touch with us</h4>
+                    <div class="address-contact-detail">
+                        <div class="address-phone-number">
+                            <i class="fa-sharp fa-solid fa-phone-volume"></i>
+                            <div class="contry-phone-num">
+                                <div class="single-phone-num">
+                                    <span>USA :- <img src="images/icon/flag_1.png" alt="">
+                                        <p><a href="">+1 401 877 7899</a></p>
+                                    </span>
+                                </div>
+                                <div class="single-phone-num">
+                                    <span>IND :-<img src="images/icon/flag_2.png" alt="">
+                                        <p><a href="">+91 901 877 7899</a></p>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="address-contact-detail">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p><a href="">sales@virtuosemarketresearch.com</a></p>
+                    </div>
+                    <div class="address-contact-detail">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p><a href="">Mumbai, Maharastra, India, 401101</a></p>
+                    </div>
+                    <div class="address-contact-detail">
+                        <p>Follow us: </p>
+                        <div class="social-link">
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-youtube"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Navigation -->
+    <script src="./javascript/navigation.js"></script>
+</body>
+</html>
