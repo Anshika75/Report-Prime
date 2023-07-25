@@ -1509,9 +1509,28 @@ header .mailSection span {
   color: #fff;
   cursor: pointer;
 }
-.nav .mobile_nav {
+.nav .navSec li {
+  z-index: 20;
+  list-style: none;
+  margin: 0 3vmin;
+  font-size: 1.75vmin;
+  font-weight: 500;
   color: #fff;
-  font-size: 6vmin;
+  cursor: pointer;
+}
+.nav .mobile_nav {
+  align-items: center;
+  justify-content: center;
+  padding-left: 4vmin;
+}
+.nav .mobile_nav i {
+  color: #fff;
+}
+.nav .mobile_nav li {
+  padding: 3vmin;
+  color: #fff;
+  text-align: left;
+  list-style: none;
 }
 
 header {
@@ -1574,6 +1593,8 @@ header .mailSection span {
     align-items: center;
     justify-content: center;
     padding-left: 4vmin;
+    background-color: #1F7CFF;
+    border: none;
     transition: all 4s ease-in-out;
   }
   .mobileNav .mobNavSec li {
@@ -1630,29 +1651,23 @@ header .mailSection span {
   padding: 2vmin 20vmin;
 }
 
-section .main-form-design {
-  padding: 7vmin;
+.contact .mainForm {
+  padding: 0 10vmin;
 }
-section .main-form-design .section-form-design {
-  margin: 0 auto;
-  width: 63%;
+.contact .mainForm form {
+  padding: 5vmin;
 }
-section .main-form-design .section-form-design form {
-  padding-right: 5vmin;
-}
-section .main-form-design .section-form-design form .main-field {
-  margin-bottom: 7vmin;
-}
-section .main-form-design .section-form-design form .main-field .input-form-field {
+.contact .mainForm form .mainField .inputField {
   height: 7vmin;
-  width: calc(44% - 13px);
+  width: 100%;
+  margin: 5vmin;
 }
-section .main-form-design .section-form-design form .main-field .input-form-field label {
+.contact .mainForm form .mainField .inputField label {
   font-size: 2vmin;
   font-weight: 500;
   margin-bottom: 1vmin;
 }
-section .main-form-design .section-form-design form .main-field .input-form-field input {
+.contact .mainForm form .mainField .inputField input {
   height: 100%;
   width: 100%;
   padding: 2vmin;
@@ -1662,15 +1677,15 @@ section .main-form-design .section-form-design form .main-field .input-form-fiel
   font-size: 2vmin;
   font-weight: 400;
 }
-section .main-form-design .section-form-design form .message-field {
-  margin-bottom: 5vmin;
+.contact .mainForm form .message-field {
+  margin: 5vmin;
 }
-section .main-form-design .section-form-design form .message-field label {
+.contact .mainForm form .message-field label {
   font-size: 2vmin;
   margin-bottom: 1vmin;
   font-weight: 500;
 }
-section .main-form-design .section-form-design form .message-field textarea {
+.contact .mainForm form .message-field textarea {
   padding: 2vmin;
   border: 1px solid #D1D9E5;
   outline: none;
@@ -1679,19 +1694,22 @@ section .main-form-design .section-form-design form .message-field textarea {
   font-weight: 400;
   height: 20vmin;
 }
-section .main-form-design .section-form-design form .check-box-input input {
+.contact .mainForm form .check-box-input {
+  margin: 5vmin;
+}
+.contact .mainForm form .check-box-input input {
   margin-right: 1vmin;
   width: 2vmin;
 }
-section .main-form-design .section-form-design form .check-box-input span {
+.contact .mainForm form .check-box-input span {
   font-size: 2vmin;
   font-weight: 400;
   color: #0D1322;
 }
-section .main-form-design .section-form-design form .input-btn {
-  margin-top: 5vmin;
+.contact .mainForm form .input-btn {
+  margin: 5vmin;
 }
-section .main-form-design .section-form-design form .input-btn button {
+.contact .mainForm form .input-btn button {
   font-size: 2.3vmin;
   border: none;
   color: #fff;
@@ -1699,17 +1717,39 @@ section .main-form-design .section-form-design form .input-btn button {
   border-radius: 5px;
   padding: 2vmin 4vmin;
 }
-section .main-form-design .section-form-design form .input-btn .submit {
+.contact .mainForm form .input-btn .submit {
   margin-right: 1rem;
   background: #1F7CFF;
 }
-section .main-form-design .section-form-design form .input-btn .submit:hover {
+.contact .mainForm form .input-btn .submit:hover {
   background: linear-gradient(0deg, #116ACC, #116ACC), linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3));
 }
-section .main-form-design .section-form-design form .input-btn .cancel {
+.contact .mainForm form .input-btn .cancel {
   background: #5B5B5B;
 }
 
+@media (max-width: 720px) {
+  .contact .mainForm {
+    padding: 10vmin;
+  }
+  .contact .mainForm form {
+    padding: 5vmin;
+  }
+  .contact .mainForm form .message-field {
+    margin: 0vmin;
+  }
+  .contact .mainForm form .check-box-input {
+    margin: 0vmin;
+  }
+  .contact .mainForm form .input-btn {
+    margin: 0vmin;
+  }
+}
+@media (min-width: 721px) and (max-width: 1000px) {
+  .contact .mainForm {
+    padding: 0vmin;
+  }
+}
 @media (max-width: 720px) {
   header {
     min-height: 8vmin;

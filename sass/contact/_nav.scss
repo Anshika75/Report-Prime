@@ -2,7 +2,7 @@
 
 .nav {
     z-index: 20;
-    background-color:$secondary;
+    background-color: $secondary;
     padding: 2.5vmin;
 
     .logoSec {
@@ -33,10 +33,32 @@
             color: $primary;
             cursor: pointer;
         }
+
+        li {
+            z-index: 20;
+            list-style: none;
+            margin: 0 3vmin;
+            font-size: 1.75vmin;
+            font-weight: 500;
+            color: $primary;
+            cursor: pointer;
+        }
     }
 
     .mobile_nav {
-        color: $primary;
-        font-size: 6vmin;
+        align-items: center;
+        justify-content: center;
+        padding-left: 4vmin;
+
+        i {
+            color: $primary;
+        }
+
+        li {
+            padding: 3vmin;
+            color: $primary;
+            text-align: left;
+            list-style: none;
+        }
     }
 }

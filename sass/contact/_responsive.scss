@@ -1,4 +1,5 @@
-@media (max-width: 720px) {
+@import 'custom-variables';
+@media (max-width:720px) {
     header {
         min-height: 8vmin;
         padding: 1.5vmin 0;
@@ -31,6 +32,8 @@
             align-items: center;
             justify-content: center;
             padding-left: 4vmin;
+            background-color: $secondary;
+            border: none;
 
             li {
                 padding: 3vmin;
@@ -102,3 +105,4 @@
         }
     }
 }
+

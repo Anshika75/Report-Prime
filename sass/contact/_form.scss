@@ -1,22 +1,17 @@
 @import "custom-variables";
 
-section{
-    .main-form-design {
-        padding: 7vmin;
-        
-        .section-form-design {
-            margin: 0 auto;
-            width: 63%;
-    
+.contact{
+    .mainForm{
+        padding: 0 10vmin;
             form {
-                padding-right: 5vmin;
+                padding: 5vmin;
                     
-                .main-field {
-                    margin-bottom: 7vmin;
+                .mainField {
     
-                    .input-form-field {
+                    .inputField {
                         height: 7vmin;
-                        width: calc(88% / 2 - 13px);
+                        width: 100%;
+                        margin: 5vmin;
     
                         label {
                             font-size: 2vmin;
@@ -38,7 +33,7 @@ section{
                 }
     
                 .message-field {
-                    margin-bottom: 5vmin;
+                    margin: 5vmin;
     
                     label {
                         font-size: 2vmin;
@@ -58,7 +53,7 @@ section{
                 }
     
                 .check-box-input {
-    
+                    margin: 5vmin;
                     input {
                         margin-right: 1vmin;
                         width: 2vmin;
@@ -73,7 +68,7 @@ section{
                 }
     
                 .input-btn {
-                    margin-top: 5vmin;
+                    margin: 5vmin;
     
                     button {
     
@@ -101,6 +96,40 @@ section{
                 }
 
             }
+        
+    }
+}
+@media(max-width:720px){
+    
+    .contact{
+        .mainForm{
+            padding: 10vmin;
+                form {
+                    padding: 5vmin;
+        
+                    .message-field {
+                        margin: 0vmin;
+                    }
+        
+                    .check-box-input {
+                        margin: 0vmin;
+                    }
+        
+                    .input-btn {
+                        margin: 0vmin;
+                    }
+    
+                }
+            
+        }
+    }
+}
+@media (min-width:721px) and (max-width:1000px) {
+    
+    .contact{
+        .mainForm{
+            padding: 0vmin;
+            
         }
     }
 }
