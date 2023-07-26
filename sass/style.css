@@ -1750,6 +1750,74 @@ header .mailSection span {
     padding: 0vmin;
   }
 }
+.mainMap {
+  width: 100%;
+  margin-bottom: 15vmin;
+}
+.mainMap .flexMap .map {
+  width: 100%;
+}
+.mainMap .flexMap .map iframe {
+  width: 100%;
+  height: 100%;
+}
+.mainMap .flexMap .address {
+  background: #1F7CFF;
+  width: 70%;
+  padding: 10vmin 0vmin 10vmin 15vmin;
+}
+.mainMap .flexMap .address h4 {
+  color: #fff;
+  font-size: 4.5vmin;
+  margin-bottom: 4.5vmin;
+}
+.mainMap .flexMap .address .detail {
+  margin-bottom: 4.5vmin;
+}
+.mainMap .flexMap .address .detail .phone i {
+  color: #fff;
+  margin-right: 0.8rem;
+}
+.mainMap .flexMap .address .detail .phone .country .number span {
+  color: #fff;
+}
+.mainMap .flexMap .address .detail .phone .country .number span img {
+  margin: 0 1vmin;
+}
+.mainMap .flexMap .address .detail .phone .country .number span p {
+  margin-bottom: 0;
+}
+.mainMap .flexMap .address .detail .phone .country .number span p a {
+  text-decoration: none;
+  color: #fff;
+}
+.mainMap .flexMap .address .detail i {
+  color: #fff;
+  margin-right: 1vmin;
+}
+.mainMap .flexMap .address .detail p {
+  color: #fff;
+  margin-bottom: 0;
+  margin-right: 1.5vmin;
+}
+.mainMap .flexMap .address .detail p a {
+  text-decoration: none;
+  color: #fff;
+}
+
+@media (max-width: 720px) {
+  .mainMap .flexMap {
+    flex-direction: column;
+  }
+  .mainMap .flexMap .map {
+    width: 100%;
+    height: 50vmin;
+  }
+  .mainMap .flexMap .address {
+    width: 100%;
+    padding: 10vmin;
+  }
+}
 @media (max-width: 720px) {
   header {
     min-height: 8vmin;
