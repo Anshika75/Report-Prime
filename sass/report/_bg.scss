@@ -1,0 +1,125 @@
+@import "custom-variables";
+
+.main {
+    background-color: #ECF2FC;
+    .bg {
+        width: 100%;
+        height: 100vh;
+        background-image: url("../../Assets/report.png");
+        background-size: cover;
+        z-index: 1;
+
+        .left {
+            width: 75%;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10vmin;
+
+            .covid {
+                background-color: #D9E8FD;
+                color: $secondary;
+                font-size: 2vmin;
+                font-weight: 500;
+                height: 4.5vmin;
+                width: 30vmin;
+                border-radius: 5vmin;
+                display: grid;
+                place-items: center;
+            }
+
+            h1 {
+                color: $primary;
+                font-size: 5vmin;
+                line-height: 7vmin;
+                font-weight: 600;
+                margin: 4vmin 0;
+
+            }
+
+            .sub {
+                p {
+                    color: $primary;
+                    font-size: 2vmin;
+                    font-weight: 400;
+                }
+
+                button {
+                    color: $secondary;
+                    background-color: $primary;
+                    font-size: 2vmin;
+                    font-weight: 500;
+                    height: 5vmin;
+                    width: 25vmin;
+                    border: none;
+                    cursor: pointer;
+                }
+
+            }
+
+            .box1 {
+                background-color: $primary;
+                color: $surface;
+                font-size: 2.5vmin;
+                font-weight: 500;
+                padding: 2.5vmin;
+                border-radius: 2.5vmin;
+                margin-top: 4vmin;
+            }
+            .box2 {
+                background-color: $primary;
+                color: $surface;
+                font-size: 2.5vmin;
+                font-weight: 500;
+                padding: 2.5vmin;
+                border-radius: 2.5vmin;
+                margin-top: 4vmin;
+                P{
+                    font-weight: 600;
+                    &:nth-child(2){
+                        font-size: 3.5vmin;
+                        font-weight: 400;
+                    }
+                }
+                .sub1{
+                    background-color: #F6F9FF;
+                    height: 300px;
+                    width: 100%;
+                    img{
+                        height: 100%;
+                        width: 100%;
+                    }
+                }
+            }
+            .box3 {
+                background-color: $primary;
+                color: $surface;
+                padding: 2.5vmin;
+                border-radius: 2.5vmin;
+                margin-top: 4vmin;
+                P{
+                    font-weight: 600;
+                    &:nth-child(2){
+                        font-size: 2.5vmin;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+
+        .right {
+            width: 25%;
+            background-color: rgba(255, 255, 255, 0.5);
+        }
+    }
+}
+@media (max-width: 720px){
+    .main{
+        .bg{
+            .left{
+                width: 100%;
+            }
+            .right{
+                width: 100%;
+            }
+        }
+    }
+} 
