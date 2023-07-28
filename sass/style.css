@@ -2751,6 +2751,46 @@ header .mailSection span {
   font-size: 2.5vmin;
   font-weight: 500;
 }
+.main .bg .left .box3 .tables table {
+  font-size: 2vmin;
+  font-weight: 500;
+  color: #0D1322;
+}
+.main .bg .left .box3 .tables table th {
+  color: #6B7280;
+  padding: 2vmin;
+  background-color: #F9FAFB;
+  border: 1px solid #cfcfcf;
+}
+.main .bg .left .box3 .tables table td {
+  padding: 2vmin;
+  border: 1px solid #cfcfcf;
+}
+.main .bg .left .box4 {
+  background-color: #fff;
+  color: #0D1322;
+  font-size: 2.5vmin;
+  font-weight: 500;
+  padding: 2.5vmin;
+  border-radius: 2.5vmin;
+  margin-top: 4vmin;
+}
+.main .bg .left .box4 P {
+  font-weight: 600;
+}
+.main .bg .left .box4 P:nth-child(2) {
+  font-size: 2.5vmin;
+  font-weight: 500;
+}
+.main .bg .left .box4 .sub1 {
+  background-color: #F6F9FF;
+  height: 300px;
+  width: 100%;
+}
+.main .bg .left .box4 .sub1 img {
+  height: 100%;
+  width: 100%;
+}
 .main .bg .right {
   width: 25%;
   background-color: rgba(255, 255, 255, 0.5);
