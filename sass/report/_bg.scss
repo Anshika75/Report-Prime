@@ -12,7 +12,6 @@
 
         .left {
             width: 75%;
-            background-color: rgba(0, 0, 0, 0.5);
             padding: 10vmin;
 
             .covid {
@@ -60,7 +59,7 @@
                 background-color: $primary;
                 color: $surface;
                 font-size: 2.5vmin;
-                font-weight: 500;
+                font-weight: 400;
                 padding: 2.5vmin;
                 border-radius: 2.5vmin;
                 margin-top: 4vmin;
@@ -108,7 +107,7 @@
 
                     &:nth-child(2) {
                         font-size: 2.5vmin;
-                        font-weight: 500;
+                        font-weight: 400;
                     }
                 }
 
@@ -147,7 +146,7 @@
 
                     &:nth-child(2) {
                         font-size: 2.5vmin;
-                        font-weight: 500;
+                        font-weight: 400;
                     }
                 }
 
@@ -162,11 +161,300 @@
                     }
                 }
             }
+
+            .box5 {
+                background-color: $primary;
+                color: $surface;
+                font-size: 2.5vmin;
+                font-weight: 500;
+                padding: 2.5vmin;
+                border-radius: 2.5vmin;
+                margin-top: 4vmin;
+
+                P {
+                    font-weight: 600;
+
+                    img {
+                        float: right;
+                        width: 300px;
+                    }
+
+                    &:nth-child(2) {
+                        font-size: 2.5vmin;
+                        font-weight: 400;
+                    }
+                }
+            }
+
+            .box6 {
+                background-color: $primary;
+                color: $surface;
+                font-size: 2.5vmin;
+                font-weight: 500;
+                padding: 2.5vmin;
+                border-radius: 2.5vmin;
+                margin-top: 4vmin;
+
+                P {
+                    font-weight: 600;
+
+                    img {
+                        float: right;
+                        width: 300px;
+                    }
+
+                    &:nth-child(2) {
+                        font-size: 2.5vmin;
+                        font-weight: 400;
+                    }
+                }
+            }
+
+            .box7 {
+                background-color: $primary;
+                color: $surface;
+                font-size: 2.5vmin;
+                font-weight: 500;
+                padding: 2.5vmin;
+                border-radius: 2.5vmin;
+                margin-top: 4vmin;
+
+                p {
+                    font-size: 3.5vmin;
+                    color: #6B7280;
+                    font-weight: 500;
+                }
+
+                ol {
+
+                    li {
+                        font-size: 2.5vmin;
+                        color: $surface;
+                        font-weight: 600;
+                        list-style: none;
+
+                        span {
+                            float: right;
+                        }
+
+                        ol {
+                            list-style: none;
+
+                            li {
+
+                                font-weight: 500;
+                                ol{
+                                    list-style: none;
+                                    margin: 2vmin 0;
+                                    li{
+                                        font-weight: 500;
+                                        color: #6B7280;
+                                        margin: 1vmin 0 ;
+                                    }
+                                }
+                                    
+                            }
+                        }
+                    }
+
+                    .head p {
+                        font-size: 2.5vmin;
+                        color: $surface;
+                        font-weight: 600;
+                        border-bottom: 1px solid #cfcfcf;
+                        padding-bottom: 2vmin;
+                    }
+                }
+            }
+            .box8 {
+                background-color: $primary;
+                color: $surface;
+                font-size: 2.5vmin;
+                font-weight: 500;
+                padding: 2.5vmin;
+                border-radius: 2.5vmin;
+                margin-top: 4vmin;
+
+                P {
+                    font-weight: 600;
+
+                    img {
+                        float: right;
+                        width: 300px;
+                        margin: 2vmin;
+                    }
+
+                    &:nth-child(2) {
+                        font-size: 2.5vmin;
+                        font-weight: 400;
+                    }
+                    &:nth-child(3) {
+                        font-size: 2.5vmin;
+                        font-weight: 400;
+                    }
+                }
+            }
+            .box9 {
+                background-color: $primary;
+                color: $surface;
+                font-size: 2.5vmin;
+                font-weight: 500;
+                padding: 2.5vmin;
+                border-radius: 2.5vmin;
+                margin-top: 4vmin;
+
+                P {
+                    font-weight: 600;
+
+                    &:nth-child(2) {
+                        font-size: 2.5vmin;
+                        font-weight: 400;
+                    }
+                }
+            }
         }
 
         .right {
             width: 25%;
-            background-color: rgba(255, 255, 255, 0.5);
+            padding: 7vmin;
+            .box1{
+                background-color: $primary;
+                color: $surface;
+                font-size: 2.5vmin;
+                font-weight: 400;
+                padding: 4vmin 2vmin;
+                border-radius: 2.5vmin;
+                margin-top: 4vmin;
+                p{
+                    font-weight: 600;
+                    color: #6B7280;
+                }
+                .radiobox{
+                    margin: 0vmin 0;
+                    input{
+                        margin-right: 1vmin;
+                    }
+                    .text{
+                        font-size: 2vmin;
+                        font-weight: 500;
+                        h4{
+                            font-size: 2vmin;
+                            font-weight: 500;
+                            color: $surface;
+                            margin-top: 1.5vmin;
+                        }
+                        p{
+                            font-size: 1.7vmin;
+                            font-weight: 400;
+                            color: #6B7280;
+                            margin-top: -1.5vmin;
+                        }
+                    }
+                }
+                b{
+                    font-size: 5vmin;
+                    font-weight: 700;
+                    color: $surface;
+                    margin-top: 1.5vmin;
+                    del{
+                        font-size: 3vmin;
+                        font-weight: 400;
+                        color: #6B7280;
+                        margin-top: -3vmin;
+                    }
+                }
+                p.disc{
+                    font-size: 2vmin;
+                    font-weight: 900;
+                    margin: 1vmin;
+                    color: lime;
+                }
+                p.det{
+                    color: #6B7280;
+                    font-size: 2vmin;
+                    font-weight: 500;
+                    margin-top: 0vmin;
+                }
+                button.or{
+                    width: 100%;
+                    padding: 1.5vmin;
+                    background-color: #F2B244;
+                    color: $surface;
+                    border: none;
+                    outline: none;
+                    font-weight: 600;
+                    i{
+                        margin-right: 1vmin;
+                    }
+                }
+                button.bl{
+                    width: 100%;
+                    padding: 1.5vmin;
+                    background-color:#fff;
+                    color: $secondary;
+                    border: none;
+                    border: 1.5px solid $secondary;
+                    outline: none;
+                    font-weight: 600;
+                    margin-top: 3vmin;
+                }
+
+            }
+            .box2{
+                background-color: $primary;
+                color: $surface;
+                font-size: 2.5vmin;
+                font-weight: 400;
+                padding: 4vmin 2vmin;
+                border-radius: 2.5vmin;
+                margin-top: 4vmin;
+                .sub{
+                    height: 300px;
+                    width: 90%;
+                    box-shadow: 0px 1px 9px 6px black;
+                    padding: 3vmin;
+                    position: relative;
+                    b{
+                        color: $secondary;
+                        font-size: 2.5vmin;
+                        font-weight: 700;
+                    }
+                    p{
+                        color: #6B7280;
+                        font-size: 4vmin;
+                        font-weight: 900;
+                        margin-top: 6vmin;
+                        opacity: 0.7;
+                    }
+                    span{
+                        position: absolute;
+                        bottom: 30px;
+                        right: 0;
+                        padding: 1vmin 2vmin;
+                        background-color: red;
+                        color: #fff;
+                        font-size: 2vmin;
+                        font-weight: 700;
+                    }
+                }
+                p{
+                    font-weight: 600;
+                    color: #6B7280;
+                    margin-top: 5vmin;
+                    font-size: 2vmin;
+                }
+                button.bl{
+                    width: 100%;
+                    padding: 1.5vmin;
+                    background-color:#fff;
+                    color: $secondary;
+                    border: none;
+                    border: 1.5px solid $secondary;
+                    outline: none;
+                    font-weight: 600;
+                    margin-top: 3vmin;
+                }
+            }
         }
     }
 }
@@ -176,10 +464,12 @@
         .bg {
             .left {
                 width: 100%;
+                padding: 5vmin;
             }
 
             .right {
                 width: 100%;
+                padding: 5vmin;
             }
         }
     }
