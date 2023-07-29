@@ -243,16 +243,18 @@
                             li {
 
                                 font-weight: 500;
-                                ol{
+
+                                ol {
                                     list-style: none;
                                     margin: 2vmin 0;
-                                    li{
+
+                                    li {
                                         font-weight: 500;
                                         color: #6B7280;
-                                        margin: 1vmin 0 ;
+                                        margin: 1vmin 0;
                                     }
                                 }
-                                    
+
                             }
                         }
                     }
@@ -266,6 +268,7 @@
                     }
                 }
             }
+
             .box8 {
                 background-color: $primary;
                 color: $surface;
@@ -288,12 +291,14 @@
                         font-size: 2.5vmin;
                         font-weight: 400;
                     }
+
                     &:nth-child(3) {
                         font-size: 2.5vmin;
                         font-weight: 400;
                     }
                 }
             }
+
             .box9 {
                 background-color: $primary;
                 color: $surface;
@@ -317,7 +322,8 @@
         .right {
             width: 25%;
             padding: 7vmin;
-            .box1{
+
+            .box1 {
                 background-color: $primary;
                 color: $surface;
                 font-size: 2.5vmin;
@@ -325,25 +331,31 @@
                 padding: 4vmin 2vmin;
                 border-radius: 2.5vmin;
                 margin-top: 4vmin;
-                p{
+
+                p {
                     font-weight: 600;
                     color: #6B7280;
                 }
-                .radiobox{
+
+                .radiobox {
                     margin: 0vmin 0;
-                    input{
+
+                    input {
                         margin-right: 1vmin;
                     }
-                    .text{
+
+                    .text {
                         font-size: 2vmin;
                         font-weight: 500;
-                        h4{
+
+                        h4 {
                             font-size: 2vmin;
                             font-weight: 500;
                             color: $surface;
                             margin-top: 1.5vmin;
                         }
-                        p{
+
+                        p {
                             font-size: 1.7vmin;
                             font-weight: 400;
                             color: #6B7280;
@@ -351,31 +363,36 @@
                         }
                     }
                 }
-                b{
+
+                b {
                     font-size: 5vmin;
                     font-weight: 700;
                     color: $surface;
                     margin-top: 1.5vmin;
-                    del{
+
+                    del {
                         font-size: 3vmin;
                         font-weight: 400;
                         color: #6B7280;
                         margin-top: -3vmin;
                     }
                 }
-                p.disc{
+
+                p.disc {
                     font-size: 2vmin;
                     font-weight: 900;
                     margin: 1vmin;
                     color: lime;
                 }
-                p.det{
+
+                p.det {
                     color: #6B7280;
                     font-size: 2vmin;
                     font-weight: 500;
                     margin-top: 0vmin;
                 }
-                button.or{
+
+                button.or {
                     width: 100%;
                     padding: 1.5vmin;
                     background-color: #F2B244;
@@ -383,14 +400,16 @@
                     border: none;
                     outline: none;
                     font-weight: 600;
-                    i{
+
+                    i {
                         margin-right: 1vmin;
                     }
                 }
-                button.bl{
+
+                button.bl {
                     width: 100%;
                     padding: 1.5vmin;
-                    background-color:#fff;
+                    background-color: #fff;
                     color: $secondary;
                     border: none;
                     border: 1.5px solid $secondary;
@@ -400,7 +419,8 @@
                 }
 
             }
-            .box2{
+
+            .box2 {
                 background-color: $primary;
                 color: $surface;
                 font-size: 2.5vmin;
@@ -408,25 +428,29 @@
                 padding: 4vmin 2vmin;
                 border-radius: 2.5vmin;
                 margin-top: 4vmin;
-                .sub{
+
+                .sub {
                     height: 300px;
                     width: 90%;
                     box-shadow: 0px 1px 9px 6px black;
                     padding: 3vmin;
                     position: relative;
-                    b{
+
+                    b {
                         color: $secondary;
                         font-size: 2.5vmin;
                         font-weight: 700;
                     }
-                    p{
+
+                    p {
                         color: #6B7280;
                         font-size: 4vmin;
                         font-weight: 900;
                         margin-top: 6vmin;
                         opacity: 0.7;
                     }
-                    span{
+
+                    span {
                         position: absolute;
                         bottom: 30px;
                         right: 0;
@@ -437,16 +461,18 @@
                         font-weight: 700;
                     }
                 }
-                p{
+
+                p {
                     font-weight: 600;
                     color: #6B7280;
                     margin-top: 5vmin;
                     font-size: 2vmin;
                 }
-                button.bl{
+
+                button.bl {
                     width: 100%;
                     padding: 1.5vmin;
-                    background-color:#fff;
+                    background-color: #fff;
                     color: $secondary;
                     border: none;
                     border: 1.5px solid $secondary;
@@ -455,7 +481,8 @@
                     margin-top: 3vmin;
                 }
             }
-            .box3{
+
+            .box3 {
                 background-color: $primary;
                 color: $surface;
                 font-size: 3.5vmin;
@@ -463,7 +490,48 @@
                 padding: 4vmin 2vmin;
                 border-radius: 2.5vmin;
                 margin-top: 4vmin;
-                
+
+            }
+
+            .box4 {
+                background-color: $primary;
+                color: $surface;
+                font-size: 2.5vmin;
+                font-weight: 400;
+                padding: 4vmin 2vmin;
+                border-radius: 2.5vmin;
+                margin-top: 4vmin;
+
+                p {
+                    font-weight: 600;
+                    font-size: 3vmin;
+                }
+
+                i {
+                    font-size: 2vmin;
+                    color: #6B7280;
+                    padding-bottom: 3vmin;
+                    border-bottom: 1px solid #cfcfcf;
+                }
+
+                .profile {
+                    img{
+                        height: 30px;
+                    }
+                    .text {
+                        margin-top: 3vmin;
+                        margin-left: 1vmin;
+                        b {
+                            font-size: 2vmin;
+                            font-weight: 600;
+                        }
+                        p{
+                            font-size: 2vmin;
+                            font-weight: 400;
+                            color: #6B7280;
+                        }
+                    }
+                }
             }
         }
     }

@@ -3066,6 +3066,41 @@ header .mailSection span {
   border-radius: 2.5vmin;
   margin-top: 4vmin;
 }
+.main .bg .right .box4 {
+  background-color: #fff;
+  color: #0D1322;
+  font-size: 2.5vmin;
+  font-weight: 400;
+  padding: 4vmin 2vmin;
+  border-radius: 2.5vmin;
+  margin-top: 4vmin;
+}
+.main .bg .right .box4 p {
+  font-weight: 600;
+  font-size: 3vmin;
+}
+.main .bg .right .box4 i {
+  font-size: 2vmin;
+  color: #6B7280;
+  padding-bottom: 3vmin;
+  border-bottom: 1px solid #cfcfcf;
+}
+.main .bg .right .box4 .profile img {
+  height: 30px;
+}
+.main .bg .right .box4 .profile .text {
+  margin-top: 3vmin;
+  margin-left: 1vmin;
+}
+.main .bg .right .box4 .profile .text b {
+  font-size: 2vmin;
+  font-weight: 600;
+}
+.main .bg .right .box4 .profile .text p {
+  font-size: 2vmin;
+  font-weight: 400;
+  color: #6B7280;
+}
 
 @media (max-width: 720px) {
   .main .bg .left {
