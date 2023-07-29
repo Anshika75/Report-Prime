@@ -649,5 +649,10 @@
                 padding: 5vmin;
             }
         }
+        .reports{
+            .container{
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
     }
 }

@@ -3187,6 +3187,9 @@ header .mailSection span {
     width: 100%;
     padding: 5vmin;
   }
+  .main .reports .container {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 body {
   background-color: #ECF2FC;
