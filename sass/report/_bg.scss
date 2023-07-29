@@ -5,14 +5,25 @@
 
     .bg {
         width: 100%;
-        height: 100vh;
-        background-image: url("../../Assets/report.png");
-        background-size: cover;
         z-index: 1;
+        position: relative;
+
+        &::after {
+            position: absolute;
+            content: '';
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            background-image: url("../../Assets/report.png");
+            background-size: cover;
+
+        }
 
         .left {
             width: 75%;
             padding: 10vmin;
+            z-index: 20;
 
             .covid {
                 background-color: #D9E8FD;
@@ -320,6 +331,7 @@
         }
 
         .right {
+            z-index: 20;
             width: 25%;
             padding: 7vmin;
 
@@ -515,17 +527,20 @@
                 }
 
                 .profile {
-                    img{
+                    img {
                         height: 30px;
                     }
+
                     .text {
                         margin-top: 3vmin;
                         margin-left: 1vmin;
+
                         b {
                             font-size: 2vmin;
                             font-weight: 600;
                         }
-                        p{
+
+                        p {
                             font-size: 2vmin;
                             font-weight: 400;
                             color: #6B7280;
@@ -542,18 +557,22 @@
                 padding: 4vmin 2vmin;
                 border-radius: 2.5vmin;
                 margin-top: 4vmin;
-                p{
+
+                p {
                     text-align: center;
                 }
-                .sub{
+
+                .sub {
                     margin-top: 3vmin;
-                    p{
+
+                    p {
                         margin-top: 2vmin;
                         font-size: 2.5vmin;
                         font-weight: 500;
                     }
                 }
-                b{
+
+                b {
                     font-size: 2.5vmin;
                     font-weight: 600;
                     margin-top: 3vmin;
@@ -561,6 +580,57 @@
                     cursor: pointer;
                 }
 
+            }
+        }
+
+    }
+
+    .reports {
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 5vmin;
+            margin: 5vmin 0;
+
+            .box {
+                background-color: $primary;
+                color: $surface;
+                font-size: 2.5vmin;
+                font-weight: 400;
+                padding: 4vmin 2vmin;
+                border-radius: 2.5vmin;
+                margin-top: 4vmin;
+
+                p {
+                    font-size: 2vmin;
+                    font-weight: 600;
+                }
+
+                .covid {
+                    color: $surface;
+                    background-color: #feca7078;
+                    padding: 1vmin 2vmin;
+                    width: 180px;
+                    text-align: center;
+                    border-radius: 5vmin;
+                }
+
+                h5{
+                    font-weight: 600;
+                    margin-top: 2vmin;
+                }
+                .details{
+                    p{
+                        font-size: 1.8vmin;
+                        font-weight: 500;
+                        color: #6B7280;
+                    }
+                }
+                i{
+                    a{
+                        color:$surface;
+                    }
+                }
             }
         }
     }
