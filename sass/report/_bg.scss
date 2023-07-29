@@ -533,6 +533,35 @@
                     }
                 }
             }
+
+            .box5 {
+                background-color: $primary;
+                color: $surface;
+                font-size: 3vmin;
+                font-weight: 600;
+                padding: 4vmin 2vmin;
+                border-radius: 2.5vmin;
+                margin-top: 4vmin;
+                p{
+                    text-align: center;
+                }
+                .sub{
+                    margin-top: 3vmin;
+                    p{
+                        margin-top: 2vmin;
+                        font-size: 2.5vmin;
+                        font-weight: 500;
+                    }
+                }
+                b{
+                    font-size: 2.5vmin;
+                    font-weight: 600;
+                    margin-top: 3vmin;
+                    color: $secondary;
+                    cursor: pointer;
+                }
+
+            }
         }
     }
 }

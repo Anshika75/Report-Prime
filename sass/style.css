@@ -3101,6 +3101,33 @@ header .mailSection span {
   font-weight: 400;
   color: #6B7280;
 }
+.main .bg .right .box5 {
+  background-color: #fff;
+  color: #0D1322;
+  font-size: 3vmin;
+  font-weight: 600;
+  padding: 4vmin 2vmin;
+  border-radius: 2.5vmin;
+  margin-top: 4vmin;
+}
+.main .bg .right .box5 p {
+  text-align: center;
+}
+.main .bg .right .box5 .sub {
+  margin-top: 3vmin;
+}
+.main .bg .right .box5 .sub p {
+  margin-top: 2vmin;
+  font-size: 2.5vmin;
+  font-weight: 500;
+}
+.main .bg .right .box5 b {
+  font-size: 2.5vmin;
+  font-weight: 600;
+  margin-top: 3vmin;
+  color: #004ab3;
+  cursor: pointer;
+}
 
 @media (max-width: 720px) {
   .main .bg .left {
