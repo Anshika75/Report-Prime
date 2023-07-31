@@ -656,3 +656,24 @@
         }
     }
 }
+
+@media (min-width:721px) and (max-width:1000px) {
+    .main {
+        .bg {
+            .left {
+                width: 100%;
+                padding: 5vmin;
+            }
+
+            .right {
+                width: 100%;
+                padding: 5vmin;
+            }
+        }
+        .reports{
+            .container{
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+    }
+}

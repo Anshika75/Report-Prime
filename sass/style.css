@@ -3191,6 +3191,19 @@ header .mailSection span {
     grid-template-columns: repeat(1, 1fr);
   }
 }
+@media (min-width: 721px) and (max-width: 1000px) {
+  .main .bg .left {
+    width: 100%;
+    padding: 5vmin;
+  }
+  .main .bg .right {
+    width: 100%;
+    padding: 5vmin;
+  }
+  .main .reports .container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
 body {
   background-color: #ECF2FC;
 }
