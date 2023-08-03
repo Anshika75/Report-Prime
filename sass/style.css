@@ -3271,6 +3271,30 @@ header .mailSection span {
     width: 100%;
     padding: 5vmin;
   }
+  .main .bg .left .box8 .main-bottom-up-approch-piramid {
+    padding: 0;
+  }
+  .main .bg .left .box8 .main-bottom-up-approch-piramid .section-bottom-up-approch-piramid {
+    width: 100%;
+  }
+  .main .bg .left .box8 .main-bottom-up-approch-piramid .section-bottom-up-approch-piramid .piramind-container .pyramid-wrapper {
+    width: 100%;
+  }
+  .main .bg .left .box8 .main-bottom-up-approch-piramid .section-bottom-up-approch-piramid .piramind-container .pyramid-wrapper .pyramid__section {
+    font-size: 9px;
+  }
+  .main .bg .left .box8 .main-bottom-up-approch-piramid-sec {
+    padding: 0;
+  }
+  .main .bg .left .box8 .main-bottom-up-approch-piramid-sec .section-bottom-up-approch-piramid-sec {
+    width: 100%;
+  }
+  .main .bg .left .box8 .main-bottom-up-approch-piramid-sec .section-bottom-up-approch-piramid-sec .piramind-container-sec .pyramid-wrapper-sec {
+    width: 100%;
+  }
+  .main .bg .left .box8 .main-bottom-up-approch-piramid-sec .section-bottom-up-approch-piramid-sec .piramind-container-sec .pyramid-wrapper-sec .pyramid-sec_section2 {
+    font-size: 9px;
+  }
   .main .bg .right {
     width: 100%;
     padding: 5vmin;

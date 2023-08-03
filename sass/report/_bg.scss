@@ -292,7 +292,7 @@
                 P {
                     font-weight: 600;
                 }
-                
+
 
                 .main-bottom-up-approch-piramid {
                     padding: 1.5rem;
@@ -726,20 +726,22 @@
                     border-radius: 5vmin;
                 }
 
-                h5{
+                h5 {
                     font-weight: 600;
                     margin-top: 2vmin;
                 }
-                .details{
-                    p{
+
+                .details {
+                    p {
                         font-size: 1.8vmin;
                         font-weight: 500;
                         color: #6B7280;
                     }
                 }
-                i{
-                    a{
-                        color:$surface;
+
+                i {
+                    a {
+                        color: $surface;
                     }
                 }
             }
@@ -753,6 +755,48 @@
             .left {
                 width: 100%;
                 padding: 5vmin;
+
+                .box8 {
+
+                    .main-bottom-up-approch-piramid {
+                        padding: 0;
+
+                        .section-bottom-up-approch-piramid {
+
+                            width: 100%;
+
+                            .piramind-container {
+
+                                .pyramid-wrapper {
+                                    width: 100%;
+
+                                    .pyramid__section {
+                                        font-size: 9px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .main-bottom-up-approch-piramid-sec {
+                        padding: 0;
+
+                        .section-bottom-up-approch-piramid-sec {
+                            width: 100%;
+
+                            .piramind-container-sec {
+
+                                .pyramid-wrapper-sec {
+                                    width: 100%;
+
+                                    .pyramid-sec_section2 {
+                                        font-size: 9px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
             }
 
             .right {
@@ -760,8 +804,9 @@
                 padding: 5vmin;
             }
         }
-        .reports{
-            .container{
+
+        .reports {
+            .container {
                 grid-template-columns: repeat(1, 1fr);
             }
         }
@@ -781,8 +826,9 @@
                 padding: 5vmin;
             }
         }
-        .reports{
-            .container{
+
+        .reports {
+            .container {
                 grid-template-columns: repeat(1, 1fr);
             }
         }
