@@ -238,8 +238,8 @@
                         more countries or we can be specific to one country based on your specific requirements. The
                         report covers the competitive and regional landscape. Also, talks about the macro and micro
                         economic factors. <br><br></p>
-                    <div class="sub1">
-                        <canvas id="myChart2"></canvas>
+                    <div class="map-automotive">
+                        <div id="regions_div"></div>
                     </div>
                 </div>
                 <div class="box5">
@@ -304,7 +304,7 @@
                 </div>
                 <div class="box6">
                     <p>MARKET BY APPLICATIONS</p>
-                    <p>    
+                    <p>
                         <canvas id="myChart4"></canvas>
                         Fluoropolymer coating is used in various application areas such as food processing, electrical &
                         electronics, chemical processing, building & construction, and others. In food processing,
@@ -425,7 +425,6 @@
                 <div class="box8">
                     <p>RESEARCH METHODOLOGY</p>
                     <p>
-                        <canvas id="myChart5"></canvas>
                         Bottom Up Approach <br><br>
                         Fluoropolymer Coating market is segmented by Type, and by Application. Players, stakeholders,
                         and other participants in the global Fluoropolymer Coating market will be able to gain the upper
@@ -437,8 +436,27 @@
                         and other participants in the global Lithium Metal market will be able to gain the upper hand as
                         they use the report as a powerful resource. <br><br>
                     </p>
+                    
+                    <div class="main-bottom-up-approch-piramid">
+                        <h2>Total Market Size</h2>
+                        <div class="section-bottom-up-approch-piramid">
+                            <div class="piramind-container">
+                                <div class="pyramid-wrapper">
+                                    <div class="pyramid__section">Share of <br> companies
+                                        value <br>
+                                        in each product <br> segment</div>
+
+                                    <div class="pyramid__section pyramid_section2">
+                                        Company-wise
+                                        value & <br> Volume in the total market</div>
+                                </div>
+                            </div>
+                            <span>Source: Secondary Information and Report Mines Research
+                                Team;
+                                2022</span>
+                        </div>
+                    </div>
                     <p>
-                        <canvas id="myChart6"></canvas>
                         Bottom Down Approach <br><br>
                         Fluoropolymer Coating market is segmented by Type, and by Application. Players, stakeholders,
                         and other participants in the global Fluoropolymer Coating market will be able to gain the upper
@@ -450,6 +468,27 @@
                         and other participants in the global Lithium Metal market will be able to gain the upper hand as
                         they use the report as a powerful resource. <br><br>
                     </p>
+                    
+                    <div class="main-bottom-up-approch-piramid-sec">
+                        <h2>Total Market Size</h2>
+                        <div class="section-bottom-up-approch-piramid-sec">
+                            <div class="piramind-container-sec">
+                                <div class="pyramid-wrapper-sec">
+                                    <div class="pyramid-sec__section">Company-wise
+                                        value & <br> Volume in the total market</div>
+
+                                    <div class="pyramid-sec__section pyramid-sec_section2">
+                                        Share of
+                                        <br> companies value <br>
+                                        in each product <br> segment
+                                    </div>
+                                </div>
+                            </div>
+                            <span>Source: Secondary Information and Report Mines Research
+                                Team; 2022
+                            </span>
+                        </div>
+                    </div>
                 </div>
                 <div class="box9">
                     <p>EXPERT ADVICE</p>
@@ -788,47 +827,118 @@
     </div>
     <script src="./javascript/navigation.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script>
-        const ctx = document.getElementById('myChart');
+        var ctx = document.getElementById('myChart');
 
         new Chart(ctx, {
             type: 'bar',
             data: {
-                labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+                labels: ['2011', '2013', '2015', '2017', '2019', '2022'],
                 datasets: [{
                     label: '# of Votes',
-                    data: [12, 19, 3, 5, 2, 3],
-                    borderWidth: 1
-                }]
-            },
-            options: {
-                scales: {
-                    y: {
-                        beginAtZero: true
-                    }
-                }
-            }
-        });
-        const ctx2 = document.getElementById('myChart2');
+                    data: [20, 5, 5, 49, 20, 20],
+                    borderWidth: 1,
+                    backgroundColor: [
+                        '#1F7CFF',
+                        '#1F7CFF',
+                        '#1F7CFF',
+                        '#1F7CFF',
+                        '#1F7CFF',
+                        '#0D4FAC'
+                    ],
+                    borderColor: [
+                        '#1F7CFF',
+                        '#1F7CFF',
+                        '#1F7CFF',
+                        '#1F7CFF',
+                        '#1F7CFF',
+                        '#0D4FAC'
+                    ],
+                    yAxisID: 'y'
+                }, {
+                    label: '# of Votes',
+                    // data: [20, 5, 30, 10, 40, 15],
+                    data: [5, 20, 25, 5, 32, 15],
+                    backgroundColor: [
+                        '#1F7CFF',
+                        '#1F7CFF',
+                        '#1F7CFF',
+                        '#1F7CFF',
+                        '#1F7CFF',
+                        '#1F7CFF'
+                    ],
+                    borderColor: [
+                        '#1F7CFF',
+                        '#1F7CFF',
+                        '#1F7CFF',
+                        '#1F7CFF',
+                        '#1F7CFF',
+                        '#1F7CFF'
 
-        new Chart(ctx2, {
-            type: 'bar',
-            data: {
-                labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
-                datasets: [{
-                    label: '# of Votes',
-                    data: [12, 19, 3, 5, 2, 3],
-                    borderWidth: 1
+                    ],
+                    borderWidth: 1,
+                    yAxisID: 'a'
                 }]
             },
             options: {
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        display: false
+                    }
+                },
                 scales: {
                     y: {
-                        beginAtZero: true
+                        beginAtZero: true,
+                        type: 'linear',
+                        position: 'left',
+                        min: 0,
+                        max: 100,
+                        ticks: {
+                            stepSize: 10,
+                        }
+                    },
+                    a: {
+                        beginAtZero: true,
+                        type: 'linear',
+                        position: 'right',
+                        min: 0,
+                        max: 100,
+                        ticks: {
+                            stepSize: 20,
+                        }
                     }
                 }
             }
         });
+
+        google.charts.load('current', {
+            'packages': ['geochart'],
+        });
+
+        google.charts.setOnLoadCallback(drawRegionsMap);
+
+        function drawRegionsMap() {
+            var data = google.visualization.arrayToDataTable([
+                ['Country', 'Popularity'],
+                ['Germany', 200],
+                ['United States', 300],
+                ['Brazil', 400],
+                ['Canada', 500],
+                ['France', 600],
+                ['RU', 700]
+            ]);
+
+            var options = {
+                colorAxis: { colors: ['#1F7CFF', '#142246'] }
+            };
+
+            var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
+
+            chart.draw(data, options);
+        }
+
         const ctx3 = document.getElementById('myChart3');
 
         new Chart(ctx3, {
@@ -845,6 +955,68 @@
                 scales: {
                     y: {
                         beginAtZero: true
+                    }
+                }
+            }
+        });
+
+        var ctx = document.getElementById('myChart3');
+
+        new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022],
+                datasets: [{
+                    label: '',
+                    data: [190, 190, 190, 190, 190, 190, 190, 190, 190, 190, 190],
+                    borderWidth: 1,
+                    backgroundColor: [
+                        '#CBD5E1'
+                    ],
+                    borderColor: [
+                        '#CBD5E1'
+                    ],
+                }, {
+                    label: '# of Votes',
+                    data: [200, 200, 200, 200, 200, 200, 200, 200, 200, 200, 200],
+                    borderWidth: 1,
+                    backgroundColor: [
+                        '#3B82F6'
+                    ],
+                    borderColor: [
+                        '#3B82F6'
+                    ],
+                }, {
+                    label: '# of Votes',
+                    data: [110, 110, 110, 110, 110, 110, 110, 110, 110, 110, 110],
+                    borderWidth: 1,
+                    backgroundColor: [
+                        '#0D4FAC'
+                    ],
+                    borderColor: [
+                        '#0D4FAC'
+                    ],
+                }]
+            },
+            options: {
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        display: false
+                    }
+                },
+                scales: {
+                    x: {
+                        stacked: true,
+                    },
+                    y: {
+                        beginAtZero: true,
+                        stacked: true,
+                        min: 0,
+                        max: 700,
+                        ticks: {
+                            stepSize: 100,
+                        }
                     }
                 }
             }
@@ -869,47 +1041,7 @@
                 }
             }
         });
-        const ctx5 = document.getElementById('myChart5');
-
-        new Chart(ctx5, {
-            type: 'bar',
-            data: {
-                labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
-                datasets: [{
-                    label: '# of Votes',
-                    data: [12, 19, 3, 5, 2, 3],
-                    borderWidth: 1
-                }]
-            },
-            options: {
-                scales: {
-                    y: {
-                        beginAtZero: true
-                    }
-                }
-            }
-        });
-        const ctx6 = document.getElementById('myChart6');
-
-        new Chart(ctx6, {
-            type: 'bar',
-            data: {
-                labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
-                datasets: [{
-                    label: '# of Votes',
-                    data: [12, 19, 3, 5, 2, 3],
-                    borderWidth: 1
-                }]
-            },
-            options: {
-                scales: {
-                    y: {
-                        beginAtZero: true
-                    }
-                }
-            }
-        });
-    </script>
+        </script>
 </body>
 
 </html>

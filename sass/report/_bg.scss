@@ -291,21 +291,132 @@
 
                 P {
                     font-weight: 600;
+                }
+                
 
-                    canvas {
-                        float: right;
-                        width: 300px;
-                        margin: 2vmin;
+                .main-bottom-up-approch-piramid {
+                    padding: 1.5rem;
+                    background: $pyramid-background-lightblue-color;
+
+                    h2 {
+                        font-size: 16px;
+                        font-weight: 500;
+                        color: $secondary-text-black-color;
+
                     }
 
-                    &:nth-child(2) {
-                        font-size: 2.5vmin;
-                        font-weight: 400;
+                    .section-bottom-up-approch-piramid {
+                        width: 420px;
+
+                        .piramind-container {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+
+                            .pyramid-wrapper {
+                                width: 370px;
+                                display: flex;
+                                flex-direction: column;
+                                height: 370px;
+                                -webkit-clip-path: polygon(50% 0, 100% 85%, 0 85%);
+                                clip-path: polygon(50% 0%, 100% 85%, 0 85%);
+
+
+
+                                .pyramid__section {
+                                    flex: 1 1 100%;
+                                    background-color: $pyramid-lightblue-color;
+                                    margin-bottom: 0px;
+                                    text-align: center;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    flex-wrap: wrap;
+                                    font-size: 11px;
+                                    font-weight: 500;
+                                    padding-top: 2rem;
+                                    color: $text-black-color;
+
+                                }
+
+                                .pyramid_section2 {
+                                    background: $pyramid-darkblue-color;
+                                    padding-bottom: 62px;
+                                    padding-top: 0;
+                                    color: $text-white-color;
+                                    font-size: 11px;
+                                    font-weight: 500;
+                                }
+                            }
+                        }
+
+                        span {
+                            font-size: 10px;
+                            font-weight: 400;
+                            color: $text-black-color;
+                        }
+                    }
+                }
+
+                .main-bottom-up-approch-piramid-sec {
+                    padding: 1.5rem;
+                    background: $pyramid-background-lightorange-color;
+
+                    h2 {
+                        font-size: 16px;
+                        font-weight: 500;
+                        color: $secondary-text-black-color;
+
                     }
 
-                    &:nth-child(3) {
-                        font-size: 2.5vmin;
-                        font-weight: 400;
+
+                    .section-bottom-up-approch-piramid-sec {
+                        width: 420px;
+
+                        .piramind-container-sec {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            margin-bottom: 1rem;
+
+                            .pyramid-wrapper-sec {
+                                width: 370px;
+                                display: flex;
+                                flex-direction: column;
+                                height: 370px;
+                                -webkit-clip-path: polygon(100% 10%, 0% 10%, 50% 100%);
+                                clip-path: polygon(100% 10%, 0% 10%, 50% 100%);
+
+                                .pyramid-sec__section {
+                                    flex: 1 1 100%;
+                                    background-color: $pyramid-darkorange-color;
+                                    margin-bottom: 0px;
+                                    text-align: center;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    flex-wrap: wrap;
+                                    font-size: 11px;
+                                    font-weight: 500;
+                                    padding-top: 2rem;
+                                    color: $text-white-color;
+                                }
+
+                                .pyramid-sec_section2 {
+                                    background: $pyramid-lightorange-color;
+                                    padding-top: 0;
+                                    padding-bottom: 2rem;
+                                    color: $text-black-color;
+                                }
+                            }
+
+
+
+                        }
+
+                        span {
+                            font-size: 10px;
+                        }
                     }
                 }
             }

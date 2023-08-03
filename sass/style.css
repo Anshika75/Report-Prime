@@ -2741,7 +2741,7 @@ header .mailSection span {
   height: 300px;
   width: 100%;
 }
-.main .bg .left .box2 .sub1 img {
+.main .bg .left .box2 .sub1 canvas {
   height: 100%;
   width: 100%;
 }
@@ -2795,7 +2795,7 @@ header .mailSection span {
   height: 300px;
   width: 100%;
 }
-.main .bg .left .box4 .sub1 img {
+.main .bg .left .box4 .sub1 canvas {
   height: 100%;
   width: 100%;
 }
@@ -2811,7 +2811,7 @@ header .mailSection span {
 .main .bg .left .box5 P {
   font-weight: 600;
 }
-.main .bg .left .box5 P img {
+.main .bg .left .box5 P canvas {
   float: right;
   width: 300px;
 }
@@ -2831,7 +2831,7 @@ header .mailSection span {
 .main .bg .left .box6 P {
   font-weight: 600;
 }
-.main .bg .left .box6 P img {
+.main .bg .left .box6 P canvas {
   float: right;
   width: 300px;
 }
@@ -2896,18 +2896,106 @@ header .mailSection span {
 .main .bg .left .box8 P {
   font-weight: 600;
 }
-.main .bg .left .box8 P img {
-  float: right;
-  width: 300px;
-  margin: 2vmin;
+.main .bg .left .box8 .main-bottom-up-approch-piramid {
+  padding: 1.5rem;
+  background: #F6F9FF;
 }
-.main .bg .left .box8 P:nth-child(2) {
-  font-size: 2.5vmin;
-  font-weight: 400;
+.main .bg .left .box8 .main-bottom-up-approch-piramid h2 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #1D2129;
 }
-.main .bg .left .box8 P:nth-child(3) {
-  font-size: 2.5vmin;
+.main .bg .left .box8 .main-bottom-up-approch-piramid .section-bottom-up-approch-piramid {
+  width: 420px;
+}
+.main .bg .left .box8 .main-bottom-up-approch-piramid .section-bottom-up-approch-piramid .piramind-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .bg .left .box8 .main-bottom-up-approch-piramid .section-bottom-up-approch-piramid .piramind-container .pyramid-wrapper {
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+  height: 370px;
+  -webkit-clip-path: polygon(50% 0, 100% 85%, 0 85%);
+  clip-path: polygon(50% 0%, 100% 85%, 0 85%);
+}
+.main .bg .left .box8 .main-bottom-up-approch-piramid .section-bottom-up-approch-piramid .piramind-container .pyramid-wrapper .pyramid__section {
+  flex: 1 1 100%;
+  background-color: #c1d6f5;
+  margin-bottom: 0px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 11px;
+  font-weight: 500;
+  padding-top: 2rem;
+  color: #000000;
+}
+.main .bg .left .box8 .main-bottom-up-approch-piramid .section-bottom-up-approch-piramid .piramind-container .pyramid-wrapper .pyramid_section2 {
+  background: #0D4FAC;
+  padding-bottom: 62px;
+  padding-top: 0;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 500;
+}
+.main .bg .left .box8 .main-bottom-up-approch-piramid .section-bottom-up-approch-piramid span {
+  font-size: 10px;
   font-weight: 400;
+  color: #000000;
+}
+.main .bg .left .box8 .main-bottom-up-approch-piramid-sec {
+  padding: 1.5rem;
+  background: #FBF9F6;
+}
+.main .bg .left .box8 .main-bottom-up-approch-piramid-sec h2 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #1D2129;
+}
+.main .bg .left .box8 .main-bottom-up-approch-piramid-sec .section-bottom-up-approch-piramid-sec {
+  width: 420px;
+}
+.main .bg .left .box8 .main-bottom-up-approch-piramid-sec .section-bottom-up-approch-piramid-sec .piramind-container-sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.main .bg .left .box8 .main-bottom-up-approch-piramid-sec .section-bottom-up-approch-piramid-sec .piramind-container-sec .pyramid-wrapper-sec {
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+  height: 370px;
+  -webkit-clip-path: polygon(100% 10%, 0% 10%, 50% 100%);
+  clip-path: polygon(100% 10%, 0% 10%, 50% 100%);
+}
+.main .bg .left .box8 .main-bottom-up-approch-piramid-sec .section-bottom-up-approch-piramid-sec .piramind-container-sec .pyramid-wrapper-sec .pyramid-sec__section {
+  flex: 1 1 100%;
+  background-color: #E6993F;
+  margin-bottom: 0px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 11px;
+  font-weight: 500;
+  padding-top: 2rem;
+  color: #ffffff;
+}
+.main .bg .left .box8 .main-bottom-up-approch-piramid-sec .section-bottom-up-approch-piramid-sec .piramind-container-sec .pyramid-wrapper-sec .pyramid-sec_section2 {
+  background: #F3E7D8;
+  padding-top: 0;
+  padding-bottom: 2rem;
+  color: #000000;
+}
+.main .bg .left .box8 .main-bottom-up-approch-piramid-sec .section-bottom-up-approch-piramid-sec span {
+  font-size: 10px;
 }
 .main .bg .left .box9 {
   background-color: #fff;

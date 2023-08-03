@@ -1,3 +1,141 @@
-$primary: #fff;
-$surface: #0D1322;
-$secondary: #004ab3;
+ // background color variable----- start
+
+  // index- banner;
+  $gradient-banner: linear-gradient(355deg, rgb(0 92 229 / 78%), rgb(0 126 255 / 86%), rgba(0, 73, 207, 0.92), #037adf);
+
+  // index-report-category
+  $gradient-background: linear-gradient(180deg, #1F7CFF 2.08%, #1E5AFA 100%);
+
+
+  $background-contact-header: #0D1322;
+  $primary-background-lightblue: #EDF6FF;
+  $primary-footer-background: #142246;
+  $primary-light-green-shadow: #9FC179;
+  $primary-background-black: #000000;
+  $primary-background-white: #ffffff;
+  $primary-background-skyblue: #1f7cff;
+  $secondary-background-lightblue: #F6F9FF;
+  $third-background-lightblue: #BCC6D2;
+  $special-tag-background-color: #69FF44;
+  $pyramid-background-lightblue-color: #F6F9FF;
+  $pyramid-background-lightorange-color: #FBF9F6;
+  $pyramid-darkblue-color: #0D4FAC;
+  $pyramid-lightblue-color: #c1d6f5;
+  $pyramid-lightorange-color: #F3E7D8;
+  $pyramid-darkorange-color: #E6993F;
+  $background-light-green: #69FF44;
+
+
+
+
+
+  $primary-red : #ED0505;
+  $covid-backround-orange-color: #FFE6BA;
+  $covid-background-blue-color: #D9E8FD;
+
+
+
+  // text-color 
+  $text-black-color: #000000;
+  $text-white-color: #ffffff;
+  $text-blue-1-color: #1E5AFA;
+  $text-blue-2-color: #1f7cff;
+  $text-redish-black-color: #333333;
+  $text-green-black-color: #214E25;
+  $secondary-text-black-color: #1D2129;
+  $text-secondary-black-2-color: #111111;
+  $text-secondary-black-3-color: #2C2C2C;
+  $text-gray: #888888;
+  $text-blackish-gray: #121212;
+  $text-light-green: #69FF44;
+  $text-light-gray: #373737;
+  $text-cupon-code-color: #00AB45;
+
+
+
+
+
+
+
+
+
+
+  // ribbon color 
+  $ribbon-last-layer-color: #AE7B23;
+  $ribbon-second-layer-color: #F2B244;
+  $ribbon-first-layer-color: #CA8713;
+  $ribbon-shadow-color: #654612;
+
+
+
+  //timeline color code
+
+  $timeline-non-hover-color: #142246;
+  $timeline-hover-color: #1f7cff;
+  $timeline-non-hover-inner-color: #C1D6F5;
+  $timeline-hover-inner-color: #F6F9FF;
+
+
+  // button color code 
+
+  $button-non-hover-blue-color: #1F7CFF;
+  $button-text-blue-color: #1F7CFF;
+  $button-background-white-color: #ffffff;
+  $button-text-white: #ffffff;
+  $button-text-black: #000000;
+  $button-buy-now-color: #F2B244;
+  $button-cancel-color: #5B5B5B;
+  $button-paypal-color: #FFC93D;
+  $button-paywithstrip-color: #604ECE;
+  $button-debit-credit-color: #000000;
+  $button-hover-color: linear-gradient(0deg, #116ACC, #116ACC),
+  linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3));
+  
+
+
+  $primary-border-color: #1f7cff;
+  $primary-border-white-color: #ffffff;
+  $primary-border-gray-color: gray;
+  $secondary-border-lightblue-color: #BCC6D2;
+  $border-light-green: #69FF44;
+  $border-black-color: #000000;
+  $border-cupon-color: #00AB45;
+
+
+
+
+
+  // form input border color
+  $form-border-color: #D1D9E5;
+  $form-input-gradient-color: linear-gradient(0deg, #F6F9FF, #F6F9FF),
+      linear-gradient(0deg, #D1D9E5, #D1D9E5);
+  $form-input-outline: #1f7cff;
+
+
+
+
+  // swiper slider pagination bullet backgroud color
+
+  $gray-active-bullet-bg: #676D7A;
+
+
+
+  // vertical line color
+
+  $vertical-gray-line: #A1A1A1;
+  $vertical-blue-line: #288FF7;
+  $horizontal-gray-line: #BBBBBB;
+
+
+  // slider progress bar color code
+
+  $primary-progress-bar-filled: #0D4FAC;
+  $primary-progress-bar-not-filled: #C1D6F5;
+
+
+  //table color code
+
+  $table-border: #E5E7EB;
+  $table-header-background: #F9FAFB;
+  $table-head-text: #6B7280;
+  $table-body-text: #1F2937;
