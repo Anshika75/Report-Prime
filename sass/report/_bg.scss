@@ -446,12 +446,13 @@
                 margin-top: 4vmin;
                 #FAQS{
                     details{
+                        font-weight: 400;
                         summary{
-                            background-color: #3541ac;
-                            margin: 10px;
+                            background-color: #C1D6F5;
+                            padding: 2vmin;
                         }
                         div.faq__content{
-                            background-color: #6a73be;
+                            background-color: $text-white-color;
                         }
                     }
                     
