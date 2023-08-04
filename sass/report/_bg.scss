@@ -409,11 +409,7 @@
                                     color: $text-black-color;
                                 }
                             }
-
-
-
                         }
-
                         span {
                             font-size: 10px;
                         }
@@ -437,6 +433,28 @@
                         font-size: 2.5vmin;
                         font-weight: 400;
                     }
+                }
+            }
+            
+            .box10 {
+                background-color: $primary;
+                color: $surface;
+                font-size: 2.5vmin;
+                font-weight: 500;
+                padding: 2.5vmin;
+                border-radius: 2.5vmin;
+                margin-top: 4vmin;
+                #FAQS{
+                    details{
+                        summary{
+                            background-color: #3541ac;
+                            margin: 10px;
+                        }
+                        div.faq__content{
+                            background-color: #6a73be;
+                        }
+                    }
+                    
                 }
             }
         }

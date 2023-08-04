@@ -3013,6 +3013,22 @@ header .mailSection span {
   font-size: 2.5vmin;
   font-weight: 400;
 }
+.main .bg .left .box10 {
+  background-color: #fff;
+  color: #0D1322;
+  font-size: 2.5vmin;
+  font-weight: 500;
+  padding: 2.5vmin;
+  border-radius: 2.5vmin;
+  margin-top: 4vmin;
+}
+.main .bg .left .box10 #FAQS details summary {
+  background-color: #3541ac;
+  margin: 10px;
+}
+.main .bg .left .box10 #FAQS details div.faq__content {
+  background-color: #6a73be;
+}
 .main .bg .right {
   z-index: 20;
   width: 25%;
