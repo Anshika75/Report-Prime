@@ -3022,12 +3022,21 @@ header .mailSection span {
   border-radius: 2.5vmin;
   margin-top: 4vmin;
 }
+.main .bg .left .box10 #FAQS {
+  border-radius: 10px;
+  overflow: hidden;
+}
 .main .bg .left .box10 #FAQS details {
   font-weight: 400;
 }
 .main .bg .left .box10 #FAQS details summary {
   background-color: #C1D6F5;
   padding: 2vmin;
+  border-bottom: 1px solid white;
+  transition: all 0.3s ease-in-out;
+}
+.main .bg .left .box10 #FAQS details summary:hover {
+  background-color: #288FF7;
 }
 .main .bg .left .box10 #FAQS details div.faq__content {
   background-color: #ffffff;

@@ -445,11 +445,18 @@
                 border-radius: 2.5vmin;
                 margin-top: 4vmin;
                 #FAQS{
+                    border-radius: 10px;
+                    overflow: hidden;
                     details{
                         font-weight: 400;
                         summary{
                             background-color: #C1D6F5;
                             padding: 2vmin;
+                            border-bottom: 1px solid white;
+                            transition: all 0.3s ease-in-out;
+                            &:hover{
+                                background-color: #288FF7;
+                            }
                         }
                         div.faq__content{
                             background-color: $text-white-color;
