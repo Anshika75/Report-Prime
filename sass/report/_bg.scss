@@ -209,16 +209,27 @@
                 P {
                     font-weight: 600;
 
-                    canvas {
-                        float: right;
-                        width: 300px;
-                    }
+                    
 
                     &:nth-child(2) {
                         font-size: 2.5vmin;
                         font-weight: 400;
                     }
+                    div.chartBox{
+                        height: 30vmin;
+                        overflow: hidden;
+                        overflow-y: scroll;
+                        width: 100px;
+                        background: #000;
+                        display: none;
+                        
+                        canvas {
+                            float: right;
+                            width: 300px;
+                        }
+                    }
                 }
+
             }
 
             .box7 {

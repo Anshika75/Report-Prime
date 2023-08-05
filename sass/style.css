@@ -2832,13 +2832,21 @@ header .mailSection span {
 .main .bg .left .box6 P {
   font-weight: 600;
 }
-.main .bg .left .box6 P canvas {
-  float: right;
-  width: 300px;
-}
 .main .bg .left .box6 P:nth-child(2) {
   font-size: 2.5vmin;
   font-weight: 400;
+}
+.main .bg .left .box6 P div.chartBox {
+  height: 30vmin;
+  overflow: hidden;
+  overflow-y: scroll;
+  width: 100px;
+  background: #000;
+  display: none;
+}
+.main .bg .left .box6 P div.chartBox canvas {
+  float: right;
+  width: 300px;
 }
 .main .bg .left .box7 {
   background-color: #fff;
