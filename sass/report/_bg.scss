@@ -449,17 +449,42 @@
                     overflow: hidden;
                     details{
                         font-weight: 400;
+                        transition: all 0.3s ease-in-out;
                         summary{
+                            list-style: none;
+                            position: relative;
                             background-color: #C1D6F5;
                             padding: 2vmin;
+
                             border-bottom: 1px solid white;
                             transition: all 0.3s ease-in-out;
                             &:hover{
                                 background-color: #288FF7;
                             }
+                            &:focus{
+                                outline: none;
+                            }
+                        }
+                        summary::after{
+                            content: '\2304';
+                            position: absolute;
+                            top: 0;
+                            right: 2vmin;
+                            font-size: 5vmin;
+                            color: #fff;
+                            transition: all 0.3s ease-in-out;
+                        }
+                        &[open] > summary::after{
+                            transform: rotate(-90deg);
+
+                        }
+                        // Remove the triangle
+                        summary::-webkit-details-marker{
+                            display: none;
                         }
                         div.faq__content{
                             background-color: $text-white-color;
+                            padding: 2vmin;
                         }
                     }
                     
