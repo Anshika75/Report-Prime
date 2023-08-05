@@ -479,14 +479,15 @@
                         summary::after{
                             content: '\2304';
                             position: absolute;
-                            top: 0;
+                            top: 30%;
+                            transform: translateY(-50%);
                             right: 2vmin;
                             font-size: 5vmin;
                             color: #fff;
                             transition: all 0.3s ease-in-out;
                         }
                         &[open] > summary::after{
-                            transform: rotate(-90deg);
+                            transform: rotate(-90deg) translateY(-10%) translateX(80%);
 
                         }
                         // Remove the triangle

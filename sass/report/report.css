@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .main {
   background-color: #ECF2FC;
 }
@@ -84,7 +85,7 @@
   height: 300px;
   width: 100%;
 }
-.main .bg .left .box2 .sub1 img {
+.main .bg .left .box2 .sub1 canvas {
   height: 100%;
   width: 100%;
 }
@@ -138,7 +139,7 @@
   height: 300px;
   width: 100%;
 }
-.main .bg .left .box4 .sub1 img {
+.main .bg .left .box4 .sub1 canvas {
   height: 100%;
   width: 100%;
 }
@@ -154,7 +155,7 @@
 .main .bg .left .box5 P {
   font-weight: 600;
 }
-.main .bg .left .box5 P img {
+.main .bg .left .box5 P canvas {
   float: right;
   width: 300px;
 }
@@ -174,13 +175,21 @@
 .main .bg .left .box6 P {
   font-weight: 600;
 }
-.main .bg .left .box6 P img {
-  float: right;
-  width: 300px;
-}
 .main .bg .left .box6 P:nth-child(2) {
   font-size: 2.5vmin;
   font-weight: 400;
+}
+.main .bg .left .box6 P div.chartBox {
+  height: 30vmin;
+  overflow: hidden;
+  overflow-y: scroll;
+  width: 100px;
+  background: #000;
+  display: none;
+}
+.main .bg .left .box6 P div.chartBox canvas {
+  float: right;
+  width: 300px;
 }
 .main .bg .left .box7 {
   background-color: #fff;
@@ -239,18 +248,106 @@
 .main .bg .left .box8 P {
   font-weight: 600;
 }
-.main .bg .left .box8 P img {
-  float: right;
-  width: 300px;
-  margin: 2vmin;
+.main .bg .left .box8 .main-bottom-up-approch-piramid {
+  padding: 1.5rem;
+  background: #F6F9FF;
 }
-.main .bg .left .box8 P:nth-child(2) {
-  font-size: 2.5vmin;
-  font-weight: 400;
+.main .bg .left .box8 .main-bottom-up-approch-piramid h2 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #1D2129;
 }
-.main .bg .left .box8 P:nth-child(3) {
-  font-size: 2.5vmin;
+.main .bg .left .box8 .main-bottom-up-approch-piramid .section-bottom-up-approch-piramid {
+  width: 420px;
+}
+.main .bg .left .box8 .main-bottom-up-approch-piramid .section-bottom-up-approch-piramid .piramind-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .bg .left .box8 .main-bottom-up-approch-piramid .section-bottom-up-approch-piramid .piramind-container .pyramid-wrapper {
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+  height: 370px;
+  -webkit-clip-path: polygon(50% 0, 100% 85%, 0 85%);
+  clip-path: polygon(50% 0%, 100% 85%, 0 85%);
+}
+.main .bg .left .box8 .main-bottom-up-approch-piramid .section-bottom-up-approch-piramid .piramind-container .pyramid-wrapper .pyramid__section {
+  flex: 1 1 100%;
+  background-color: #c1d6f5;
+  margin-bottom: 0px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 11px;
+  font-weight: 500;
+  padding-top: 2rem;
+  color: #000000;
+}
+.main .bg .left .box8 .main-bottom-up-approch-piramid .section-bottom-up-approch-piramid .piramind-container .pyramid-wrapper .pyramid_section2 {
+  background: #0D4FAC;
+  padding-bottom: 62px;
+  padding-top: 0;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 500;
+}
+.main .bg .left .box8 .main-bottom-up-approch-piramid .section-bottom-up-approch-piramid span {
+  font-size: 10px;
   font-weight: 400;
+  color: #000000;
+}
+.main .bg .left .box8 .main-bottom-up-approch-piramid-sec {
+  padding: 1.5rem;
+  background: #FBF9F6;
+}
+.main .bg .left .box8 .main-bottom-up-approch-piramid-sec h2 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #1D2129;
+}
+.main .bg .left .box8 .main-bottom-up-approch-piramid-sec .section-bottom-up-approch-piramid-sec {
+  width: 420px;
+}
+.main .bg .left .box8 .main-bottom-up-approch-piramid-sec .section-bottom-up-approch-piramid-sec .piramind-container-sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.main .bg .left .box8 .main-bottom-up-approch-piramid-sec .section-bottom-up-approch-piramid-sec .piramind-container-sec .pyramid-wrapper-sec {
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+  height: 370px;
+  -webkit-clip-path: polygon(100% 10%, 0% 10%, 50% 100%);
+  clip-path: polygon(100% 10%, 0% 10%, 50% 100%);
+}
+.main .bg .left .box8 .main-bottom-up-approch-piramid-sec .section-bottom-up-approch-piramid-sec .piramind-container-sec .pyramid-wrapper-sec .pyramid-sec__section {
+  flex: 1 1 100%;
+  background-color: #E6993F;
+  margin-bottom: 0px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 11px;
+  font-weight: 500;
+  padding-top: 2rem;
+  color: #ffffff;
+}
+.main .bg .left .box8 .main-bottom-up-approch-piramid-sec .section-bottom-up-approch-piramid-sec .piramind-container-sec .pyramid-wrapper-sec .pyramid-sec_section2 {
+  background: #F3E7D8;
+  padding-top: 0;
+  padding-bottom: 2rem;
+  color: #000000;
+}
+.main .bg .left .box8 .main-bottom-up-approch-piramid-sec .section-bottom-up-approch-piramid-sec span {
+  font-size: 10px;
 }
 .main .bg .left .box9 {
   background-color: #fff;
@@ -268,28 +365,56 @@
   font-size: 2.5vmin;
   font-weight: 400;
 }
-
-.box9 summary{
+.main .bg .left .box10 {
+  background-color: #fff;
+  color: #0D1322;
   font-size: 2.5vmin;
-  font-weight: 400;
-  color: #6B7280;
-  margin-top: 1vmin;
-  cursor: pointer;
-  background-color: #F9FAFB;
+  font-weight: 500;
+  padding: 2.5vmin;
+  border-radius: 2.5vmin;
+  margin-top: 4vmin;
 }
-.box9 details{
-  font-size: 2.5vmin;
-  font-weight: 400;
-  color: #6B7280;
-  margin-top: 1vmin;
-  cursor: pointer;
+.main .bg .left .box10 #FAQS {
+  border-radius: 10px;
+  overflow: hidden;
 }
-.box9 details .faq__content {
-  font-size: 2.5vmin;
+.main .bg .left .box10 #FAQS details {
   font-weight: 400;
-  color: #445474;
-  margin-top: 1vmin;
-  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.main .bg .left .box10 #FAQS details summary {
+  list-style: none;
+  position: relative;
+  background-color: #C1D6F5;
+  padding: 2vmin;
+  border-bottom: 1px solid white;
+  transition: all 0.3s ease-in-out;
+}
+.main .bg .left .box10 #FAQS details summary:hover {
+  background-color: #288FF7;
+}
+.main .bg .left .box10 #FAQS details summary:focus {
+  outline: none;
+}
+.main .bg .left .box10 #FAQS details summary::after {
+  content: "⌄";
+  position: absolute;
+  top: 30%;
+  transform: translateY(-50%);
+  right: 2vmin;
+  font-size: 5vmin;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.main .bg .left .box10 #FAQS details[open] > summary::after {
+  transform: rotate(-90deg) translateY(-10%) translateX(80%);
+}
+.main .bg .left .box10 #FAQS details summary::-webkit-details-marker {
+  display: none;
+}
+.main .bg .left .box10 #FAQS details div.faq__content {
+  background-color: #ffffff;
+  padding: 2vmin;
 }
 .main .bg .right {
   z-index: 20;
@@ -548,6 +673,30 @@
   .main .bg .left {
     width: 100%;
     padding: 5vmin;
+  }
+  .main .bg .left .box8 .main-bottom-up-approch-piramid {
+    padding: 0;
+  }
+  .main .bg .left .box8 .main-bottom-up-approch-piramid .section-bottom-up-approch-piramid {
+    width: 100%;
+  }
+  .main .bg .left .box8 .main-bottom-up-approch-piramid .section-bottom-up-approch-piramid .piramind-container .pyramid-wrapper {
+    width: 100%;
+  }
+  .main .bg .left .box8 .main-bottom-up-approch-piramid .section-bottom-up-approch-piramid .piramind-container .pyramid-wrapper .pyramid__section {
+    font-size: 9px;
+  }
+  .main .bg .left .box8 .main-bottom-up-approch-piramid-sec {
+    padding: 0;
+  }
+  .main .bg .left .box8 .main-bottom-up-approch-piramid-sec .section-bottom-up-approch-piramid-sec {
+    width: 100%;
+  }
+  .main .bg .left .box8 .main-bottom-up-approch-piramid-sec .section-bottom-up-approch-piramid-sec .piramind-container-sec .pyramid-wrapper-sec {
+    width: 100%;
+  }
+  .main .bg .left .box8 .main-bottom-up-approch-piramid-sec .section-bottom-up-approch-piramid-sec .piramind-container-sec .pyramid-wrapper-sec .pyramid-sec_section2 {
+    font-size: 9px;
   }
   .main .bg .right {
     width: 100%;
