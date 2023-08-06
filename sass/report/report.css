@@ -73,10 +73,14 @@
   border-radius: 2.5vmin;
   margin-top: 4vmin;
 }
-.main .bg .left .box2 P {
+.main .bg .left .box2 .text {
+  font-size: 2.5vmin;
+  font-weight: 400;
+}
+.main .bg .left .box2 p {
   font-weight: 600;
 }
-.main .bg .left .box2 P:nth-child(2) {
+.main .bg .left .box2 p:nth-child(2) {
   font-size: 3.5vmin;
   font-weight: 400;
 }
@@ -96,10 +100,14 @@
   border-radius: 2.5vmin;
   margin-top: 4vmin;
 }
-.main .bg .left .box3 P {
+.main .bg .left .box3 .text {
+  font-size: 2.5vmin;
+  font-weight: 400;
+}
+.main .bg .left .box3 p {
   font-weight: 600;
 }
-.main .bg .left .box3 P:nth-child(2) {
+.main .bg .left .box3 p:nth-child(2) {
   font-size: 2.5vmin;
   font-weight: 400;
 }
@@ -127,10 +135,14 @@
   border-radius: 2.5vmin;
   margin-top: 4vmin;
 }
-.main .bg .left .box4 P {
+.main .bg .left .box4 .text {
+  font-size: 2.5vmin;
+  font-weight: 400;
+}
+.main .bg .left .box4 p {
   font-weight: 600;
 }
-.main .bg .left .box4 P:nth-child(2) {
+.main .bg .left .box4 p:nth-child(2) {
   font-size: 2.5vmin;
   font-weight: 400;
 }
@@ -152,16 +164,20 @@
   border-radius: 2.5vmin;
   margin-top: 4vmin;
 }
-.main .bg .left .box5 P {
-  font-weight: 600;
-}
-.main .bg .left .box5 P canvas {
-  float: right;
-  width: 300px;
-}
-.main .bg .left .box5 P:nth-child(2) {
+.main .bg .left .box5 .text {
   font-size: 2.5vmin;
   font-weight: 400;
+}
+.main .bg .left .box5 p {
+  font-weight: 600;
+}
+.main .bg .left .box5 p:nth-child(2) {
+  font-size: 2.5vmin;
+  font-weight: 400;
+}
+.main .bg .left .box5 p canvas {
+  float: right;
+  width: 300px;
 }
 .main .bg .left .box5 .chartBox {
   height: 300px;
@@ -181,10 +197,14 @@
   border-radius: 2.5vmin;
   margin-top: 4vmin;
 }
-.main .bg .left .box6 P {
+.main .bg .left .box6 .text {
+  font-size: 2.5vmin;
+  font-weight: 400;
+}
+.main .bg .left .box6 p {
   font-weight: 600;
 }
-.main .bg .left .box6 P:nth-child(2) {
+.main .bg .left .box6 p:nth-child(2) {
   font-size: 2.5vmin;
   font-weight: 400;
 }
@@ -266,7 +286,7 @@
   border-radius: 2.5vmin;
   margin-top: 4vmin;
 }
-.main .bg .left .box8 P {
+.main .bg .left .box8 p {
   font-weight: 600;
 }
 .main .bg .left .box8 .main-bottom-up-approch-piramid {

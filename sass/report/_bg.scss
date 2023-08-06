@@ -7,7 +7,6 @@
         width: 100%;
         z-index: 1;
         position: relative;
-
         &::after {
             position: absolute;
             content: '';
@@ -85,7 +84,11 @@
                 border-radius: 2.5vmin;
                 margin-top: 4vmin;
 
-                P {
+                .text{
+                    font-size: 2.5vmin;
+                    font-weight: 400;
+                }
+                p{
                     font-weight: 600;
 
                     &:nth-child(2) {
@@ -113,7 +116,11 @@
                 border-radius: 2.5vmin;
                 margin-top: 4vmin;
 
-                P {
+                .text{
+                    font-size: 2.5vmin;
+                    font-weight: 400;
+                }
+                p{
                     font-weight: 600;
 
                     &:nth-child(2) {
@@ -152,7 +159,11 @@
                 border-radius: 2.5vmin;
                 margin-top: 4vmin;
 
-                P {
+                .text{
+                    font-size: 2.5vmin;
+                    font-weight: 400;
+                }
+                p{
                     font-weight: 600;
 
                     &:nth-child(2) {
@@ -182,17 +193,19 @@
                 border-radius: 2.5vmin;
                 margin-top: 4vmin;
 
-                P {
+                .text{
+                    font-size: 2.5vmin;
+                    font-weight: 400;
+                }
+                p{
                     font-weight: 600;
-
-                    canvas {
-                        float: right;
-                        width: 300px;
-                    }
-
                     &:nth-child(2) {
                         font-size: 2.5vmin;
                         font-weight: 400;
+                    }
+                    canvas {
+                        float: right;
+                        width: 300px;
                     }
                 }
                 .chartBox{
@@ -215,11 +228,12 @@
                 border-radius: 2.5vmin;
                 margin-top: 4vmin;
 
-                P {
+                .text{
+                    font-size: 2.5vmin;
+                    font-weight: 400;
+                }
+                p{
                     font-weight: 600;
-
-                    
-
                     &:nth-child(2) {
                         font-size: 2.5vmin;
                         font-weight: 400;
@@ -318,7 +332,7 @@
                 border-radius: 2.5vmin;
                 margin-top: 4vmin;
 
-                P {
+                p{
                     font-weight: 600;
                 }
 
