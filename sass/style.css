@@ -2878,6 +2878,7 @@ header .mailSection span {
   font-size: 3.5vmin;
   color: #6B7280;
   font-weight: 500;
+  width: 100%;
 }
 .main .bg .left .box7 ol {
   width: 100%;
@@ -3048,6 +3049,7 @@ header .mailSection span {
 }
 .main .bg .left .box9 P {
   font-weight: 600;
+  width: 100%;
 }
 .main .bg .left .box9 P:nth-child(2) {
   font-size: 2.5vmin;
