@@ -3002,6 +3002,7 @@ header .mailSection span {
 .main .bg .left .box8 .main-bottom-up-approch-piramid-sec {
   padding: 1.5rem;
   background: #FBF9F6;
+  float: right;
 }
 .main .bg .left .box8 .main-bottom-up-approch-piramid-sec h2 {
   font-size: 16px;
