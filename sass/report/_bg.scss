@@ -245,7 +245,18 @@
                 padding: 2.5vmin;
                 border-radius: 2.5vmin;
                 margin-top: 4vmin;
-
+                ;
+                button.bl {
+                    width:auto;
+                    padding: 1.5vmin;
+                    background-color: #fff;
+                    color: $secondary;
+                    border: none;
+                    border: 1.5px solid $secondary;
+                    outline: none;
+                    font-weight: 600;
+                    margin-top: 3vmin;
+                }
                 p {
                     font-size: 3.5vmin;
                     color: #6B7280;
@@ -253,6 +264,7 @@
                 }
 
                 ol {
+                    width: 100%;
 
                     li {
                         font-size: 2.5vmin;
@@ -441,7 +453,17 @@
                 padding: 2.5vmin;
                 border-radius: 2.5vmin;
                 margin-top: 4vmin;
-
+                button.bl {
+                    width:auto;
+                    padding: 1.5vmin;
+                    background-color: #fff;
+                    color: $secondary;
+                    border: none;
+                    border: 1.5px solid $secondary;
+                    outline: none;
+                    font-weight: 600;
+                    margin-top: 3vmin;
+                }
                 P {
                     font-weight: 600;
 
