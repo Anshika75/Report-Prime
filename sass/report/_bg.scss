@@ -326,7 +326,7 @@
                 .main-bottom-up-approch-piramid {
                     padding: 1.5rem;
                     background: $pyramid-background-lightblue-color;
-
+                    float: right;
                     h2 {
                         font-size: 16px;
                         font-weight: 500;
@@ -454,6 +454,8 @@
                 padding: 2.5vmin;
                 border-radius: 2.5vmin;
                 margin-top: 4vmin;
+                line-height: 3vmin;
+
                 button.bl {
                     width:auto;
                     padding: 1.5vmin;
@@ -468,7 +470,7 @@
                 P {
                     font-weight: 600;
                     width: 100%;
-
+                    max-lines: 2;
                     &:nth-child(2) {
                         font-size: 2.5vmin;
                         font-weight: 400;
