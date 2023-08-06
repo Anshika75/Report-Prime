@@ -497,7 +497,7 @@
                 </div>
                 <div class="box9 d-flex flex-column justify-content-center align-items-center">
                     <p>EXPERT ADVICE</p>
-                    <p>Fluoropolymer coatings have emerged as a significant player in the coatings industry, offering
+                    <p id="expertAdvicePara">Fluoropolymer coatings have emerged as a significant player in the coatings industry, offering
                         exceptional properties and performance in a wide range of applications. These coatings are known
                         for their excellent chemical resistance, high temperature stability, low friction, and nonstick
                         characteristics. They find extensive usage in various sectors such as automotive, aerospace,
@@ -576,26 +576,25 @@
 
                         Key Questions on the Fluoropolymer Coating Market: <br>
 
-                    <ol>
-                        <li>What are fluoropolymer coatings, and what are their applications in different industries?
-                        </li>
-                        <li>What are the latest market trends and innovations in the fluoropolymer coating industry?
-                        </li>
-                        <li>How is the Fluoropolymer Coating market performing globally in terms of sales, revenue, and
-                            market size?
-                        </li>
-                        <li>Who are the key players in the fluoropolymer coating market and what strategies are they
-                            employing to gain a competitive edge?
-                        </li>
-                        <li>What is the forecasted growth of the Fluoropolymer Coating market and what factors are
-                            driving
-                            this growth?
-                        </li>
-                    </ol>
-
+                        <ol id="expertAdviceOl">
+                            <li>What are fluoropolymer coatings, and what are their applications in different industries?
+                            </li>
+                            <li>What are the latest market trends and innovations in the fluoropolymer coating industry?
+                            </li>
+                            <li>How is the Fluoropolymer Coating market performing globally in terms of sales, revenue, and
+                                market size?
+                            </li>
+                            <li>Who are the key players in the fluoropolymer coating market and what strategies are they
+                                employing to gain a competitive edge?
+                            </li>
+                            <li>What is the forecasted growth of the Fluoropolymer Coating market and what factors are
+                                driving
+                                this growth?
+                            </li>
+                        </ol>
                     </p>
                     
-                    <button class="bl"><i class="fa-solid fa-arrow-up"></i> Read Less</button>
+                    <button class="bl" id="expertAdviceParaBtn" data-open="false"><i class="fa-solid fa-arrow-up"></i> Read Less</button>
                 </div>
                 
                 <div class="box10">
@@ -1082,6 +1081,33 @@ var canvas = document.getElementById('myChart4');
             </div>
         `;
         document.getElementById('FAQS').appendChild(details);
+    });
+
+    const expertAdviceParaBtn = document.getElementById("expertAdviceParaBtn");
+    const expertAdvicePara = document.getElementById("expertAdvicePara");
+
+    const EXPERT_ADVICE = expertAdvicePara.innerHTML;
+    expertAdvicePara.innerHTML = EXPERT_ADVICE.split('\n').slice(0,10).join('\n')+"....";
+    expertAdviceOl.style.display = "none";
+
+    expertAdviceParaBtn.addEventListener("click",function(){
+        console.log(expertAdviceParaBtn.dataset.open);
+        if(this.dataset.open == "true"){
+            this.dataset.open = "false";
+            this.innerHTML = '<i class="fa-solid fa-arrow-down"></i> Read More';
+            // display only 10 lines in paragraph above this
+            expertAdvicePara.innerHTML = EXPERT_ADVICE.split('\n').slice(0,10).join('\n')+"....";
+            expertAdvicePara.scrollIntoView({behavior: "smooth"});
+            expertAdviceOl.style.display = "none";
+        }else{
+            this.dataset.open = "true";
+            this.innerHTML = '<i class="fa-solid fa-arrow-up"></i> Read Less';
+            // display full para
+            expertAdvicePara.innerHTML = EXPERT_ADVICE;
+            expertAdvicePara.scrollIntoView({behavior: "smooth"});
+            expertAdviceOl.style.display = "block";
+
+        }
     })
     </script>
 </body>
