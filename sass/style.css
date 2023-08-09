@@ -3485,6 +3485,42 @@ body {
   background-color: #ECF2FC;
 }
 
+.searchSec {
+  display: flex;
+  align-items: flex-start;
+  gap: 2vmin;
+  text-align: left;
+}
+.searchSec .top {
+  text-align: left;
+  width: 100%;
+}
+.searchSec .bottom {
+  padding-inline: 2vmin;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.searchSec .bottom .search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1vmin;
+  background: #FFF;
+  padding: 1vmin 2vmin;
+}
+.searchSec .bottom .search input {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 1.5vmin;
+  width: 100%;
+  color: #000;
+}
+.searchSec .bottom .search i {
+  color: #00AB45;
+}
+
 * {
   margin: 0;
   padding: 0;
