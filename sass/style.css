@@ -3490,16 +3490,18 @@ body {
   align-items: flex-start;
   gap: 2vmin;
   text-align: left;
+  padding-inline: 4vmin;
 }
 .searchSec .top {
   text-align: left;
   width: 100%;
 }
 .searchSec .bottom {
-  padding-inline: 2vmin;
+  font-size: 1.4em;
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .searchSec .bottom .search {
   display: flex;
@@ -3519,6 +3521,86 @@ body {
 }
 .searchSec .bottom .search i {
   color: #00AB45;
+}
+
+.searchResultSec {
+  margin-top: 2vmin;
+  padding: 2vmin 2vmin;
+  gap: 2vmin;
+}
+.searchResultSec .searchResult {
+  background: #fff;
+  padding: 2vmin 2vmin;
+  gap: 2vmin;
+}
+.searchResultSec .searchResult .sec-one {
+  padding: 0 2vmin;
+}
+.searchResultSec .searchResult .sec-one .covid-head span {
+  font-size: 0.8em;
+  font-weight: 600;
+  background-color: #E6993F;
+  color: #FFF;
+  padding: 0.5vmin 1vmin;
+  border-radius: 0.5vmin;
+}
+.searchResultSec .searchResult .sec-one .list {
+  background: #EDF6FF;
+  padding: 1vmin;
+}
+.searchResultSec .searchResult .sec-one .list ul li {
+  display: grid;
+  grid-template-columns: 1fr 1fr 3fr;
+}
+.searchResultSec .searchResult .sec-three {
+  border-left: 2px dotted black;
+  padding-left: 2vmin;
+  min-width: 20%;
+}
+.searchResultSec .searchResult .sec-three .price-card h3 {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+.searchResultSec .searchResult .sec-three .price-card h3 del {
+  font-size: 0.6em;
+  color: #999;
+}
+.searchResultSec .searchResult .sec-three .price-card .special-discount a {
+  background: #69FF44;
+  padding: 0.5vmin 1vmin;
+  border-radius: 0.5vmin;
+  color: #000;
+  font-size: 0.8em;
+  font-weight: 600;
+  text-decoration: none;
+}
+.searchResultSec .searchResult .sec-three .price-card .price-btn {
+  margin-top: 1vmin;
+  display: flex;
+  flex-direction: column;
+  gap: 1vmin;
+}
+.searchResultSec .searchResult .sec-three .price-card .price-btn button {
+  padding: 1.52vmin 3vmin;
+  border-radius: 0.5vmin;
+  font-size: 0.8em;
+  font-weight: 600;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  width: 100%;
+  background-color: transparent;
+}
+.searchResultSec .searchResult .sec-three .price-card .price-btn .white-btn {
+  background: #ffffff;
+  border: 1px solid #000;
+}
+.searchResultSec .searchResult .sec-three .price-card .price-btn .blue-btn {
+  background: #1f7cff;
+  color: #FFF;
+}
+.searchResultSec .searchResult .sec-three .price-card .price-btn .yellow-btn {
+  background: #FFD600;
 }
 
 * {
