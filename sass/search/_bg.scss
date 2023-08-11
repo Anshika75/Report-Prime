@@ -2,12 +2,14 @@
 
 
 .searchSec{
+    margin-top: 2vmin;
     display: flex;
     align-items: flex-start;
     gap: 2vmin;
     text-align: left;
     padding-inline: 4vmin;
     .top{
+        color: #999;
         text-align: left;
         width: 100%;
     }
@@ -24,6 +26,8 @@
             gap: 1vmin;
             background: #FFF;
             padding: 1vmin 2vmin;
+            width: 50%;
+            max-width: 50vw;
             input{
                 border: none;
                 outline: none;
@@ -31,9 +35,10 @@
                 font-size: 1.5vmin;
                 width: 100%;
                 color: #000;
+                width: 100%;
             }
             i{
-                color: $text-cupon-code-color;
+                color: #000;
             }
         }
     }
@@ -42,28 +47,53 @@
     margin-top: 2vmin;
     padding: 2vmin 2vmin;
     gap: 2vmin;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    // Wrap the grid items if the window is too narrow
+
+    grid: auto-flow / repeat(auto-fill, minmax(300px, 1fr));
+
     .searchResult{
         background: #fff;
         padding: 2vmin 2vmin;
         gap: 2vmin;
+        
         .sec-one{
             padding: 0 2vmin;
+            font-size: 1em;
+            h3{
+                font-size: 1.3em;
+            }
             .covid-head span{
-                font-size: .8em;
+                font-size: .7em;
                 font-weight: 600;
-                background-color: #E6993F;
-                color: #FFF;
+                background-color: #FFE6BA;
+                color: #000;
                 padding: 0.5vmin 1vmin;
-                border-radius: 0.5vmin;
+                border-radius: 5vmin;
             }
             .list{
                 background: $primary-background-lightblue;
                 padding: 1vmin;
+                font-size: 0.8em;
                 ul{
                     li{
                         display: grid;
                         grid-template-columns: 1fr 1fr 3fr;
                     }
+                }
+            }
+            p{
+                font-size: 0.8em;
+                color: #000;
+
+                span{
+                    font-size: 1.2em;
+                    font-weight: 600;
+                }
+                a{
+                    color: #999;
+                    font-weight: 600;
                 }
             }
 
