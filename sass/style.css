@@ -2740,8 +2740,8 @@ header .mailSection span {
 }
 .main .bg .left h1 {
   color: #fff;
-  font-size: 5vmin;
-  line-height: 7vmin;
+  font-size: 4.8vmin;
+  line-height: 6.5vmin;
   font-weight: 600;
   margin: 4vmin 0;
 }
@@ -2763,7 +2763,7 @@ header .mailSection span {
 .main .bg .left .box1 {
   background-color: #fff;
   color: #0D1322;
-  font-size: 2.5vmin;
+  font-size: 2.25vmin;
   font-weight: 400;
   padding: 2.5vmin;
   border-radius: 2.5vmin;
@@ -2778,15 +2778,11 @@ header .mailSection span {
   border-radius: 2.5vmin;
   margin-top: 4vmin;
 }
-.main .bg .left .box2 .text {
-  font-size: 2.5vmin;
-  font-weight: 400;
-}
 .main .bg .left .box2 p {
   font-weight: 600;
 }
 .main .bg .left .box2 p:nth-child(2) {
-  font-size: 3.5vmin;
+  font-size: 2.5vmin;
   font-weight: 400;
 }
 .main .bg .left .box2 .sub1 {
@@ -2805,15 +2801,11 @@ header .mailSection span {
   border-radius: 2.5vmin;
   margin-top: 4vmin;
 }
-.main .bg .left .box3 .text {
-  font-size: 2.5vmin;
-  font-weight: 400;
-}
 .main .bg .left .box3 p {
   font-weight: 600;
 }
 .main .bg .left .box3 p:nth-child(2) {
-  font-size: 2.5vmin;
+  font-size: 2.25vmin;
   font-weight: 400;
 }
 .main .bg .left .box3 .tables table {
@@ -2834,21 +2826,21 @@ header .mailSection span {
 .main .bg .left .box4 {
   background-color: #fff;
   color: #0D1322;
-  font-size: 2.5vmin;
+  font-size: 2.25vmin;
   font-weight: 500;
   padding: 2.5vmin;
   border-radius: 2.5vmin;
   margin-top: 4vmin;
 }
 .main .bg .left .box4 .text {
-  font-size: 2.5vmin;
+  font-size: 2.25vmin;
   font-weight: 400;
 }
 .main .bg .left .box4 p {
   font-weight: 600;
 }
 .main .bg .left .box4 p:nth-child(2) {
-  font-size: 2.5vmin;
+  font-size: 2.25vmin;
   font-weight: 400;
 }
 .main .bg .left .box4 .sub1 {
@@ -2863,21 +2855,21 @@ header .mailSection span {
 .main .bg .left .box5 {
   background-color: #fff;
   color: #0D1322;
-  font-size: 2.5vmin;
+  font-size: 2.25vmin;
   font-weight: 500;
   padding: 2.5vmin;
   border-radius: 2.5vmin;
   margin-top: 4vmin;
 }
 .main .bg .left .box5 .text {
-  font-size: 2.5vmin;
+  font-size: 2.25vmin;
   font-weight: 400;
 }
 .main .bg .left .box5 p {
   font-weight: 600;
 }
 .main .bg .left .box5 p:nth-child(2) {
-  font-size: 2.5vmin;
+  font-size: 2.25vmin;
   font-weight: 400;
 }
 .main .bg .left .box5 p canvas {
@@ -2896,21 +2888,21 @@ header .mailSection span {
 .main .bg .left .box6 {
   background-color: #fff;
   color: #0D1322;
-  font-size: 2.5vmin;
+  font-size: 2.25vmin;
   font-weight: 500;
   padding: 2.5vmin;
   border-radius: 2.5vmin;
   margin-top: 4vmin;
 }
 .main .bg .left .box6 .text {
-  font-size: 2.5vmin;
+  font-size: 2.25vmin;
   font-weight: 400;
 }
 .main .bg .left .box6 p {
   font-weight: 600;
 }
 .main .bg .left .box6 p:nth-child(2) {
-  font-size: 2.5vmin;
+  font-size: 2.25vmin;
   font-weight: 400;
 }
 .main .bg .left .box6 .chartBox {
@@ -2925,7 +2917,7 @@ header .mailSection span {
 .main .bg .left .box7 {
   background-color: #fff;
   color: #0D1322;
-  font-size: 2.5vmin;
+  font-size: 2.25vmin;
   font-weight: 500;
   padding: 2.5vmin;
   border-radius: 2.5vmin;
@@ -2952,7 +2944,7 @@ header .mailSection span {
   width: 100%;
 }
 .main .bg .left .box7 ol li {
-  font-size: 2.5vmin;
+  font-size: 2.25vmin;
   color: #0D1322;
   font-weight: 600;
   list-style: none;
@@ -2976,7 +2968,7 @@ header .mailSection span {
   margin: 1vmin 0;
 }
 .main .bg .left .box7 ol .head p {
-  font-size: 2.5vmin;
+  font-size: 2.25vmin;
   color: #0D1322;
   font-weight: 600;
   border-bottom: 1px solid #cfcfcf;
@@ -2985,17 +2977,21 @@ header .mailSection span {
 .main .bg .left .box8 {
   background-color: #fff;
   color: #0D1322;
-  font-size: 2.5vmin;
+  font-size: 2.25vmin;
   font-weight: 500;
   padding: 2.5vmin;
   border-radius: 2.5vmin;
   margin-top: 4vmin;
 }
 .main .bg .left .box8 p {
+  font-weight: 400;
+}
+.main .bg .left .box8 p:nth-child(1) {
   font-weight: 600;
 }
 .main .bg .left .box8 .main-bottom-up-approch-piramid {
-  padding: 1.5rem;
+  padding: 1rem;
+  margin-left: 2.5vmin;
   background: #F6F9FF;
   float: right;
 }
@@ -3005,7 +3001,7 @@ header .mailSection span {
   color: #1D2129;
 }
 .main .bg .left .box8 .main-bottom-up-approch-piramid .section-bottom-up-approch-piramid {
-  width: 420px;
+  width: 350px;
 }
 .main .bg .left .box8 .main-bottom-up-approch-piramid .section-bottom-up-approch-piramid .piramind-container {
   display: flex;
@@ -3013,10 +3009,10 @@ header .mailSection span {
   align-items: center;
 }
 .main .bg .left .box8 .main-bottom-up-approch-piramid .section-bottom-up-approch-piramid .piramind-container .pyramid-wrapper {
-  width: 370px;
+  width: 200px;
   display: flex;
   flex-direction: column;
-  height: 370px;
+  height: 200px;
   -webkit-clip-path: polygon(50% 0, 100% 85%, 0 85%);
   clip-path: polygon(50% 0%, 100% 85%, 0 85%);
 }
@@ -3029,7 +3025,7 @@ header .mailSection span {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  font-size: 11px;
+  font-size: 8px;
   font-weight: 500;
   padding-top: 2rem;
   color: #000000;
@@ -3039,7 +3035,7 @@ header .mailSection span {
   padding-bottom: 62px;
   padding-top: 0;
   color: #ffffff;
-  font-size: 11px;
+  font-size: 8px;
   font-weight: 500;
 }
 .main .bg .left .box8 .main-bottom-up-approch-piramid .section-bottom-up-approch-piramid span {
@@ -3048,7 +3044,8 @@ header .mailSection span {
   color: #000000;
 }
 .main .bg .left .box8 .main-bottom-up-approch-piramid-sec {
-  padding: 1.5rem;
+  padding: 1rem;
+  margin-left: 2.5vmin;
   background: #FBF9F6;
   float: right;
 }
@@ -3058,7 +3055,7 @@ header .mailSection span {
   color: #1D2129;
 }
 .main .bg .left .box8 .main-bottom-up-approch-piramid-sec .section-bottom-up-approch-piramid-sec {
-  width: 420px;
+  width: 350px;
 }
 .main .bg .left .box8 .main-bottom-up-approch-piramid-sec .section-bottom-up-approch-piramid-sec .piramind-container-sec {
   display: flex;
@@ -3067,10 +3064,10 @@ header .mailSection span {
   margin-bottom: 1rem;
 }
 .main .bg .left .box8 .main-bottom-up-approch-piramid-sec .section-bottom-up-approch-piramid-sec .piramind-container-sec .pyramid-wrapper-sec {
-  width: 370px;
+  width: 200px;
   display: flex;
   flex-direction: column;
-  height: 370px;
+  height: 200px;
   -webkit-clip-path: polygon(100% 10%, 0% 10%, 50% 100%);
   clip-path: polygon(100% 10%, 0% 10%, 50% 100%);
 }
@@ -3083,7 +3080,7 @@ header .mailSection span {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  font-size: 11px;
+  font-size: 8px;
   font-weight: 500;
   padding-top: 2rem;
   color: #ffffff;
@@ -3100,7 +3097,7 @@ header .mailSection span {
 .main .bg .left .box9 {
   background-color: #fff;
   color: #0D1322;
-  font-size: 2.5vmin;
+  font-size: 2.25vmin;
   font-weight: 500;
   padding: 2.5vmin;
   border-radius: 2.5vmin;
@@ -3124,13 +3121,13 @@ header .mailSection span {
   max-lines: 2;
 }
 .main .bg .left .box9 P:nth-child(2) {
-  font-size: 2.5vmin;
+  font-size: 2.25vmin;
   font-weight: 400;
 }
 .main .bg .left .box10 {
   background-color: #fff;
   color: #0D1322;
-  font-size: 2.5vmin;
+  font-size: 2.25vmin;
   font-weight: 500;
   padding: 2.5vmin;
   border-radius: 2.5vmin;
@@ -3186,7 +3183,7 @@ header .mailSection span {
 .main .bg .right .box1 {
   background-color: #fff;
   color: #0D1322;
-  font-size: 2.5vmin;
+  font-size: 2.25vmin;
   font-weight: 400;
   padding: 4vmin 2vmin;
   border-radius: 2.5vmin;
@@ -3268,7 +3265,7 @@ header .mailSection span {
 .main .bg .right .box2 {
   background-color: #fff;
   color: #0D1322;
-  font-size: 2.5vmin;
+  font-size: 2.25vmin;
   font-weight: 400;
   padding: 4vmin 2vmin;
   border-radius: 2.5vmin;
@@ -3283,7 +3280,7 @@ header .mailSection span {
 }
 .main .bg .right .box2 .sub b {
   color: #004ab3;
-  font-size: 2.5vmin;
+  font-size: 2.25vmin;
   font-weight: 700;
 }
 .main .bg .right .box2 .sub p {
@@ -3332,7 +3329,7 @@ header .mailSection span {
 .main .bg .right .box4 {
   background-color: #fff;
   color: #0D1322;
-  font-size: 2.5vmin;
+  font-size: 2.25vmin;
   font-weight: 400;
   padding: 4vmin 2vmin;
   border-radius: 2.5vmin;
@@ -3381,11 +3378,11 @@ header .mailSection span {
 }
 .main .bg .right .box5 .sub p {
   margin-top: 2vmin;
-  font-size: 2.5vmin;
+  font-size: 2.25vmin;
   font-weight: 500;
 }
 .main .bg .right .box5 b {
-  font-size: 2.5vmin;
+  font-size: 2.25vmin;
   font-weight: 600;
   margin-top: 3vmin;
   color: #004ab3;
@@ -3400,14 +3397,14 @@ header .mailSection span {
 .main .reports .container .box {
   background-color: #fff;
   color: #0D1322;
-  font-size: 2.5vmin;
+  font-size: 2vmin;
   font-weight: 400;
   padding: 4vmin 2vmin;
   border-radius: 2.5vmin;
   margin-top: 4vmin;
 }
 .main .reports .container .box p {
-  font-size: 2vmin;
+  font-size: 1.5vmin;
   font-weight: 600;
 }
 .main .reports .container .box .covid {
@@ -3421,6 +3418,7 @@ header .mailSection span {
 .main .reports .container .box h5 {
   font-weight: 600;
   margin-top: 2vmin;
+  font-size: 3vmin;
 }
 .main .reports .container .box .details p {
   font-size: 1.8vmin;

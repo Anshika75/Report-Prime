@@ -85,8 +85,8 @@
 
             h1 {
                 color: $primary;
-                font-size: 5vmin;
-                line-height: 7vmin;
+                font-size: 4.8vmin;
+                line-height: 6.5vmin;
                 font-weight: 600;
                 margin: 4vmin 0;
 
@@ -115,7 +115,7 @@
             .box1 {
                 background-color: $primary;
                 color: $surface;
-                font-size: 2.5vmin;
+                font-size: 2.25vmin;
                 font-weight: 400;
                 padding: 2.5vmin;
                 border-radius: 2.5vmin;
@@ -131,15 +131,11 @@
                 border-radius: 2.5vmin;
                 margin-top: 4vmin;
 
-                .text{
-                    font-size: 2.5vmin;
-                    font-weight: 400;
-                }
                 p{
                     font-weight: 600;
 
                     &:nth-child(2) {
-                        font-size: 3.5vmin;
+                        font-size: 2.5vmin;
                         font-weight: 400;
                     }
                 }
@@ -163,15 +159,11 @@
                 border-radius: 2.5vmin;
                 margin-top: 4vmin;
 
-                .text{
-                    font-size: 2.5vmin;
-                    font-weight: 400;
-                }
                 p{
                     font-weight: 600;
 
                     &:nth-child(2) {
-                        font-size: 2.5vmin;
+                        font-size: 2.25vmin;
                         font-weight: 400;
                     }
                 }
@@ -200,21 +192,21 @@
             .box4 {
                 background-color: $primary;
                 color: $surface;
-                font-size: 2.5vmin;
+                font-size: 2.25vmin;
                 font-weight: 500;
                 padding: 2.5vmin;
                 border-radius: 2.5vmin;
                 margin-top: 4vmin;
 
                 .text{
-                    font-size: 2.5vmin;
+                    font-size: 2.25vmin;
                     font-weight: 400;
                 }
                 p{
                     font-weight: 600;
 
                     &:nth-child(2) {
-                        font-size: 2.5vmin;
+                        font-size: 2.25vmin;
                         font-weight: 400;
                     }
                 }
@@ -234,20 +226,20 @@
             .box5 {
                 background-color: $primary;
                 color: $surface;
-                font-size: 2.5vmin;
+                font-size: 2.25vmin;
                 font-weight: 500;
                 padding: 2.5vmin;
                 border-radius: 2.5vmin;
                 margin-top: 4vmin;
 
                 .text{
-                    font-size: 2.5vmin;
+                    font-size: 2.25vmin;
                     font-weight: 400;
                 }
                 p{
                     font-weight: 600;
                     &:nth-child(2) {
-                        font-size: 2.5vmin;
+                        font-size: 2.25vmin;
                         font-weight: 400;
                     }
                     canvas {
@@ -269,20 +261,20 @@
             .box6 {
                 background-color: $primary;
                 color: $surface;
-                font-size: 2.5vmin;
+                font-size: 2.25vmin;
                 font-weight: 500;
                 padding: 2.5vmin;
                 border-radius: 2.5vmin;
                 margin-top: 4vmin;
 
                 .text{
-                    font-size: 2.5vmin;
+                    font-size: 2.25vmin;
                     font-weight: 400;
                 }
                 p{
                     font-weight: 600;
                     &:nth-child(2) {
-                        font-size: 2.5vmin;
+                        font-size: 2.25vmin;
                         font-weight: 400;
                     }
                 }
@@ -301,7 +293,7 @@
             .box7 {
                 background-color: $primary;
                 color: $surface;
-                font-size: 2.5vmin;
+                font-size: 2.25vmin;
                 font-weight: 500;
                 padding: 2.5vmin;
                 border-radius: 2.5vmin;
@@ -329,7 +321,7 @@
                     width: 100%;
 
                     li {
-                        font-size: 2.5vmin;
+                        font-size: 2.25vmin;
                         color: $surface;
                         font-weight: 600;
                         list-style: none;
@@ -361,7 +353,7 @@
                     }
 
                     .head p {
-                        font-size: 2.5vmin;
+                        font-size: 2.25vmin;
                         color: $surface;
                         font-weight: 600;
                         border-bottom: 1px solid #cfcfcf;
@@ -373,19 +365,23 @@
             .box8 {
                 background-color: $primary;
                 color: $surface;
-                font-size: 2.5vmin;
+                font-size: 2.25vmin;
                 font-weight: 500;
                 padding: 2.5vmin;
                 border-radius: 2.5vmin;
                 margin-top: 4vmin;
 
                 p{
-                    font-weight: 600;
+                    font-weight: 400;
+                    &:nth-child(1) {
+                        font-weight: 600;
+                    }
                 }
 
 
                 .main-bottom-up-approch-piramid {
-                    padding: 1.5rem;
+                    padding: 1rem;
+                    margin-left:2.5vmin;
                     background: $pyramid-background-lightblue-color;
                     float: right;
                     h2 {
@@ -396,7 +392,7 @@
                     }
 
                     .section-bottom-up-approch-piramid {
-                        width: 420px;
+                        width: 350px;
 
                         .piramind-container {
                             display: flex;
@@ -404,10 +400,10 @@
                             align-items: center;
 
                             .pyramid-wrapper {
-                                width: 370px;
+                                width: 200px;
                                 display: flex;
                                 flex-direction: column;
-                                height: 370px;
+                                height: 200px;
                                 -webkit-clip-path: polygon(50% 0, 100% 85%, 0 85%);
                                 clip-path: polygon(50% 0%, 100% 85%, 0 85%);
 
@@ -422,7 +418,7 @@
                                     align-items: center;
                                     justify-content: center;
                                     flex-wrap: wrap;
-                                    font-size: 11px;
+                                    font-size: 8px;
                                     font-weight: 500;
                                     padding-top: 2rem;
                                     color: $text-black-color;
@@ -434,7 +430,7 @@
                                     padding-bottom: 62px;
                                     padding-top: 0;
                                     color: $text-white-color;
-                                    font-size: 11px;
+                                    font-size: 8px;
                                     font-weight: 500;
                                 }
                             }
@@ -449,7 +445,8 @@
                 }
 
                 .main-bottom-up-approch-piramid-sec {
-                    padding: 1.5rem;
+                    padding: 1rem;
+                    margin-left:2.5vmin;
                     background: $pyramid-background-lightorange-color;
                     float: right;
                     h2 {
@@ -461,7 +458,7 @@
 
 
                     .section-bottom-up-approch-piramid-sec {
-                        width: 420px;
+                        width: 350px;
 
                         .piramind-container-sec {
                             display: flex;
@@ -470,10 +467,10 @@
                             margin-bottom: 1rem;
 
                             .pyramid-wrapper-sec {
-                                width: 370px;
+                                width: 200px;
                                 display: flex;
                                 flex-direction: column;
-                                height: 370px;
+                                height: 200px;
                                 -webkit-clip-path: polygon(100% 10%, 0% 10%, 50% 100%);
                                 clip-path: polygon(100% 10%, 0% 10%, 50% 100%);
 
@@ -486,7 +483,7 @@
                                     align-items: center;
                                     justify-content: center;
                                     flex-wrap: wrap;
-                                    font-size: 11px;
+                                    font-size: 8px;
                                     font-weight: 500;
                                     padding-top: 2rem;
                                     color: $text-white-color;
@@ -510,7 +507,7 @@
             .box9 {
                 background-color: $primary;
                 color: $surface;
-                font-size: 2.5vmin;
+                font-size: 2.25vmin;
                 font-weight: 500;
                 padding: 2.5vmin;
                 border-radius: 2.5vmin;
@@ -533,7 +530,7 @@
                     width: 100%;
                     max-lines: 2;
                     &:nth-child(2) {
-                        font-size: 2.5vmin;
+                        font-size: 2.25vmin;
                         font-weight: 400;
                     }
                 }
@@ -542,7 +539,7 @@
             .box10 {
                 background-color: $primary;
                 color: $surface;
-                font-size: 2.5vmin;
+                font-size: 2.25vmin;
                 font-weight: 500;
                 padding: 2.5vmin;
                 border-radius: 2.5vmin;
@@ -604,7 +601,7 @@
             .box1 {
                 background-color: $primary;
                 color: $surface;
-                font-size: 2.5vmin;
+                font-size: 2.25vmin;
                 font-weight: 400;
                 padding: 4vmin 2vmin;
                 border-radius: 2.5vmin;
@@ -701,7 +698,7 @@
             .box2 {
                 background-color: $primary;
                 color: $surface;
-                font-size: 2.5vmin;
+                font-size: 2.25vmin;
                 font-weight: 400;
                 padding: 4vmin 2vmin;
                 border-radius: 2.5vmin;
@@ -716,7 +713,7 @@
 
                     b {
                         color: $secondary;
-                        font-size: 2.5vmin;
+                        font-size: 2.25vmin;
                         font-weight: 700;
                     }
 
@@ -774,7 +771,7 @@
             .box4 {
                 background-color: $primary;
                 color: $surface;
-                font-size: 2.5vmin;
+                font-size: 2.25vmin;
                 font-weight: 400;
                 padding: 4vmin 2vmin;
                 border-radius: 2.5vmin;
@@ -833,13 +830,13 @@
 
                     p {
                         margin-top: 2vmin;
-                        font-size: 2.5vmin;
+                        font-size: 2.25vmin;
                         font-weight: 500;
                     }
                 }
 
                 b {
-                    font-size: 2.5vmin;
+                    font-size: 2.25vmin;
                     font-weight: 600;
                     margin-top: 3vmin;
                     color: $secondary;
@@ -861,14 +858,14 @@
             .box {
                 background-color: $primary;
                 color: $surface;
-                font-size: 2.5vmin;
+                font-size: 2vmin;
                 font-weight: 400;
                 padding: 4vmin 2vmin;
                 border-radius: 2.5vmin;
                 margin-top: 4vmin;
 
                 p {
-                    font-size: 2vmin;
+                    font-size: 1.5vmin;
                     font-weight: 600;
                 }
 
@@ -884,6 +881,7 @@
                 h5 {
                     font-weight: 600;
                     margin-top: 2vmin;
+                    font-size: 3vmin;
                 }
 
                 .details {
