@@ -57,10 +57,12 @@
         background: #fff;
         padding: 2vmin 2vmin;
         gap: 2vmin;
-        
+        grid-template-areas: 'one one'
+                            'two three';
         .sec-one{
             padding: 0 2vmin;
             font-size: 1em;
+            grid-area: one;
             h3{
                 font-size: 1.3em;
             }
@@ -77,9 +79,14 @@
                 padding: 1vmin;
                 font-size: 0.8em;
                 ul{
+                    list-style: number;
                     li{
                         display: grid;
                         grid-template-columns: 1fr 1fr 3fr;
+                        i{
+                            font-size: 0.5em;
+                            vertical-align: sup;
+                        }
                     }
                 }
             }
@@ -98,10 +105,14 @@
             }
 
         }
+        .sec-two{
+            grid-area:two;
+            border-right: 2px dotted black;
+            padding-right: 2vmin;
+        }
         .sec-three{
-            border-left: 2px dotted black;
+            grid-area: three;
             padding-left: 2vmin;
-            min-width: 20%;
             .price-card{
                 h3{
                     font-size: 1.5em;

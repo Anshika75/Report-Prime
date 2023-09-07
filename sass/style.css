@@ -3538,10 +3538,12 @@ body {
   background: #fff;
   padding: 2vmin 2vmin;
   gap: 2vmin;
+  grid-template-areas: "one one" "two three";
 }
 .searchResultSec .searchResult .sec-one {
   padding: 0 2vmin;
   font-size: 1em;
+  grid-area: one;
 }
 .searchResultSec .searchResult .sec-one h3 {
   font-size: 1.3em;
@@ -3559,9 +3561,16 @@ body {
   padding: 1vmin;
   font-size: 0.8em;
 }
+.searchResultSec .searchResult .sec-one .list ul {
+  list-style: number;
+}
 .searchResultSec .searchResult .sec-one .list ul li {
   display: grid;
   grid-template-columns: 1fr 1fr 3fr;
+}
+.searchResultSec .searchResult .sec-one .list ul li i {
+  font-size: 0.5em;
+  vertical-align: sup;
 }
 .searchResultSec .searchResult .sec-one p {
   font-size: 0.8em;
@@ -3575,10 +3584,14 @@ body {
   color: #999;
   font-weight: 600;
 }
+.searchResultSec .searchResult .sec-two {
+  grid-area: two;
+  border-right: 2px dotted black;
+  padding-right: 2vmin;
+}
 .searchResultSec .searchResult .sec-three {
-  border-left: 2px dotted black;
+  grid-area: three;
   padding-left: 2vmin;
-  min-width: 20%;
 }
 .searchResultSec .searchResult .sec-three .price-card h3 {
   font-size: 1.5em;
