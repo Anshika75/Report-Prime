@@ -2,43 +2,43 @@
 
 
 .searchSec{
-    margin-top: 2vmin;
-    display: flex;
-    align-items: flex-start;
     gap: 2vmin;
     text-align: left;
-    padding-inline: 4vmin;
+    padding: 3vmin 10vmin;
     .top{
         color: #999;
         text-align: left;
         width: 100%;
+        font-size: 2vmin;
     }
     .bottom{
-        font-size: 1.4em;
+        font-size: 2.5vmin;
         width: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        color: #121212a7;
+        margin-top: 2vmin;
         .search{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
             gap: 1vmin;
             background: #FFF;
-            padding: 1vmin 2vmin;
             width: 50%;
             max-width: 50vw;
+            padding: 1vmin;
             input{
                 border: none;
                 outline: none;
                 background: transparent;
-                font-size: 1.5vmin;
+                font-size: 2vmin;
                 width: 100%;
                 color: #000;
                 width: 100%;
+                padding: 1vmin;
             }
             i{
                 color: #000;
+                font-size: 2vmin;
+                background-color: #efefef;
+                padding: 2vmin;
+                border-radius: 50%;
+
             }
         }
     }

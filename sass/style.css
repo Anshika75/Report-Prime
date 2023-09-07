@@ -3484,46 +3484,45 @@ body {
 }
 
 .searchSec {
-  margin-top: 2vmin;
-  display: flex;
-  align-items: flex-start;
   gap: 2vmin;
   text-align: left;
-  padding-inline: 4vmin;
+  padding: 3vmin 10vmin;
 }
 .searchSec .top {
   color: #999;
   text-align: left;
   width: 100%;
+  font-size: 2vmin;
 }
 .searchSec .bottom {
-  font-size: 1.4em;
+  font-size: 2.5vmin;
   width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  color: rgba(18, 18, 18, 0.6549019608);
+  margin-top: 2vmin;
 }
 .searchSec .bottom .search {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   gap: 1vmin;
   background: #FFF;
-  padding: 1vmin 2vmin;
   width: 50%;
   max-width: 50vw;
+  padding: 1vmin;
 }
 .searchSec .bottom .search input {
   border: none;
   outline: none;
   background: transparent;
-  font-size: 1.5vmin;
+  font-size: 2vmin;
   width: 100%;
   color: #000;
   width: 100%;
+  padding: 1vmin;
 }
 .searchSec .bottom .search i {
   color: #000;
+  font-size: 2vmin;
+  background-color: #efefef;
+  padding: 2vmin;
+  border-radius: 50%;
 }
 
 .searchResultSec {
