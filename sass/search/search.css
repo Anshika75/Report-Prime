@@ -50,18 +50,24 @@
   background: #fff;
   padding: 2vmin 2vmin;
   gap: 2vmin;
+  margin-top: 3vmin;
   border-radius: 16px;
   grid-template-areas: "one one" "two three";
 }
+.searchResultSec .searchResult:last-child {
+  margin-bottom: 12vmin;
+}
 .searchResultSec .searchResult .sec-one {
   padding: 0 2vmin;
-  width: 50%;
+  padding-right: 10vmin;
+  width: 60%;
   font-size: 1em;
   grid-area: one;
 }
 .searchResultSec .searchResult .sec-one h3 {
-  font-size: 1.3em;
+  font-size: 1.1em;
   margin-bottom: 2vmin;
+  font-weight: 600;
 }
 .searchResultSec .searchResult .sec-one .covid-head {
   margin: 3vmin 0;
@@ -111,40 +117,69 @@
 }
 .searchResultSec .searchResult .sec-two {
   grid-area: two;
-  border-right: 2px dotted black;
-  padding-right: 2vmin;
+  width: 22%;
+  border-right: 1px dotted black;
+  padding-right: 5vmin;
+  padding-top: 5vmin;
+}
+.searchResultSec .searchResult .sec-two h5 {
+  font-size: 2.5vmin;
+  font-weight: 600;
+  margin-bottom: 1vmin;
+  color: #8e8d8d;
+}
+.searchResultSec .searchResult .sec-two p {
+  font-size: 2.5vmin;
+  color: black;
+  font-weight: 500;
+  margin-bottom: 3vmin;
 }
 .searchResultSec .searchResult .sec-three {
   grid-area: three;
+  width: 18%;
+  padding-right: 2vmin;
+  padding-top: 5vmin;
   padding-left: 2vmin;
 }
 .searchResultSec .searchResult .sec-three .price-card h3 {
   font-size: 1.5em;
-  font-weight: 600;
+  font-weight: 700;
+}
+.searchResultSec .searchResult .sec-three .price-card h3:first-child {
+  font-weight: 500;
+  font-size: 1.2em;
+}
+.searchResultSec .searchResult .sec-three .price-card h3 i {
+  font-size: 0.8em;
 }
 .searchResultSec .searchResult .sec-three .price-card h3 del {
   font-size: 0.6em;
-  color: #999;
+  font-weight: 500;
 }
 .searchResultSec .searchResult .sec-three .price-card .special-discount a {
   background: #69FF44;
-  padding: 0.5vmin 1vmin;
-  border-radius: 0.5vmin;
+  padding: 1vmin 1.5vmin;
+  border-radius: 1vmin;
   color: #000;
-  font-size: 0.8em;
-  font-weight: 600;
+  font-size: 0.6em;
+  font-weight: 700;
   text-decoration: none;
 }
-.searchResultSec .searchResult .sec-three .price-card .price-btn {
+.searchResultSec .searchResult .sec-three .price-card .special-discount p {
+  font-size: 0.7em;
+  font-weight: 400;
   margin-top: 1vmin;
+}
+.searchResultSec .searchResult .sec-three .price-card .price-btn {
+  margin-top: 7vmin;
   display: flex;
   flex-direction: column;
   gap: 1vmin;
 }
 .searchResultSec .searchResult .sec-three .price-card .price-btn button {
-  padding: 1.52vmin 3vmin;
+  padding: 1.5vmin 3vmin;
   border-radius: 0.5vmin;
-  font-size: 0.8em;
+  font-size: 0.7em;
   font-weight: 600;
   text-decoration: none;
   border: none;
@@ -154,12 +189,26 @@
 }
 .searchResultSec .searchResult .sec-three .price-card .price-btn .white-btn {
   background: #ffffff;
-  border: 1px solid #000;
+  border: 1.5px solid #1f7cff;
+}
+.searchResultSec .searchResult .sec-three .price-card .price-btn .white-btn button {
+  color: #1f7cff;
+}
+.searchResultSec .searchResult .sec-three .price-card .price-btn .white-btn button i {
+  margin-right: 2vmin;
 }
 .searchResultSec .searchResult .sec-three .price-card .price-btn .blue-btn {
   background: #1f7cff;
+}
+.searchResultSec .searchResult .sec-three .price-card .price-btn .blue-btn button {
   color: #FFF;
 }
+.searchResultSec .searchResult .sec-three .price-card .price-btn .blue-btn button i {
+  margin-right: 2vmin;
+}
 .searchResultSec .searchResult .sec-three .price-card .price-btn .yellow-btn {
-  background: #FFD600;
+  background: #E6993F;
+}
+.searchResultSec .searchResult .sec-three .price-card .price-btn .yellow-btn button i {
+  margin-right: 2vmin;
 }/*# sourceMappingURL=search.css.map */

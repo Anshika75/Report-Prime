@@ -55,17 +55,23 @@
         background: #fff;
         padding:2vmin 2vmin;
         gap: 2vmin;
+        margin-top: 3vmin;
         border-radius: 16px;
         grid-template-areas: 'one one'
                             'two three';
+        &:last-child{
+            margin-bottom: 12vmin;
+        }
         .sec-one{
             padding: 0 2vmin;
-            width: 50%;
+            padding-right: 10vmin;
+            width: 60%;
             font-size: 1em;
             grid-area: one;
             h3{
-                font-size: 1.3em;
+                font-size: 1.1em;
                 margin-bottom: 2vmin;
+                font-weight: 600;
             }
             .covid-head{
                 margin: 3vmin 0;
@@ -119,42 +125,72 @@
         }
         .sec-two{
             grid-area:two;
-            border-right: 2px dotted black;
-            padding-right: 2vmin;
+            width: 22%;
+            border-right: 1px dotted black;
+            padding-right: 5vmin;
+            padding-top: 5vmin;
+            h5{
+                font-size: 2.5vmin;
+                font-weight: 600;
+                margin-bottom: 1vmin;  
+                color: #8e8d8d;
+            }
+            p{
+                font-size: 2.5vmin;
+                color: black;
+                font-weight: 500;
+                margin-bottom: 3vmin;
+            }
         }
         .sec-three{
             grid-area: three;
+            width: 18%;
+            padding-right: 2vmin;
+            padding-top: 5vmin;
             padding-left: 2vmin;
             .price-card{
                 h3{
                     font-size: 1.5em;
-                    font-weight: 600;
+                    font-weight: 700;
+                    &:first-child{
+                        font-weight: 500;
+                        font-size: 1.2em;
+                    }
+                    i{
+                        font-size: 0.8em;
+                    }
                     del{
                         font-size: 0.6em;
-                        color: #999;
+                        // color: #999;
+                        font-weight: 500;
                     }
                 }
                 .special-discount{
                     a{
                         background: $special-tag-background-color;
-                        padding: 0.5vmin 1vmin;
-                        border-radius: 0.5vmin;
+                        padding: 1vmin 1.5vmin;
+                        border-radius: 1vmin;
                         color: #000;
-                        font-size: 0.8em;
-                        font-weight: 600;
+                        font-size: 0.6em;
+                        font-weight: 700;
                         text-decoration: none;
+                    }
+                    p{
+                        font-size: 0.7em;
+                        font-weight: 400;
+                        margin-top: 1vmin;
                     }
                 }
                 .price-btn{
-                    margin-top: 1vmin;
+                    margin-top: 7vmin;
 
                     display: flex;
                     flex-direction: column;
                     gap: 1vmin;
                     button{
-                        padding: 1.52vmin 3vmin;
+                        padding: 1.5vmin 3vmin;
                         border-radius: 0.5vmin;
-                        font-size: 0.8em;
+                        font-size: 0.7em;
                         font-weight: 600;
                         text-decoration: none;
                         border: none;
@@ -165,14 +201,30 @@
                     }
                     .white-btn{
                         background: $button-background-white-color;
-                        border: 1px solid #000;
+                        border: 1.5px solid $button-background-blue-color;
+                        button{
+                            i{
+                                margin-right: 2vmin;
+                            }
+                            color: $button-background-blue-color;
+                        }
                     }
                     .blue-btn{
                         background: $button-background-blue-color;
-                        color: #FFF;
+                        button{
+                            i{
+                                margin-right: 2vmin;
+                            }
+                            color: #FFF;
+                        }
                     }
                     .yellow-btn{
-                        background: $button-background-yellow-color;
+                        background: $darkorange-color;
+                        button{
+                            i{
+                                margin-right: 2vmin;
+                            }
+                        }
                     }
                 }
                 
