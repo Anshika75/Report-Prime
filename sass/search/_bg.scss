@@ -232,3 +232,52 @@
         }
     }
 }
+@media (max-width: 720px) {
+    .searchSec{
+        padding: 5vmin;
+        .top{
+            font-size: 3vmin;
+        }
+        .bottom{
+            background-color: red;
+            font-size: 4vmin;
+            width: 100%;
+            .search{
+                background-color: green;
+            }
+        }
+    }
+    
+.searchResultSec{
+    .searchResult{
+        grid-template-areas: 'one one'
+                            'three three'
+                            'two two';
+        .sec-one{
+            padding-right: 0vmin;
+            padding: 0 2vmin;
+            width: 100%;
+        }
+        .sec-two{
+            display: none;
+            grid-area:two;
+        }
+        .sec-three{
+            grid-area: three;
+            width: 100%;
+            .price-card{
+                .price-btn{
+                    button{
+                        padding: 2vmin 3vmin;
+                        font-size: 0.8em;
+                    }
+                    .blue-btn{
+                        display: none;
+                    }
+                }
+                
+            }
+        }
+    }
+}
+}

@@ -3698,6 +3698,45 @@ body {
   margin-right: 2vmin;
 }
 
+@media (max-width: 720px) {
+  .searchSec {
+    padding: 5vmin;
+  }
+  .searchSec .top {
+    font-size: 3vmin;
+  }
+  .searchSec .bottom {
+    background-color: red;
+    font-size: 4vmin;
+    width: 100%;
+  }
+  .searchSec .bottom .search {
+    background-color: green;
+  }
+  .searchResultSec .searchResult {
+    grid-template-areas: "one one" "three three" "two two";
+  }
+  .searchResultSec .searchResult .sec-one {
+    padding-right: 0vmin;
+    padding: 0 2vmin;
+    width: 100%;
+  }
+  .searchResultSec .searchResult .sec-two {
+    display: none;
+    grid-area: two;
+  }
+  .searchResultSec .searchResult .sec-three {
+    grid-area: three;
+    width: 100%;
+  }
+  .searchResultSec .searchResult .sec-three .price-card .price-btn button {
+    padding: 2vmin 3vmin;
+    font-size: 0.8em;
+  }
+  .searchResultSec .searchResult .sec-three .price-card .price-btn .blue-btn {
+    display: none;
+  }
+}
 * {
   margin: 0;
   padding: 0;
