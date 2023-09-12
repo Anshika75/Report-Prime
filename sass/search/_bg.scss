@@ -235,6 +235,7 @@
 @media (max-width: 720px) {
     .searchSec{
         padding: 5vmin;
+        width: 100%!important;
         .top{
             font-size: 3vmin;
         }
@@ -244,6 +245,8 @@
             width: 100%;
             .search{
                 background-color: green;
+                width: 100%;
+                min-width: 100%;
             }
         }
     }

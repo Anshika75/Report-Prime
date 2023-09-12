@@ -216,6 +216,7 @@
 @media (max-width: 720px) {
   .searchSec {
     padding: 5vmin;
+    width: 100% !important;
   }
   .searchSec .top {
     font-size: 3vmin;
@@ -227,6 +228,8 @@
   }
   .searchSec .bottom .search {
     background-color: green;
+    width: 100%;
+    min-width: 100%;
   }
   .searchResultSec .searchResult {
     grid-template-areas: "one one" "three three" "two two";
