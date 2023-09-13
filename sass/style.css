@@ -3499,6 +3499,10 @@ body {
   width: 100%;
   color: rgba(18, 18, 18, 0.6549019608);
   margin-top: 2vmin;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 .searchSec .bottom .search {
   gap: 1vmin;
@@ -3707,12 +3711,14 @@ body {
     font-size: 3vmin;
   }
   .searchSec .bottom {
-    background-color: red;
     font-size: 4vmin;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
   }
   .searchSec .bottom .search {
-    background-color: green;
     width: 100%;
     min-width: 100%;
   }
