@@ -60,13 +60,13 @@
             top: 0;
             left: 0;
             width: 100%;
-            height: 70vh;
+            height: 75vh;
             background-image: url("../../Assets/report.png");
             background-size: cover;
         }
 
         .left {
-            padding: 5vmin;
+            padding: 0 5vmin;
             z-index: 20;
 
             .covid {
@@ -83,39 +83,31 @@
 
             h1 {
                 color: $primary;
-                font-size: 4.8vmin;
-                line-height: 6.5vmin;
                 font-weight: 600;
                 margin: 4vmin 0;
 
             }
 
             .sub {
-                p {
-                    color: $primary;
-                    font-size: 2vmin;
-                    font-weight: 400;
-                    width: 100%;
-                    &:nth-child(2){
+                div.txt{
+                    &:first-child{
                         width: 70%;
+                    }
+                    p {
+                        color: $primary;
+                        // font-size :clamp(18px, 2vmin, 35px);
+                        font-weight: 400;
                     }
                 }
 
                 .btncontainer{
-                    width: 70%;
                     button {
                         color: $secondary;
                         background-color: $primary;
-                        font-size: 2vmin;
                         font-weight: 500;
-                        height: 5vmin;
-                        width: 30vmin;
+                        padding:10px;
                         border: none;
                         cursor: pointer;
-                        margin: 0 2vmin;
-                        &:first-child{
-                            margin-left: 0;
-                        }
                     }
                 }
 
@@ -124,7 +116,6 @@
             .box1 {
                 background-color: $primary;
                 color: $surface;
-                font-size: 2.25vmin;
                 font-weight: 400;
                 padding: 2.5vmin;
                 border-radius: 2.5vmin;
@@ -134,7 +125,6 @@
             .box2 {
                 background-color: $primary;
                 color: $surface;
-                font-size: 2.5vmin;
                 font-weight: 500;
                 padding: 2.5vmin;
                 border-radius: 2.5vmin;
@@ -144,7 +134,6 @@
                     font-weight: 600;
 
                     &:nth-child(2) {
-                        font-size: 2.5vmin;
                         font-weight: 400;
                     }
                 }
@@ -172,14 +161,12 @@
                     font-weight: 600;
 
                     &:nth-child(2) {
-                        font-size: 2.25vmin;
                         font-weight: 400;
                     }
                 }
 
                 .tables {
                     table {
-                        font-size: 2vmin;
                         font-weight: 500;
                         color: $surface;
 
@@ -201,21 +188,18 @@
             .box4 {
                 background-color: $primary;
                 color: $surface;
-                font-size: 2.25vmin;
                 font-weight: 500;
                 padding: 2.5vmin;
                 border-radius: 2.5vmin;
                 margin-top: 4vmin;
 
                 .text{
-                    font-size: 2.25vmin;
                     font-weight: 400;
                 }
                 p{
                     font-weight: 600;
 
                     &:nth-child(2) {
-                        font-size: 2.25vmin;
                         font-weight: 400;
                     }
                 }
@@ -235,20 +219,17 @@
             .box5 {
                 background-color: $primary;
                 color: $surface;
-                font-size: 2.25vmin;
                 font-weight: 500;
                 padding: 2.5vmin;
                 border-radius: 2.5vmin;
                 margin-top: 4vmin;
 
                 .text{
-                    font-size: 2.25vmin;
                     font-weight: 400;
                 }
                 p{
                     font-weight: 600;
                     &:nth-child(2) {
-                        font-size: 2.25vmin;
                         font-weight: 400;
                     }
                     canvas {
@@ -270,20 +251,17 @@
             .box6 {
                 background-color: $primary;
                 color: $surface;
-                font-size: 2.25vmin;
                 font-weight: 500;
                 padding: 2.5vmin;
                 border-radius: 2.5vmin;
                 margin-top: 4vmin;
 
                 .text{
-                    font-size: 2.25vmin;
                     font-weight: 400;
                 }
                 p{
                     font-weight: 600;
                     &:nth-child(2) {
-                        font-size: 2.25vmin;
                         font-weight: 400;
                     }
                 }
@@ -302,12 +280,10 @@
             .box7 {
                 background-color: $primary;
                 color: $surface;
-                font-size: 2.25vmin;
                 font-weight: 500;
                 padding: 2.5vmin;
                 border-radius: 2.5vmin;
                 margin-top: 4vmin;
-                ;
                 button.bl {
                     width:auto;
                     padding: 1.5vmin;
@@ -320,7 +296,6 @@
                     margin-top: 3vmin;
                 }
                 p {
-                    font-size: 3.5vmin;
                     color: #6B7280;
                     font-weight: 500;
                     width: 100%;
@@ -330,7 +305,6 @@
                     width: 100%;
 
                     li {
-                        font-size: 2.25vmin;
                         color: $surface;
                         font-weight: 600;
                         list-style: none;
@@ -362,7 +336,6 @@
                     }
 
                     .head p {
-                        font-size: 2.25vmin;
                         color: $surface;
                         font-weight: 600;
                         border-bottom: 1px solid #cfcfcf;
@@ -374,7 +347,6 @@
             .box8 {
                 background-color: $primary;
                 color: $surface;
-                font-size: 2.25vmin;
                 font-weight: 500;
                 padding: 2.5vmin;
                 border-radius: 2.5vmin;
@@ -390,6 +362,7 @@
 
                 .main-bottom-up-approch-piramid {
                     padding: 1rem;
+                    margin-bottom: 5vmin;
                     margin-left:2.5vmin;
                     background: $pyramid-background-lightblue-color;
                     float: right;
@@ -455,6 +428,7 @@
 
                 .main-bottom-up-approch-piramid-sec {
                     padding: 1rem;
+                    margin-bottom: 5vmin;
                     margin-left:2.5vmin;
                     background: $pyramid-background-lightorange-color;
                     float: right;
@@ -516,7 +490,6 @@
             .box9 {
                 background-color: $primary;
                 color: $surface;
-                font-size: 2.25vmin;
                 font-weight: 500;
                 padding: 2.5vmin;
                 border-radius: 2.5vmin;
@@ -539,7 +512,7 @@
                     width: 100%;
                     max-lines: 2;
                     &:nth-child(2) {
-                        font-size: 2.25vmin;
+                        line-height: 20px;
                         font-weight: 400;
                     }
                 }
@@ -548,7 +521,6 @@
             .box10 {
                 background-color: $primary;
                 color: $surface;
-                font-size: 2.25vmin;
                 font-weight: 500;
                 padding: 2.5vmin;
                 border-radius: 2.5vmin;
@@ -609,7 +581,6 @@
             .box1 {
                 background-color: $primary;
                 color: $surface;
-                font-size: 2.25vmin;
                 font-weight: 400;
                 padding: 4vmin 2vmin;
                 border-radius: 2.5vmin;
@@ -628,33 +599,29 @@
                     }
 
                     .text {
-                        font-size: 2vmin;
                         font-weight: 500;
 
                         h4 {
-                            font-size: 2vmin;
                             font-weight: 500;
                             color: $surface;
                             margin-top: 1.5vmin;
                         }
 
                         p {
-                            font-size: 1.7vmin;
                             font-weight: 400;
                             color: #6B7280;
-                            margin-top: -1.5vmin;
+                            font-size: 15px;
+                            margin-top: -.75vmin;
                         }
                     }
                 }
 
                 b {
-                    font-size: 5vmin;
                     font-weight: 700;
                     color: $surface;
                     margin-top: 1.5vmin;
 
                     del {
-                        font-size: 3vmin;
                         font-weight: 400;
                         color: #6B7280;
                         margin-top: -3vmin;
@@ -662,7 +629,6 @@
                 }
 
                 p.disc {
-                    font-size: 2vmin;
                     font-weight: 900;
                     margin: 1vmin;
                     color: lime;
@@ -670,7 +636,6 @@
 
                 p.det {
                     color: #6B7280;
-                    font-size: 2vmin;
                     font-weight: 500;
                     margin-top: 0vmin;
                 }
@@ -706,7 +671,6 @@
             .box2 {
                 background-color: $primary;
                 color: $surface;
-                font-size: 2.25vmin;
                 font-weight: 400;
                 padding: 4vmin 2vmin;
                 border-radius: 2.5vmin;
@@ -721,13 +685,11 @@
 
                     b {
                         color: $secondary;
-                        font-size: 2.25vmin;
                         font-weight: 700;
                     }
 
                     p {
                         color: #6B7280;
-                        font-size: 4vmin;
                         font-weight: 900;
                         margin-top: 6vmin;
                         opacity: 0.7;
@@ -768,7 +730,6 @@
             .box3 {
                 background-color: $primary;
                 color: $surface;
-                font-size: 3.5vmin;
                 font-weight: 600;
                 padding: 4vmin 2vmin;
                 border-radius: 2.5vmin;
@@ -779,7 +740,6 @@
             .box4 {
                 background-color: $primary;
                 color: $surface;
-                font-size: 2.25vmin;
                 font-weight: 400;
                 padding: 4vmin 2vmin;
                 border-radius: 2.5vmin;
@@ -787,11 +747,9 @@
 
                 p {
                     font-weight: 600;
-                    font-size: 3vmin;
                 }
 
                 i {
-                    font-size: 2vmin;
                     color: #6B7280;
                     padding-bottom: 3vmin;
                     border-bottom: 1px solid #cfcfcf;
@@ -807,12 +765,10 @@
                         margin-left: 1vmin;
 
                         b {
-                            font-size: 2vmin;
                             font-weight: 600;
                         }
 
                         p {
-                            font-size: 2vmin;
                             font-weight: 400;
                             color: #6B7280;
                         }
@@ -823,7 +779,6 @@
             .box5 {
                 background-color: $primary;
                 color: $surface;
-                font-size: 3vmin;
                 font-weight: 600;
                 padding: 4vmin 2vmin;
                 border-radius: 2.5vmin;
@@ -838,13 +793,11 @@
 
                     p {
                         margin-top: 2vmin;
-                        font-size: 2.25vmin;
                         font-weight: 500;
                     }
                 }
 
                 b {
-                    font-size: 2.25vmin;
                     font-weight: 600;
                     margin-top: 3vmin;
                     color: $secondary;
@@ -857,6 +810,7 @@
     }
 
     .reports {
+        margin-top: 5vmin;
         .container {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
@@ -866,14 +820,12 @@
             .box {
                 background-color: $primary;
                 color: $surface;
-                font-size: 2vmin;
                 font-weight: 400;
                 padding: 4vmin 2vmin;
                 border-radius: 2.5vmin;
                 margin-top: 4vmin;
 
                 p {
-                    font-size: 1.5vmin;
                     font-weight: 600;
                 }
 
@@ -881,6 +833,7 @@
                     color: $surface;
                     background-color: #feca7078;
                     padding: 1vmin 2vmin;
+                    font-size: 1.5vmin;
                     width: 180px;
                     text-align: center;
                     border-radius: 5vmin;
@@ -888,13 +841,10 @@
 
                 h5 {
                     font-weight: 600;
-                    margin-top: 2vmin;
-                    font-size: 3vmin;
                 }
 
                 .details {
                     p {
-                        font-size: 1.8vmin;
                         font-weight: 500;
                         color: #6B7280;
                     }
