@@ -97,6 +97,7 @@
   background-color: #fff;
   font-weight: 500;
   padding: 10px;
+  height: 45px;
   border: none;
   cursor: pointer;
 }
@@ -773,10 +774,14 @@
   }
   .main .bg .right {
     width: 100%;
+    max-width: 420px;
     padding: 5vmin;
   }
   .main .reports .container {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .main .reports .container .covid {
+    width: 200px !important;
   }
 }
 body {
