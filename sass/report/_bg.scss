@@ -1,20 +1,21 @@
 @import "custom-variables";
 
-.model-container{
+.model-container {
     box-sizing: border-box;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100vh;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     z-index: 100;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: scroll;
     display: none;
-    .model-box{
+
+    .model-box {
         background-color: #fff;
         width: 70%;
         height: 80%;
@@ -23,7 +24,8 @@
         padding: 2vmin;
         display: flex;
         flex-direction: column;
-        .model-header{
+
+        .model-header {
             border-bottom: 1px solid #cfcfcf;
             font-size: 1.2em;
             font-weight: 500;
@@ -31,22 +33,26 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            .close{
+
+            .close {
                 cursor: pointer;
                 font-size: 1.5em;
                 color: #6B7280;
             }
         }
-        .model-body{
+
+        .model-body {
             overflow: scroll;
             width: 100%;
         }
 
     }
 }
-.opened{
+
+.opened {
     display: flex;
 }
+
 .main {
     background-color: #ECF2FC;
 
@@ -54,6 +60,7 @@
         width: 100%;
         z-index: 1;
         position: relative;
+
         &::after {
             position: absolute;
             content: '';
@@ -89,10 +96,11 @@
             }
 
             .sub {
-                div.txt{
-                    &:first-child{
+                div.txt {
+                    &:first-child {
                         width: 70%;
                     }
+
                     p {
                         color: $primary;
                         // font-size :clamp(18px, 2vmin, 35px);
@@ -100,12 +108,12 @@
                     }
                 }
 
-                .btncontainer{
+                .btncontainer {
                     button {
                         color: $secondary;
                         background-color: $primary;
                         font-weight: 500;
-                        padding:10px;
+                        padding: 10px;
                         height: 45px;
                         border: none;
                         cursor: pointer;
@@ -123,6 +131,47 @@
                 margin-top: 4vmin;
             }
 
+            .box11 {
+                background-color: $primary;
+                color: $surface;
+                font-weight: 400;
+                padding: 2.5vmin;
+                border-radius: 2.5vmin;
+                margin-top: 4vmin;
+
+                table {
+                    .lft {
+                        width: 20%;
+                    }
+
+                    .rght {
+                        width: 80%;
+                    }
+
+                    th {
+                        background-color: #1F7CFF;
+                        color: $primary;
+                    }
+
+                    tr {
+                        &:nth-child(2n) {
+                            background-color: #F9FAFB;
+                            // border: none;
+                        }
+
+                        &:nth-child(2n+1) {
+                            background-color: #fff;
+                            // border: none;
+                        }
+
+                        td {
+                            background-color: transparent;
+                        }
+                    }
+                }
+            }
+
+
             .box2 {
                 background-color: $primary;
                 color: $surface;
@@ -131,7 +180,7 @@
                 border-radius: 2.5vmin;
                 margin-top: 4vmin;
 
-                p{
+                p {
                     font-weight: 600;
 
                     &:nth-child(2) {
@@ -158,7 +207,7 @@
                 border-radius: 2.5vmin;
                 margin-top: 4vmin;
 
-                p{
+                p {
                     font-weight: 600;
 
                     &:nth-child(2) {
@@ -194,10 +243,11 @@
                 border-radius: 2.5vmin;
                 margin-top: 4vmin;
 
-                .text{
+                .text {
                     font-weight: 400;
                 }
-                p{
+
+                p {
                     font-weight: 600;
 
                     &:nth-child(2) {
@@ -225,27 +275,32 @@
                 border-radius: 2.5vmin;
                 margin-top: 4vmin;
 
-                .text{
+                .text {
                     font-weight: 400;
                 }
-                p{
+
+                p {
                     font-weight: 600;
+
                     &:nth-child(2) {
                         font-weight: 400;
                     }
+
                     canvas {
                         float: right;
                         width: 300px;
                     }
                 }
-                .chartBox{
-                        height: 300px;
-                        width: 300px;
-                        float: right;
-                        canvas {
-                            height: 100%;
-                            width: 100%;
-                        }
+
+                .chartBox {
+                    height: 300px;
+                    width: 300px;
+                    float: right;
+
+                    canvas {
+                        height: 100%;
+                        width: 100%;
+                    }
                 }
             }
 
@@ -257,23 +312,27 @@
                 border-radius: 2.5vmin;
                 margin-top: 4vmin;
 
-                .text{
+                .text {
                     font-weight: 400;
                 }
-                p{
+
+                p {
                     font-weight: 600;
+
                     &:nth-child(2) {
                         font-weight: 400;
                     }
                 }
-                .chartBox{
-                        height: 300px;
-                        width: 300px;
-                        float: right;
-                        canvas {
-                            height: 100%;
-                            width: 100%;
-                        }
+
+                .chartBox {
+                    height: 300px;
+                    width: 300px;
+                    float: right;
+
+                    canvas {
+                        height: 100%;
+                        width: 100%;
+                    }
                 }
 
             }
@@ -285,8 +344,9 @@
                 padding: 2.5vmin;
                 border-radius: 2.5vmin;
                 margin-top: 4vmin;
+
                 button.bl {
-                    width:auto;
+                    width: auto;
                     padding: 1.5vmin;
                     background-color: #fff;
                     color: $secondary;
@@ -296,6 +356,7 @@
                     font-weight: 600;
                     margin-top: 3vmin;
                 }
+
                 p {
                     color: #6B7280;
                     font-weight: 500;
@@ -353,8 +414,10 @@
                 border-radius: 2.5vmin;
                 margin-top: 4vmin;
 
-                p{
+                p {
+                    clear: right;
                     font-weight: 400;
+
                     &:nth-child(1) {
                         font-weight: 600;
                     }
@@ -364,9 +427,10 @@
                 .main-bottom-up-approch-piramid {
                     padding: 1rem;
                     margin-bottom: 5vmin;
-                    margin-left:2.5vmin;
+                    margin-left: 2.5vmin;
                     background: $pyramid-background-lightblue-color;
                     float: right;
+
                     h2 {
                         font-size: 16px;
                         font-weight: 500;
@@ -430,9 +494,10 @@
                 .main-bottom-up-approch-piramid-sec {
                     padding: 1rem;
                     margin-bottom: 5vmin;
-                    margin-left:2.5vmin;
+                    margin-left: 2.5vmin;
                     background: $pyramid-background-lightorange-color;
                     float: right;
+
                     h2 {
                         font-size: 16px;
                         font-weight: 500;
@@ -481,6 +546,7 @@
                                 }
                             }
                         }
+
                         span {
                             font-size: 10px;
                         }
@@ -498,7 +564,7 @@
                 line-height: 3vmin;
 
                 button.bl {
-                    width:auto;
+                    width: auto;
                     padding: 1.5vmin;
                     background-color: #fff;
                     color: $secondary;
@@ -508,17 +574,19 @@
                     font-weight: 600;
                     margin-top: 3vmin;
                 }
+
                 P {
                     font-weight: 600;
                     width: 100%;
                     max-lines: 2;
+
                     &:nth-child(2) {
                         line-height: 20px;
                         font-weight: 400;
                     }
                 }
             }
-            
+
             .box10 {
                 background-color: $primary;
                 color: $surface;
@@ -526,13 +594,16 @@
                 padding: 2.5vmin;
                 border-radius: 2.5vmin;
                 margin-top: 4vmin;
-                #FAQS{
+
+                #FAQS {
                     border-radius: 10px;
                     overflow: hidden;
-                    details{
+
+                    details {
                         font-weight: 400;
                         transition: all 0.3s ease-in-out;
-                        summary{
+
+                        summary {
                             list-style: none;
                             position: relative;
                             background-color: #C1D6F5;
@@ -540,14 +611,17 @@
 
                             border-bottom: 1px solid white;
                             transition: all 0.3s ease-in-out;
-                            &:hover{
+
+                            &:hover {
                                 background-color: #288FF7;
                             }
-                            &:focus{
+
+                            &:focus {
                                 outline: none;
                             }
                         }
-                        summary::after{
+
+                        summary::after {
                             content: '\2304';
                             position: absolute;
                             top: 30%;
@@ -557,20 +631,23 @@
                             color: #fff;
                             transition: all 0.3s ease-in-out;
                         }
-                        &[open] > summary::after{
+
+                        &[open]>summary::after {
                             transform: rotate(-90deg) translateY(-10%) translateX(80%);
 
                         }
+
                         // Remove the triangle
-                        summary::-webkit-details-marker{
+                        summary::-webkit-details-marker {
                             display: none;
                         }
-                        div.faq__content{
+
+                        div.faq__content {
                             background-color: $text-white-color;
                             padding: 2vmin;
                         }
                     }
-                    
+
                 }
             }
         }
@@ -812,14 +889,13 @@
 
     .reports {
         margin-top: 5vmin;
+
         .container {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            grid-gap: 5vmin;
-            margin: 5vmin 0;
 
             .box {
                 background-color: $primary;
+                width: 600px;
+                max-width: 100%;
                 color: $surface;
                 font-weight: 400;
                 padding: 4vmin 2vmin;
@@ -918,8 +994,11 @@
         }
 
         .reports {
-            .container {
-                grid-template-columns: repeat(1, 1fr);
+            padding: 5vmin;
+
+            .covid {
+                font-size: 1rem !important;
+                width: 250px !important;
             }
         }
     }
@@ -941,11 +1020,11 @@
         }
 
         .reports {
-            .container {
-                grid-template-columns: repeat(2, 1fr);
-                .covid {
-                    width: 200px!important;
-                }
+            padding: 5vmin;
+
+            .covid {
+                font-size: 1rem !important;
+                width: 320px !important;
             }
         }
     }

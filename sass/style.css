@@ -582,6 +582,8 @@ header .mailSection span {
 }
 .footer .down .box1 img {
   margin-bottom: 3vmin;
+  transform: scale(0.8);
+  max-width: 70px;
 }
 .footer .down .box1 p {
   font-size: 1.75vmin;
@@ -2766,6 +2768,33 @@ header .mailSection span {
   border-radius: 2.5vmin;
   margin-top: 4vmin;
 }
+.main .bg .left .box11 {
+  background-color: #fff;
+  color: #0D1322;
+  font-weight: 400;
+  padding: 2.5vmin;
+  border-radius: 2.5vmin;
+  margin-top: 4vmin;
+}
+.main .bg .left .box11 table .lft {
+  width: 20%;
+}
+.main .bg .left .box11 table .rght {
+  width: 80%;
+}
+.main .bg .left .box11 table th {
+  background-color: #1F7CFF;
+  color: #fff;
+}
+.main .bg .left .box11 table tr:nth-child(2n) {
+  background-color: #F9FAFB;
+}
+.main .bg .left .box11 table tr:nth-child(2n+1) {
+  background-color: #fff;
+}
+.main .bg .left .box11 table tr td {
+  background-color: transparent;
+}
 .main .bg .left .box2 {
   background-color: #fff;
   color: #0D1322;
@@ -2963,6 +2992,7 @@ header .mailSection span {
   margin-top: 4vmin;
 }
 .main .bg .left .box8 p {
+  clear: right;
   font-weight: 400;
 }
 .main .bg .left .box8 p:nth-child(1) {
@@ -3350,14 +3380,10 @@ header .mailSection span {
 .main .reports {
   margin-top: 5vmin;
 }
-.main .reports .container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 5vmin;
-  margin: 5vmin 0;
-}
 .main .reports .container .box {
   background-color: #fff;
+  width: 600px;
+  max-width: 100%;
   color: #0D1322;
   font-weight: 400;
   padding: 4vmin 2vmin;
@@ -3420,8 +3446,12 @@ header .mailSection span {
     width: 100%;
     padding: 5vmin;
   }
-  .main .reports .container {
-    grid-template-columns: repeat(1, 1fr);
+  .main .reports {
+    padding: 5vmin;
+  }
+  .main .reports .covid {
+    font-size: 1rem !important;
+    width: 250px !important;
   }
 }
 @media (min-width: 721px) and (max-width: 1000px) {
@@ -3434,11 +3464,12 @@ header .mailSection span {
     max-width: 420px;
     padding: 5vmin;
   }
-  .main .reports .container {
-    grid-template-columns: repeat(2, 1fr);
+  .main .reports {
+    padding: 5vmin;
   }
-  .main .reports .container .covid {
-    width: 200px !important;
+  .main .reports .covid {
+    font-size: 1rem !important;
+    width: 320px !important;
   }
 }
 body {
